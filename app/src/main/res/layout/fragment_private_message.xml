@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ui.fragment.message_fragment.PrivateMessageFragment">
+
+    <include layout="@layout/loading_layout"/>
+    <include layout="@layout/error_lyaout"/>
+    <include layout="@layout/nodata_layout"/>
+    <com.scwang.smartrefresh.layout.SmartRefreshLayout
+        android:id="@+id/private_message_refresh"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/private_message_recycler"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+    </com.scwang.smartrefresh.layout.SmartRefreshLayout>
+</LinearLayout>

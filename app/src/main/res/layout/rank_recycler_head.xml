@@ -1,0 +1,528 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/bigbg_paihang"
+            app:layout_constraintDimensionRatio="h:375:419"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <RadioGroup
+            android:visibility="invisible"
+            android:id="@+id/radioGroup"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:orientation="horizontal"
+            app:layout_constraintHorizontal_chainStyle="spread"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <RadioButton
+                android:id="@+id/day_rank_rbt"
+                android:layout_width="0dp"
+                android:layout_height="32dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:layout_weight="1"
+                android:background="@drawable/date_choose_selector"
+                android:button="@null"
+                android:checked="true"
+                android:gravity="center"
+                android:text="日榜"
+                android:textColor="@color/white"
+                android:textSize="13sp" />
+
+            <RadioButton
+                android:id="@+id/week_rank_rbt"
+                android:layout_width="0dp"
+                android:layout_height="32dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:layout_weight="1"
+                android:background="@drawable/date_choose_selector"
+                android:button="@null"
+                android:gravity="center"
+                android:text="周榜"
+                android:textColor="@color/white"
+                android:textSize="13sp" />
+
+            <RadioButton
+                android:id="@+id/month_rank_rbt"
+                android:layout_width="0dp"
+                android:layout_height="32dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:layout_weight="1"
+                android:background="@drawable/date_choose_selector"
+                android:button="@null"
+                android:gravity="center"
+                android:text="月榜"
+                android:textColor="@color/white"
+                android:textSize="13sp" />
+
+            <RadioButton
+                android:id="@+id/all_rank_rbt"
+                android:layout_width="0dp"
+                android:layout_height="32dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:layout_weight="1"
+                android:background="@drawable/date_choose_selector"
+                android:button="@null"
+                android:gravity="center"
+                android:text="总榜"
+                android:textColor="@color/white"
+                android:textSize="13sp" />
+        </RadioGroup>
+
+        <ImageView
+            android:id="@+id/one_circle_bg_iv"
+            android:layout_width="74dp"
+            android:layout_height="74dp"
+            android:src="@drawable/top1bg_huang"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/guideline4"
+            app:layout_constraintBottom_toBottomOf="@id/guideline4"
+            />
+
+        <ImageView
+            android:id="@+id/one_crown_iv"
+            android:layout_width="44dp"
+            android:layout_height="44dp"
+            android:src="@drawable/top_huang"
+            app:layout_constraintBottom_toBottomOf="@+id/one_top_tv"
+            app:layout_constraintEnd_toEndOf="@+id/one_left_tv"
+            app:layout_constraintStart_toStartOf="@+id/one_left_tv"
+            app:layout_constraintTop_toTopOf="@+id/one_circle_bg_iv" />
+
+        <View
+            android:id="@+id/one_top_tv"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/transparent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/one_circle_bg_iv" />
+
+        <View
+            android:id="@+id/one_bottom_tv"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/transparent"
+            app:layout_constraintBottom_toBottomOf="@+id/one_circle_bg_iv"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent" />
+
+        <View
+            android:id="@+id/one_left_tv"
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:background="@color/transparent"
+            app:layout_constraintLeft_toLeftOf="@+id/one_circle_bg_iv"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <View
+            android:id="@+id/one_right_tv"
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:background="@color/transparent"
+            app:layout_constraintRight_toRightOf="@+id/one_circle_bg_iv"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageView
+            android:id="@+id/one_title_iv"
+            android:layout_width="66dp"
+            android:layout_height="66dp"
+            app:layout_constraintBottom_toBottomOf="@id/one_bottom_tv"
+            app:layout_constraintLeft_toLeftOf="@id/one_left_tv"
+            app:layout_constraintRight_toRightOf="@id/one_right_tv"
+            app:layout_constraintTop_toTopOf="@id/one_top_tv" />
+
+        <androidx.constraintlayout.widget.Guideline
+            android:id="@+id/guideline2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            app:layout_constraintGuide_percent="0.22" />
+
+        <androidx.constraintlayout.widget.Guideline
+            android:id="@+id/guideline3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            app:layout_constraintGuide_percent="0.36" />
+        <androidx.constraintlayout.widget.Guideline
+            android:id="@+id/guideline4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            app:layout_constraintGuide_percent="0.28" />
+        <androidx.constraintlayout.widget.Guideline
+            android:id="@+id/guideline5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            app:layout_constraintGuide_percent="0.41" />
+        <androidx.constraintlayout.widget.Guideline
+            android:id="@+id/guideline6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            app:layout_constraintGuide_percent="0.802" />
+        <ImageView
+            android:id="@+id/two_circle_bg_iv"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:src="@drawable/top2bg_hui"
+            app:layout_constraintBottom_toTopOf="@+id/guideline3"
+            app:layout_constraintEnd_toStartOf="@+id/guideline2"
+            app:layout_constraintStart_toStartOf="@+id/guideline2"
+            app:layout_constraintTop_toTopOf="@+id/guideline3" />
+
+        <ImageView
+            android:id="@+id/two_crown_iv"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:src="@drawable/top_hui"
+            app:layout_constraintBottom_toTopOf="@+id/two_circle_bg_iv"
+            app:layout_constraintEnd_toStartOf="@+id/two_circle_bg_iv"
+            app:layout_constraintStart_toStartOf="@+id/two_circle_bg_iv"
+            app:layout_constraintTop_toTopOf="@+id/two_circle_bg_iv" />
+
+        <ImageView
+            android:id="@+id/two_title_iv"
+            android:layout_width="54dp"
+            android:layout_height="54dp"
+            app:layout_constraintBottom_toBottomOf="@+id/two_circle_bg_iv"
+            app:layout_constraintEnd_toEndOf="@+id/two_circle_bg_iv"
+            app:layout_constraintStart_toStartOf="@+id/two_circle_bg_iv"
+            app:layout_constraintTop_toTopOf="@+id/two_circle_bg_iv" />
+
+        <ImageView
+            android:id="@+id/three_circle_bg_iv"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/top3bg_ceng"
+            app:layout_constraintBottom_toTopOf="@+id/guideline5"
+            app:layout_constraintEnd_toStartOf="@+id/guideline6"
+            app:layout_constraintStart_toStartOf="@+id/guideline6"
+            app:layout_constraintTop_toTopOf="@+id/guideline5" />
+
+        <ImageView
+            android:id="@+id/three_crown_iv"
+            android:layout_width="29dp"
+            android:layout_height="29dp"
+            android:src="@drawable/top_ceng"
+            app:layout_constraintBottom_toTopOf="@+id/guideline3"
+            app:layout_constraintEnd_toStartOf="@+id/three_circle_bg_iv"
+            app:layout_constraintStart_toStartOf="@+id/three_circle_bg_iv"
+            app:layout_constraintTop_toTopOf="@+id/three_circle_bg_iv" />
+
+        <ImageView
+            android:id="@+id/three_title_iv"
+            android:layout_width="44dp"
+            android:layout_height="44dp"
+            app:layout_constraintBottom_toBottomOf="@+id/three_circle_bg_iv"
+            app:layout_constraintEnd_toEndOf="@+id/three_circle_bg_iv"
+            app:layout_constraintStart_toStartOf="@+id/three_circle_bg_iv"
+            app:layout_constraintTop_toTopOf="@+id/three_circle_bg_iv" />
+
+        <TextView
+            android:id="@+id/two_name_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="6dp"
+            android:text="- - - "
+            android:textColor="@color/white"
+            android:textSize="13sp"
+            app:layout_constraintStart_toEndOf="@+id/two_sex_iv"
+            app:layout_constraintEnd_toEndOf="@+id/two_circle_bg_iv"
+            app:layout_constraintTop_toBottomOf="@+id/two_circle_bg_iv" />
+
+        <ImageView
+            android:visibility="gone"
+            android:id="@+id/two_sex_iv"
+            android:layout_width="16dp"
+            android:layout_height="16dp"
+            android:layout_gravity="center"
+            android:layout_marginEnd="2dp"
+            app:layout_constraintHorizontal_chainStyle="packed"
+            android:src="@drawable/xingbie_nan"
+            app:layout_constraintBottom_toBottomOf="@+id/two_name_tv"
+            app:layout_constraintEnd_toStartOf="@+id/two_name_tv"
+            app:layout_constraintStart_toStartOf="@+id/two_circle_bg_iv"
+            app:layout_constraintTop_toTopOf="@+id/two_name_tv" />
+
+        <LinearLayout
+            android:id="@+id/one_linear"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:gravity="center"
+            android:visibility="invisible"
+            android:orientation="horizontal"
+            app:layout_constraintEnd_toEndOf="@id/two_circle_bg_iv"
+            app:layout_constraintStart_toStartOf="@+id/two_circle_bg_iv"
+            app:layout_constraintTop_toBottomOf="@+id/two_name_tv">
+
+<!--            <ImageView
+                android:id="@+id/two_sex_iv"
+                android:layout_width="16dp"
+                android:layout_height="16dp"
+                android:layout_gravity="center"
+                android:src="@drawable/xingbie_nan" />-->
+
+            <ImageView
+                android:id="@+id/two_level_iv"
+                android:layout_width="34dp"
+                android:layout_height="16dp"
+
+                android:layout_marginStart="4dp"
+                android:src="@drawable/hanmai_icon" />
+        </LinearLayout>
+
+
+        <TextView
+            android:id="@+id/one_name_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="6dp"
+            android:text="- - - "
+            android:textColor="@color/white"
+            android:textSize="13sp"
+            app:layout_constraintStart_toEndOf="@+id/one_sex_iv"
+            app:layout_constraintEnd_toEndOf="@+id/one_circle_bg_iv"
+            app:layout_constraintTop_toBottomOf="@+id/one_circle_bg_iv" />
+
+        <ImageView
+            android:visibility="gone"
+            android:id="@+id/one_sex_iv"
+            android:layout_width="16dp"
+            android:layout_height="16dp"
+            android:layout_marginRight="2dp"
+            app:layout_constraintHorizontal_chainStyle="packed"
+            android:src="@drawable/xingbie_nan"
+            app:layout_constraintBottom_toBottomOf="@+id/one_name_tv"
+            app:layout_constraintEnd_toStartOf="@+id/one_name_tv"
+            app:layout_constraintStart_toStartOf="@+id/one_circle_bg_iv"
+            app:layout_constraintTop_toTopOf="@+id/one_name_tv" />
+        <LinearLayout
+            android:id="@+id/two_linear"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="4dp"
+            android:gravity="center"
+            android:visibility="invisible"
+            app:layout_constraintStart_toStartOf="@+id/one_circle_bg_iv"
+            app:layout_constraintEnd_toEndOf="@+id/one_circle_bg_iv"
+            app:layout_constraintTop_toBottomOf="@id/one_name_tv">
+<!--            <ImageView
+                android:id="@+id/one_sex_iv"
+                android:layout_width="16dp"
+                android:layout_height="16dp"
+                android:src="@drawable/xingbie_nan"
+
+                />-->
+
+            <ImageView
+                android:id="@+id/one_level_iv"
+                android:layout_width="34dp"
+                android:layout_height="16dp"
+
+                android:layout_marginLeft="4dp"
+                android:src="@drawable/hanmai_icon" />
+        </LinearLayout>
+
+
+        <ImageView
+            android:visibility="gone"
+            android:id="@+id/three_sex_iv"
+            android:layout_width="16dp"
+            android:layout_height="16dp"
+            android:layout_marginEnd="2dp"
+            android:src="@drawable/xingbie_nan"
+            app:layout_constraintBottom_toBottomOf="@+id/three_name_tv"
+            app:layout_constraintEnd_toStartOf="@+id/three_name_tv"
+            app:layout_constraintHorizontal_chainStyle="packed"
+            app:layout_constraintStart_toStartOf="@+id/three_circle_bg_iv"
+            app:layout_constraintTop_toTopOf="@+id/three_name_tv" />
+        <TextView
+            android:id="@+id/three_name_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="6dp"
+            android:text="- - - "
+            android:textColor="@color/white"
+            android:textSize="13sp"
+            app:layout_constraintStart_toEndOf="@+id/three_sex_iv"
+            app:layout_constraintEnd_toEndOf="@+id/three_circle_bg_iv"
+            app:layout_constraintTop_toBottomOf="@+id/three_circle_bg_iv" />
+<!--        app:layout_constraintStart_toStartOf="@+id/three_circle_bg_iv"-->
+
+        <LinearLayout
+            android:id="@+id/linearLayout3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:gravity="center"
+            android:visibility="invisible"
+            android:orientation="horizontal"
+            app:layout_constraintEnd_toEndOf="@+id/three_circle_bg_iv"
+            app:layout_constraintStart_toStartOf="@+id/three_circle_bg_iv"
+            app:layout_constraintTop_toBottomOf="@id/three_name_tv">
+
+<!--            <ImageView
+                android:id="@+id/three_sex_iv"
+                android:layout_width="16dp"
+                android:layout_height="16dp"
+                android:src="@drawable/xingbie_nan"
+
+                />-->
+
+            <ImageView
+                android:id="@+id/three_level_iv"
+                android:layout_width="34dp"
+                android:layout_height="16dp"
+
+                android:layout_marginLeft="4dp"
+                android:src="@drawable/hanmai_icon" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/two_follow_tv"
+            android:layout_width="64dp"
+            android:layout_height="24dp"
+            android:layout_marginTop="22dp"
+            android:background="@drawable/top_follow_selector"
+            android:gravity="center"
+            android:text="关注"
+            android:visibility="invisible"
+            android:textColor="@color/white"
+            android:textSize="14sp"
+            app:layout_constraintEnd_toEndOf="@+id/two_circle_bg_iv"
+            app:layout_constraintStart_toStartOf="@+id/two_circle_bg_iv"
+            app:layout_constraintTop_toBottomOf="@+id/one_linear" />
+
+        <TextView
+            android:id="@+id/two_gift_amount_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:text="- - - - - 映票"
+            android:textSize="12sp"
+            android:textColor="@color/white"
+            app:layout_constraintEnd_toEndOf="@+id/two_follow_tv"
+            app:layout_constraintStart_toStartOf="@+id/two_follow_tv"
+            app:layout_constraintTop_toBottomOf="@+id/two_follow_tv" />
+
+        <TextView
+            android:id="@+id/textView8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:text="2"
+            android:textSize="50sp"
+            android:textColor="@color/white"
+            app:layout_constraintEnd_toEndOf="@+id/two_gift_amount_tv"
+            app:layout_constraintStart_toStartOf="@+id/two_gift_amount_tv"
+            app:layout_constraintTop_toBottomOf="@+id/two_gift_amount_tv" />
+
+
+        <TextView
+            android:id="@+id/one_follow_tv"
+            android:layout_width="64dp"
+            android:layout_height="24dp"
+            android:layout_marginTop="25dp"
+            android:background="@drawable/top_follow_selector"
+            android:gravity="center"
+            android:text="关注"
+            android:visibility="invisible"
+            android:textColor="@color/white"
+            android:textSize="14sp"
+            app:layout_constraintEnd_toEndOf="@+id/one_circle_bg_iv"
+            app:layout_constraintStart_toStartOf="@+id/one_circle_bg_iv"
+            app:layout_constraintTop_toBottomOf="@+id/two_linear" />
+
+        <TextView
+            android:id="@+id/one_gift_amount_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:text="- - - - - 映票"
+            android:textSize="12sp"
+            android:textColor="@color/white"
+            app:layout_constraintEnd_toEndOf="@+id/one_follow_tv"
+            app:layout_constraintStart_toStartOf="@+id/one_follow_tv"
+            app:layout_constraintTop_toBottomOf="@+id/one_follow_tv" />
+
+        <TextView
+            android:id="@+id/textView9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:text="1"
+            android:textSize="64sp"
+            android:textColor="@color/white"
+            app:layout_constraintEnd_toEndOf="@+id/one_gift_amount_tv"
+            app:layout_constraintStart_toStartOf="@+id/one_gift_amount_tv"
+            app:layout_constraintTop_toBottomOf="@+id/one_gift_amount_tv" />
+
+
+        <TextView
+            android:id="@+id/three_follow_tv"
+            android:layout_width="64dp"
+            android:layout_height="24dp"
+            android:layout_marginTop="23dp"
+            android:background="@drawable/top_follow_selector"
+            android:gravity="center"
+            android:text="关注"
+            android:visibility="invisible"
+            android:textColor="@color/white"
+            android:textSize="14sp"
+            app:layout_constraintEnd_toEndOf="@+id/three_circle_bg_iv"
+            app:layout_constraintHorizontal_bias="0.857"
+            app:layout_constraintStart_toStartOf="@+id/three_circle_bg_iv"
+            app:layout_constraintTop_toBottomOf="@+id/linearLayout3" />
+
+        <TextView
+            android:id="@+id/three_gift_amount_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:text="- - - - - 映票"
+            android:textSize="12sp"
+            android:textColor="@color/white"
+            app:layout_constraintEnd_toEndOf="@+id/three_follow_tv"
+            app:layout_constraintStart_toStartOf="@+id/three_follow_tv"
+            app:layout_constraintTop_toBottomOf="@+id/three_follow_tv" />
+
+        <TextView
+            android:id="@+id/textView10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:text="3"
+            android:textSize="44dp"
+            android:textColor="@color/white"
+            app:layout_constraintEnd_toEndOf="@+id/three_gift_amount_tv"
+            app:layout_constraintStart_toStartOf="@+id/three_gift_amount_tv"
+            app:layout_constraintTop_toBottomOf="@+id/three_gift_amount_tv" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

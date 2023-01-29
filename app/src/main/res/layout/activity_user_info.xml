@@ -1,0 +1,308 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F3F7FA"
+    android:orientation="vertical"
+    tools:context=".ui.activity.user_info_activity.UserInfoActivity">
+
+    <include
+        android:id="@+id/include"
+        layout="@layout/toolbar_layout"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+    <RelativeLayout
+        android:id="@+id/user_title_relativeLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/white_normal_ripple">
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:text="头像"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:textSize="13sp"
+            android:textColor="#666666" />
+
+        <ImageView
+            android:id="@+id/title_iv"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginTop="14dp"
+            android:layout_marginBottom="14dp"
+            android:layout_toLeftOf="@+id/imageView3" />
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="15dp"
+            android:layout_height="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            app:srcCompat="@drawable/xiayiye_btn" />
+    </RelativeLayout>
+
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="0dp"
+        android:layout_height="1dp"
+        android:background="#F5F5F5"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+
+
+
+
+    <RelativeLayout
+        android:id="@+id/account_relativeLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/white_normal_ripple">
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="账号"
+            android:layout_marginLeft="15dp"
+            android:layout_alignParentLeft="true"
+            android:layout_centerInParent="true"
+            android:textSize="13sp"
+            android:layout_marginTop="18dp"
+            android:layout_marginBottom="18dp"
+            android:textColor="#666666" />
+        <TextView
+            android:id="@+id/account_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="- - -"
+            android:layout_toLeftOf="@+id/account_next_iv"
+            android:layout_marginRight="8dp"
+            android:layout_centerInParent="true"
+            android:textColor="@color/default_color"
+            android:textSize="13sp"
+            />
+        <ImageView
+            android:id="@+id/account_next_iv"
+            android:layout_width="15dp"
+            android:layout_height="15dp"
+            android:visibility="invisible"
+            android:layout_marginEnd="15dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerInParent="true"
+            app:srcCompat="@drawable/xiayiye_btn" />
+
+    </RelativeLayout>
+    <TextView
+        android:id="@+id/account_split_tv"
+        android:layout_width="0dp"
+        android:layout_height="1dp"
+        android:background="#F5F5F5"
+        />
+
+    <RelativeLayout
+        android:id="@+id/nickname_relativeLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/white_normal_ripple">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="昵称"
+            android:layout_marginLeft="15dp"
+            android:layout_alignParentLeft="true"
+            android:layout_centerInParent="true"
+            android:textSize="13sp"
+            android:layout_marginTop="18dp"
+            android:layout_marginBottom="18dp"
+            android:textColor="#666666" />
+        <TextView
+            android:id="@+id/nickname_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="- - -"
+            android:layout_toLeftOf="@+id/nickname_next_iv"
+            android:layout_marginRight="8dp"
+            android:layout_centerInParent="true"
+            android:textColor="@color/default_color"
+            android:textSize="13sp"
+            />
+        <ImageView
+            android:id="@+id/nickname_next_iv"
+            android:layout_width="15dp"
+            android:layout_height="15dp"
+            android:layout_marginEnd="15dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerInParent="true"
+            app:srcCompat="@drawable/xiayiye_btn" />
+
+    </RelativeLayout>
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="1dp"
+        android:background="#F5F5F5"
+        />
+
+    <RelativeLayout
+        android:visibility="gone"
+        android:id="@+id/sex_relativeLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/white_normal_ripple">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="性别"
+            android:layout_marginLeft="15dp"
+            android:layout_alignParentLeft="true"
+            android:layout_centerInParent="true"
+            android:textSize="13sp"
+            android:layout_marginTop="18dp"
+            android:layout_marginBottom="18dp"
+            android:textColor="#666666" />
+        <TextView
+            android:id="@+id/sex_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="- - -"
+            android:layout_toLeftOf="@+id/sex_next_iv"
+            android:layout_marginRight="8dp"
+            android:layout_centerInParent="true"
+            android:textColor="@color/default_color"
+            android:textSize="13sp"
+            />
+        <ImageView
+            android:id="@+id/sex_next_iv"
+            android:layout_width="15dp"
+            android:layout_height="15dp"
+            android:layout_marginEnd="15dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerInParent="true"
+            app:srcCompat="@drawable/xiayiye_btn" />
+
+    </RelativeLayout>
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="1dp"
+        android:background="#F5F5F5"
+        />
+    <RelativeLayout
+        android:id="@+id/login_psd_relativeLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/white_normal_ripple">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="登录密码"
+            android:layout_marginLeft="15dp"
+            android:layout_alignParentLeft="true"
+            android:layout_centerInParent="true"
+            android:textSize="13sp"
+            android:layout_marginTop="18dp"
+            android:layout_marginBottom="18dp"
+            android:textColor="#666666" />
+        <TextView
+            android:id="@+id/login_psd_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="修改"
+            android:layout_toLeftOf="@+id/login_psd_next_iv"
+            android:layout_marginRight="8dp"
+            android:layout_centerInParent="true"
+            android:textColor="@color/default_color"
+            android:textSize="13sp"
+            />
+        <ImageView
+            android:id="@+id/login_psd_next_iv"
+            android:layout_width="15dp"
+            android:layout_height="15dp"
+            android:layout_marginEnd="15dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerInParent="true"
+            app:srcCompat="@drawable/xiayiye_btn" />
+
+    </RelativeLayout>
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="1dp"
+        android:background="#F5F5F5"
+        />
+    <RelativeLayout
+        android:id="@+id/pay_psd_relativeLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        android:background="@drawable/white_normal_ripple">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="支付密码"
+            android:layout_marginLeft="15dp"
+            android:layout_alignParentLeft="true"
+            android:layout_centerInParent="true"
+            android:textSize="13sp"
+            android:layout_marginTop="18dp"
+            android:layout_marginBottom="18dp"
+            android:textColor="#666666" />
+        <TextView
+            android:id="@+id/pay_psd_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="修改"
+            android:layout_toLeftOf="@+id/pay_psd_next_iv"
+            android:layout_marginRight="8dp"
+            android:layout_centerInParent="true"
+            android:textColor="@color/default_color"
+            android:textSize="13sp"
+            />
+        <ImageView
+            android:id="@+id/pay_psd_next_iv"
+            android:layout_width="22dp"
+            android:layout_height="22dp"
+            android:layout_marginEnd="15dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerInParent="true"
+            app:srcCompat="@drawable/xiayiye_btn" />
+
+    </RelativeLayout>
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="1dp"
+        android:background="#F5F5F5"
+        />
+
+    <Button
+        android:id="@+id/exit_login_btn"
+        android:layout_width="match_parent"
+        android:layout_height="42dp"
+        android:layout_marginStart="26dp"
+        android:layout_marginEnd="26dp"
+        android:layout_marginBottom="22dp"
+        android:text="退出登录"
+        android:textSize="14sp"
+        android:textColor="@color/white"
+        android:layout_marginTop="100dp"
+        android:background="@drawable/exit_login_shape"
+        />
+
+    <TextView
+        android:id="@+id/version_code_tv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textSize="12sp"
+        android:textColor="#666666"
+        android:text="- - - " />
+</LinearLayout>

@@ -1,0 +1,366 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:scrollbars="none"
+    tools:context=".ui.activity.mine_fragment_activity.InviteActivity">
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <include
+            android:id="@+id/include"
+            layout="@layout/toolbar_layout"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/constraintLayout2"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/include">
+
+            <ImageView
+                android:id="@+id/imageView14"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:adjustViewBounds="true"
+                android:src="@drawable/invite_big_bg"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <androidx.constraintlayout.widget.Guideline
+                android:id="@+id/guideline10"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                app:layout_constraintGuide_percent="0.372" />
+
+            <androidx.constraintlayout.widget.Guideline
+                android:id="@+id/guideline11"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                app:layout_constraintGuide_percent="0.93" />
+
+            <ImageView
+                android:id="@+id/imageView13"
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:adjustViewBounds="true"
+                app:layout_constraintBottom_toBottomOf="@+id/guideline11"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="@+id/guideline10"
+                app:srcCompat="@drawable/erweim_dbg" />
+
+            <TextView
+                android:id="@+id/textView34"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="18dp"
+                android:text="你的邀请码为"
+                android:textColor="@color/default_color"
+                android:textSize="16sp"
+                app:layout_constraintEnd_toEndOf="@+id/imageView13"
+                app:layout_constraintStart_toStartOf="@+id/imageView13"
+                app:layout_constraintTop_toTopOf="@+id/guideline10" />
+
+            <TextView
+                android:id="@+id/invite_code_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="2045362"
+                android:textColor="#FF5130"
+                android:textSize="30dp"
+                app:layout_constraintEnd_toEndOf="@+id/imageView13"
+                app:layout_constraintStart_toStartOf="@+id/imageView13"
+                app:layout_constraintTop_toBottomOf="@+id/textView34" />
+
+            <ImageView
+                android:id="@+id/qr_code_iv"
+                android:layout_width="166dp"
+                android:layout_height="166dp"
+                android:layout_marginTop="18dp"
+                app:layout_constraintEnd_toEndOf="@+id/imageView13"
+                app:layout_constraintStart_toStartOf="@+id/imageView13"
+                app:layout_constraintTop_toBottomOf="@+id/invite_code_tv"
+                app:srcCompat="@drawable/yinghong" />
+
+            <TextView
+                android:id="@+id/textView39"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="扫码下载app"
+                android:textColor="#999999"
+                android:textSize="12sp"
+                app:layout_constraintBottom_toBottomOf="@+id/imageView13"
+                app:layout_constraintEnd_toEndOf="@+id/imageView13"
+                app:layout_constraintStart_toStartOf="@+id/imageView13"
+                app:layout_constraintTop_toBottomOf="@+id/qr_code_iv" />
+
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <LinearLayout
+            android:id="@+id/linearLayout4"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="26dp"
+            android:gravity="center"
+            android:orientation="horizontal"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/constraintLayout2">
+
+            <ImageView
+                android:id="@+id/imageView16"
+                android:layout_width="22dp"
+                android:layout_height="10dp"
+                android:layout_gravity="center"
+                app:srcCompat="@drawable/yqxz_l" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="8dp"
+                android:text="邀请须知"
+                android:textColor="@color/default_color"
+                android:textSize="18sp" />
+
+            <ImageView
+                android:layout_width="22dp"
+                android:layout_height="10dp"
+                android:layout_gravity="center"
+                app:srcCompat="@drawable/yqxz_l" />
+        </LinearLayout>
+        <androidx.constraintlayout.widget.Guideline
+            android:id="@+id/guideline12"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            app:layout_constraintGuide_end="28dp" />
+        <TextView
+            android:id="@+id/one_tv"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_marginStart="28dp"
+            android:layout_marginTop="25dp"
+            android:background="@drawable/invite_circle_tv_shape"
+            android:gravity="center"
+            android:text="1"
+            android:textColor="@color/default_color"
+            android:textSize="12sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/linearLayout4" />
+
+        <TextView
+            android:id="@+id/rule_one_tv"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:text="每个人均可申请成为代理（家族长），需要到代理中心提交申请后才有抽成。"
+            android:textColor="@color/default_color"
+            android:lineSpacingExtra="3dp"
+            android:textSize="14sp"
+            app:layout_constraintEnd_toStartOf="@+id/guideline12"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/one_tv"
+            app:layout_constraintTop_toTopOf="@+id/one_tv" />
+
+        <TextView
+            android:id="@+id/two_tv"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_marginStart="28dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/invite_circle_tv_shape"
+            android:gravity="center"
+            android:text="2"
+            android:textColor="@color/default_color"
+            android:textSize="12sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/rule_one_tv" />
+
+
+        <TextView
+            android:id="@+id/rule_two_tv"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:text="您可以邀请其它主播成为您的成员,邀请的主播需要平台认证后才可以开播。"
+            android:textColor="@color/default_color"
+            android:lineSpacingExtra="3dp"
+            android:textSize="14sp"
+            app:layout_constraintEnd_toStartOf="@+id/guideline12"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/two_tv"
+            app:layout_constraintTop_toTopOf="@+id/two_tv" />
+
+        <TextView
+            android:id="@+id/three_tv"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_marginStart="28dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/invite_circle_tv_shape"
+            android:gravity="center"
+            android:text="3"
+            android:textColor="@color/default_color"
+            android:textSize="12sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/rule_two_tv" />
+
+
+        <TextView
+            android:id="@+id/rule_three_tv"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:text="成功邀请后，您奖获得礼物分成由平台额外支付，不影响您邀请的主播收益。"
+            android:textColor="@color/default_color"
+            android:lineSpacingExtra="3dp"
+            android:textSize="14sp"
+            app:layout_constraintEnd_toStartOf="@+id/guideline12"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/three_tv"
+            app:layout_constraintTop_toTopOf="@+id/three_tv" />
+        <TextView
+            android:id="@+id/four_tv"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_marginStart="28dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/invite_circle_tv_shape"
+            android:gravity="center"
+            android:text="4"
+            android:textColor="@color/default_color"
+            android:textSize="12sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/rule_three_tv" />
+
+
+        <TextView
+            android:id="@+id/rule_four_tv"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:text="礼物分成比例或有其它问题请具体联系客服商议。"
+            android:textColor="@color/default_color"
+            android:lineSpacingExtra="3dp"
+            android:textSize="14sp"
+            app:layout_constraintEnd_toStartOf="@+id/guideline12"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/four_tv"
+            app:layout_constraintTop_toTopOf="@+id/four_tv" />
+
+        <TextView
+            android:id="@+id/five_tv"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_marginStart="28dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/invite_circle_tv_shape"
+            android:gravity="center"
+            android:text="5"
+            android:textColor="@color/default_color"
+            android:textSize="12sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/rule_four_tv" />
+
+
+        <TextView
+            android:id="@+id/rule_five_tv"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:text="此APP为主播内部使用APP，只需要邀请主播即可，拒绝邀请观看用户。"
+            android:textColor="@color/default_color"
+            android:lineSpacingExtra="3dp"
+            android:textSize="14sp"
+            app:layout_constraintEnd_toStartOf="@+id/guideline12"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/five_tv"
+            app:layout_constraintTop_toTopOf="@+id/five_tv" />
+
+        <TextView
+            android:id="@+id/invite_split_tv"
+            android:layout_width="0dp"
+            android:layout_height="1dp"
+            android:layout_marginTop="18dp"
+            android:background="@color/split"
+            app:layout_constraintEnd_toStartOf="@+id/guideline12"
+            app:layout_constraintStart_toStartOf="@+id/five_tv"
+            app:layout_constraintTop_toBottomOf="@+id/rule_five_tv" />
+        <TextView
+            android:id="@+id/invite_tip_tv"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:textSize="12sp"
+            android:gravity="center"
+            android:textColor="#464646"
+            app:layout_constraintTop_toBottomOf="@+id/invite_split_tv"
+            app:layout_constraintEnd_toStartOf="@+id/guideline12"
+            app:layout_constraintStart_toStartOf="@+id/five_tv"
+            android:layout_marginTop="10dp"
+            android:lineSpacingExtra="3dp"
+            android:text="使用前请保存官方网址，可在官网下载最新APP,如遇拦截，请用UC浏览器打开。官网：https://maomizhibo.com"
+            />
+
+        <TextView
+            android:id="@+id/save_qr_code_tv"
+            android:layout_width="90dp"
+            android:layout_height="42dp"
+            android:layout_marginTop="45dp"
+            android:layout_marginBottom="24dp"
+            android:background="@drawable/save_qr_dode_seleltor"
+            android:gravity="center"
+            android:text="保存二维码"
+            android:textColor="@color/white"
+            android:textSize="13sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@+id/copy_tv"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/invite_tip_tv" />
+
+        <TextView
+            android:id="@+id/copy_tv"
+            android:layout_width="90dp"
+            android:layout_height="42dp"
+            android:layout_marginStart="112dp"
+            android:background="@drawable/copy_url_seleltor"
+            android:gravity="center"
+            android:text="复制链接"
+            android:textColor="@color/white"
+            android:textSize="13sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/save_qr_code_tv"
+            app:layout_constraintBottom_toBottomOf="@id/save_qr_code_tv"
+            app:layout_constraintEnd_toStartOf="@+id/share_tv"
+            />
+
+        <TextView
+            android:id="@+id/share_tv"
+            android:layout_width="90dp"
+            android:layout_height="42dp"
+            android:background="@drawable/invite_share_seleltor"
+            android:gravity="center"
+            android:text="直接分享"
+            android:textColor="@color/white"
+            android:textSize="13sp"
+            app:layout_constraintBottom_toBottomOf="@id/save_qr_code_tv"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/copy_tv"
+            app:layout_constraintTop_toTopOf="@+id/save_qr_code_tv" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <TextView
+        android:id="@+id/ban_anchor_tv"
+        android:layout_width="match_parent"
+        android:layout_height="46sp"
+        android:textSize="16sp"
+        android:textColor="#FF4141"
+        android:text="封禁"
+        android:gravity="center"
+        android:layout_marginLeft="23dp"
+        android:layout_marginRight="23dp"
+        android:background="@drawable/white_8radio_rapple"
+        />
+    <TextView
+        android:id="@+id/cancel_tv"
+        android:layout_width="match_parent"
+        android:layout_height="46sp"
+        android:textSize="16sp"
+        android:textColor="#296CF9"
+        android:text="取消"
+        android:layout_marginTop="12dp"
+        android:layout_marginBottom="12dp"
+        android:gravity="center"
+        android:layout_marginLeft="23dp"
+        android:layout_marginRight="23dp"
+        android:background="@drawable/white_8radio_rapple"
+        />
+</LinearLayout>

@@ -1,0 +1,53 @@
+{
+    "logs": [
+        {
+            "outputFile": "D:\\xiaotu_android\\project\\trunk\\xunbo_live\\app\\build\\intermediates\\incremental\\mergeMiaomiDebugResources\\merged.dir\\values-en\\values-en.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\XiaoTu\\.gradle\\caches\\transforms-2\\files-2.1\\d0c41459bce6fa6bb2bbc4ac2d3b759e\\jetified-BaseRecyclerViewAdapterHelper-3.0.2\\res\\values-en\\values-en.xml",
+                    "from": {
+                        "startLines": "2,3,4,5",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "55,122,178,241",
+                        "endColumns": "66,55,62,52",
+                        "endOffsets": "117,173,236,289"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\XiaoTu\\.gradle\\caches\\transforms-2\\files-2.1\\761a2d23ca926373fa41080609edf90a\\jetified-im_lib-4.0.3.14\\res\\values-en\\values-en.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8",
+                        "startColumns": "4,4,4,4,4,4,4",
+                        "startOffsets": "55,128,216,286,362,454,533",
+                        "endColumns": "72,87,69,75,91,78,75",
+                        "endOffsets": "123,211,281,357,449,528,604"
+                    },
+                    "to": {
+                        "startLines": "14,15,16,17,18,19,20",
+                        "startColumns": "4,4,4,4,4,4,4",
+                        "startOffsets": "684,757,845,915,991,1083,1162",
+                        "endColumns": "72,87,69,75,91,78,75",
+                        "endOffsets": "752,840,910,986,1078,1157,1233"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\XiaoTu\\.gradle\\caches\\transforms-2\\files-2.1\\b8aa07689e713a5a2e7ee323565c1635\\jetified-Android-PickerView-4.1.8\\res\\values-en\\values-en.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9",
+                        "startColumns": "4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,108,153,200,249,296,345,399",
+                        "endColumns": "52,44,46,48,46,48,53,45",
+                        "endOffsets": "103,148,195,244,291,340,394,440"
+                    },
+                    "to": {
+                        "startLines": "6,7,8,9,10,11,12,13",
+                        "startColumns": "4,4,4,4,4,4,4,4",
+                        "startOffsets": "294,347,392,439,488,535,584,638",
+                        "endColumns": "52,44,46,48,46,48,53,45",
+                        "endOffsets": "342,387,434,483,530,579,633,679"
+                    }
+                }
+            ]
+        }
+    ]
+}

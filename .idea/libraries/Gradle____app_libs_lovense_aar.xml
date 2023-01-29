@@ -1,0 +1,23 @@
+<component name="libraryTable">
+  <library name="Gradle: ./app/libs/lovense.aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/3ccb2b83862ff0d2f272cb236670929d/jetified-lovense/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/3ccb2b83862ff0d2f272cb236670929d/jetified-lovense/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/3ccb2b83862ff0d2f272cb236670929d/jetified-lovense/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/ae7ebb72a8cb56cae8491ff35592c789/jetified-lovense/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/ae7ebb72a8cb56cae8491ff35592c789/jetified-lovense/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/ae7ebb72a8cb56cae8491ff35592c789/jetified-lovense/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/e969e17122708b61b07ab3151481fcb1/jetified-lovense/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/e969e17122708b61b07ab3151481fcb1/jetified-lovense/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/e969e17122708b61b07ab3151481fcb1/jetified-lovense/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/e7a42b24acf974b7d8fb00b41d19fa04/jetified-lovense/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/e7a42b24acf974b7d8fb00b41d19fa04/jetified-lovense/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/e7a42b24acf974b7d8fb00b41d19fa04/jetified-lovense/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/99d808b29d2dc4bcd978f7399eef4c43/jetified-lovense/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/99d808b29d2dc4bcd978f7399eef4c43/jetified-lovense/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/99d808b29d2dc4bcd978f7399eef4c43/jetified-lovense/res" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

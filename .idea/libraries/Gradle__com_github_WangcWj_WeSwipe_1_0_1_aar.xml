@@ -1,0 +1,25 @@
+<component name="libraryTable">
+  <library name="Gradle: com.github.WangcWj:WeSwipe:1.0.1@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/95ff31a427c0399edc6b5fff9ce779cc/jetified-WeSwipe-1.0.1/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/95ff31a427c0399edc6b5fff9ce779cc/jetified-WeSwipe-1.0.1/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/95ff31a427c0399edc6b5fff9ce779cc/jetified-WeSwipe-1.0.1/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/d1ef8228ea0d435428d182e681dcbbac/jetified-WeSwipe-1.0.1/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/d1ef8228ea0d435428d182e681dcbbac/jetified-WeSwipe-1.0.1/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/d1ef8228ea0d435428d182e681dcbbac/jetified-WeSwipe-1.0.1/jars/classes.jar!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/daae92d46cd3a8ed7dd9e64d96287b83/jetified-WeSwipe-1.0.1/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/daae92d46cd3a8ed7dd9e64d96287b83/jetified-WeSwipe-1.0.1/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/daae92d46cd3a8ed7dd9e64d96287b83/jetified-WeSwipe-1.0.1/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/b13de84c9245d8b2029eae9c50fd2c7f/jetified-WeSwipe-1.0.1/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/b13de84c9245d8b2029eae9c50fd2c7f/jetified-WeSwipe-1.0.1/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/b13de84c9245d8b2029eae9c50fd2c7f/jetified-WeSwipe-1.0.1/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/248fd449671dd519c7f3e547bf00aafd/jetified-WeSwipe-1.0.1/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/248fd449671dd519c7f3e547bf00aafd/jetified-WeSwipe-1.0.1/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/248fd449671dd519c7f3e547bf00aafd/jetified-WeSwipe-1.0.1/res" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.WangcWj/WeSwipe/1.0.1/587d22986503ecbc396b3d230c6b8c95db07bd6e/WeSwipe-1.0.1-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

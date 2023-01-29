@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="14dp"
+        android:background="@drawable/white_narmal_8raidus_shape"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp">
+
+        <ImageView
+            android:id="@+id/imageView20"
+            android:layout_width="40dp"
+            android:layout_height="42dp"
+            android:layout_marginStart="19dp"
+            android:layout_marginTop="18dp"
+            android:layout_marginBottom="18dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/zongshouru_icon" />
+
+        <TextView
+            android:id="@+id/textView48"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:text="总收入(未分成)"
+            android:textSize="14sp"
+            android:textColor="@color/default_color"
+            app:layout_constraintStart_toEndOf="@+id/imageView20"
+            app:layout_constraintTop_toTopOf="@+id/imageView20" />
+
+        <TextView
+            android:id="@+id/total_amount_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="- - - "
+            android:textSize="14sp"
+            android:textColor="#FE4841"
+            app:layout_constraintBottom_toBottomOf="@+id/imageView20"
+            app:layout_constraintStart_toStartOf="@+id/textView48" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</LinearLayout>

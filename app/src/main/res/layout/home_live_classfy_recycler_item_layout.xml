@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:paddingTop="5dp"
+    android:paddingBottom="5dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:id="@+id/home_classify_iv"
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        android:src="@drawable/make_money_icon"
+        android:layout_gravity="center"
+        />
+    <TextView
+        android:id="@+id/home_classify_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="12sp"
+        android:textColor="@color/default_color"
+        android:layout_marginTop="5dp"
+        android:text="感官先生"
+        android:layout_gravity="center"
+        />
+</LinearLayout>

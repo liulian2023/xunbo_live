@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.fragment.rank_fragment.InComeRankFragment">
+
+   <com.scwang.smartrefresh.layout.SmartRefreshLayout
+       android:id="@+id/rank_refresh"
+       android:layout_width="match_parent"
+       android:layout_height="match_parent">
+       <androidx.recyclerview.widget.RecyclerView
+           android:id="@+id/rank_recycler"
+           android:layout_width="match_parent"
+           android:layout_height="match_parent"
+           android:background="@color/white"
+           />
+   </com.scwang.smartrefresh.layout.SmartRefreshLayout>
+    <RadioGroup
+        android:id="@+id/radioGroup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="5dp"
+        android:paddingBottom="5dp"
+        android:orientation="horizontal"
+        app:layout_constraintHorizontal_chainStyle="spread"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <RadioButton
+            android:id="@+id/day_rank_rbt"
+            android:layout_width="0dp"
+            android:layout_height="32dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_weight="1"
+            android:background="@drawable/date_choose_selector"
+            android:button="@null"
+            android:gravity="center"
+            android:text="日榜"
+            android:textColor="@color/white"
+            android:textSize="13sp" />
+
+        <RadioButton
+            android:id="@+id/week_rank_rbt"
+            android:layout_width="0dp"
+            android:layout_height="32dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_weight="1"
+            android:background="@drawable/date_choose_selector"
+            android:button="@null"
+            android:gravity="center"
+            android:text="周榜"
+            android:textColor="@color/white"
+            android:textSize="13sp" />
+
+        <RadioButton
+            android:id="@+id/month_rank_rbt"
+            android:layout_width="0dp"
+            android:layout_height="32dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_weight="1"
+            android:background="@drawable/date_choose_selector"
+            android:button="@null"
+            android:gravity="center"
+            android:text="月榜"
+            android:textColor="@color/white"
+            android:textSize="13sp" />
+
+        <RadioButton
+            android:id="@+id/all_rank_rbt"
+            android:layout_width="0dp"
+            android:layout_height="32dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_weight="1"
+            android:background="@drawable/date_choose_selector"
+            android:button="@null"
+            android:gravity="center"
+            android:text="总榜"
+            android:textColor="@color/white"
+            android:textSize="13sp" />
+    </RadioGroup>
+</FrameLayout>

@@ -1,0 +1,34 @@
+<component name="libraryTable">
+  <library name="Gradle: me.yokeyword:fragmentationx-swipeback:1.0.2@aar">
+    <ANNOTATIONS>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/5cf800dbba6a0b35a5943cb45b71d9c2/jetified-fragmentationx-swipeback-1.0.2/annotations.zip!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/35a58b27ed2fc557d0759789df957148/jetified-fragmentationx-swipeback-1.0.2/annotations.zip!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/fc3dc2d6819c0c462551d43c23de03bb/jetified-fragmentationx-swipeback-1.0.2/annotations.zip!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/2652d037f100a5410e9c8621f2f6be69/jetified-fragmentationx-swipeback-1.0.2/annotations.zip!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/ba50ff316119879ca36388938a5f5a5e/jetified-fragmentationx-swipeback-1.0.2/annotations.zip!/" />
+    </ANNOTATIONS>
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/5cf800dbba6a0b35a5943cb45b71d9c2/jetified-fragmentationx-swipeback-1.0.2/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/5cf800dbba6a0b35a5943cb45b71d9c2/jetified-fragmentationx-swipeback-1.0.2/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/5cf800dbba6a0b35a5943cb45b71d9c2/jetified-fragmentationx-swipeback-1.0.2/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/35a58b27ed2fc557d0759789df957148/jetified-fragmentationx-swipeback-1.0.2/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/35a58b27ed2fc557d0759789df957148/jetified-fragmentationx-swipeback-1.0.2/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/35a58b27ed2fc557d0759789df957148/jetified-fragmentationx-swipeback-1.0.2/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/fc3dc2d6819c0c462551d43c23de03bb/jetified-fragmentationx-swipeback-1.0.2/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/fc3dc2d6819c0c462551d43c23de03bb/jetified-fragmentationx-swipeback-1.0.2/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/fc3dc2d6819c0c462551d43c23de03bb/jetified-fragmentationx-swipeback-1.0.2/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/2652d037f100a5410e9c8621f2f6be69/jetified-fragmentationx-swipeback-1.0.2/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/2652d037f100a5410e9c8621f2f6be69/jetified-fragmentationx-swipeback-1.0.2/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/2652d037f100a5410e9c8621f2f6be69/jetified-fragmentationx-swipeback-1.0.2/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/ba50ff316119879ca36388938a5f5a5e/jetified-fragmentationx-swipeback-1.0.2/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/ba50ff316119879ca36388938a5f5a5e/jetified-fragmentationx-swipeback-1.0.2/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/ba50ff316119879ca36388938a5f5a5e/jetified-fragmentationx-swipeback-1.0.2/jars/classes.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/me.yokeyword/fragmentationx-swipeback/1.0.2/e05d475dd99536c526b8de5d5eeb8bb189bff40c/fragmentationx-swipeback-1.0.2-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/me.yokeyword/fragmentationx-swipeback/1.0.2/b30b640b5d25d36454f1f69cf29393b38ef4af2d/fragmentationx-swipeback-1.0.2-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/white_normal_ripple"
+    >
+
+    <ImageView
+        android:id="@+id/lottery_litile_iv"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="12dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/yinghong" />
+
+    <TextView
+        android:id="@+id/lottery_name_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:text="- - - "
+        android:textColor="@color/default_color"
+        android:textSize="12sp"
+        app:layout_constraintBottom_toBottomOf="@+id/lottery_litile_iv"
+        app:layout_constraintStart_toEndOf="@+id/lottery_litile_iv"
+        app:layout_constraintTop_toTopOf="@+id/lottery_litile_iv" />
+
+
+    <TextView
+        android:id="@+id/textView45"
+        android:layout_width="0dp"
+        android:layout_height="1dp"
+        android:background="@color/split"
+        android:layout_marginTop="15dp"
+        android:text="TextView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/lottery_litile_iv"
+        app:layout_constraintTop_toBottomOf="@+id/lottery_litile_iv" />
+</androidx.constraintlayout.widget.ConstraintLayout>

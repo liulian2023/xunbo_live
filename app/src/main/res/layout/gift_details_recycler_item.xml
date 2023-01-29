@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="36dp"
+        android:orientation="horizontal">
+        <TextView
+            android:id="@+id/platform_id_tv"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="18.6"
+            android:textSize="14sp"
+            android:textColor="@color/default_color"
+            android:gravity="center"
+            android:text="- - -"
+            />
+
+        <TextView
+            android:id="@+id/send_username_tv"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="22.9"
+            android:textSize="14sp"
+            android:textColor="@color/default_color"
+            android:gravity="center"
+            android:text="- - -"
+            />
+
+        <TextView
+            android:id="@+id/gift_name_tv"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="29.6"
+            android:textSize="14sp"
+            android:textColor="@color/default_color"
+            android:gravity="center"
+            android:text="- - -"
+            />
+
+        <TextView
+            android:id="@+id/gift_amount_tv"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="15.4"
+            android:textSize="14sp"
+            android:textColor="@color/default_color"
+            android:gravity="center"
+            android:text="- - "
+            />
+
+        <TextView
+            android:id="@+id/gift_num_tv"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="9.6"
+            android:textSize="14sp"
+            android:textColor="@color/default_color"
+            android:gravity="center"
+            android:text="- - -"
+            />
+    </LinearLayout>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#D8D8D8"
+        />
+</LinearLayout>

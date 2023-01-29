@@ -1,0 +1,1164 @@
+-- Merging decision tree log ---
+provider#androidx.core.content.FileProvider
+INJECTED from D:\xiaotu_android\project\trunk\xunbo_live\app\src\main\AndroidManifest.xml:237:9-245:20
+	android:grantUriPermissions
+		ADDED from D:\xiaotu_android\project\trunk\xunbo_live\app\src\main\AndroidManifest.xml:241:13-47
+	android:authorities
+		INJECTED from D:\xiaotu_android\project\trunk\xunbo_live\app\src\main\AndroidManifest.xml
+		ADDED from D:\xiaotu_android\project\trunk\xunbo_live\app\src\main\AndroidManifest.xml:239:13-64
+	android:exported
+		ADDED from D:\xiaotu_android\project\trunk\xunbo_live\app\src\main\AndroidManifest.xml:240:13-37
+	android:name
+		ADDED from D:\xiaotu_android\project\trunk\xunbo_live\app\src\main\AndroidManifest.xml:238:13-62
+meta-data#UMENG_CHANNEL
+INJECTED from D:\xiaotu_android\project\trunk\xunbo_live\app\src\main\AndroidManifest.xml:249:9-251:54
+	android:value
+		INJECTED from D:\xiaotu_android\project\trunk\xunbo_live\app\src\main\AndroidManifest.xml
+		ADDED from D:\xiaotu_android\project\trunk\xunbo_live\app\src\main\AndroidManifest.xml:251:13-51
+	android:name
+		ADDED from D:\xiaotu_android\project\trunk\xunbo_live\app\src\main\AndroidManifest.xml:250:13-41
+manifest
+ADDED from D:\xiaotu_android\project\trunk\xunbo_live\app\src\main\AndroidManifest.xml:2:1-258:12
+INJECTED from D:\xiaotu_android\project\trunk\xunbo_live\app\src\main\AndroidManifest.xml:2:1-258:12
+INJECTED from D:\xiaotu_android\project\trunk\xunbo_live\app\src\main\AndroidManifest.xml:2:1-258:12
+INJECTED from D:\xiaotu_android\project\trunk\xunbo_live\app\src\main\AndroidManifest.xml:2:1-258:12
+MERGED from [lovense.aar] C:\Users\XiaoTu\.gradle\caches\transforms-2\files-2.1\ae7ebb72a8cb56cae8491ff35592c789\jetified-lovense\AndroidManifest.xml:2:1-18:12
+MERGED from [cn.rongcloud.sdk:im_lib:4.0.3.14] C:\Users\XiaoTu\.gradle\caches\transforms-2\files-2.1\761a2d23ca926373fa41080609edf90a\jetified-im_lib-4.0.3.14\AndroidManifest.xml:2:1-75:12
+MERGED from [:faceunity] D:\xiaotu_android\project\trunk\xunbo_live\faceunity\build\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-11:12
+MERGED from [com.androidkun:XTabLayout:1.1.4] C:\Users\XiaoTu\.gradle\caches\transforms-2\files-2.1\c3dc7aec7b9ff47e98d86da2d43e3ea6\jetified-XTabLayout-1.1.4\AndroidManifest.xml:2:1-16:12
+MERGED from [com.google.android.material:material:1.0.0] C:\Users\XiaoTu\.gradle\caches\transforms-2\files-2.1\327fe425aa28b0bfe0f8cc6b351782e3\material-1.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [:rxhttp] D:\xiaotu_android\project\trunk\xunbo_live\rxhttp\build\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-13:12
+MERGED from [pub.devrel:easypermissions:3.0.0] C:\Users\XiaoTu\.gradle\caches\transforms-2\files-2.1\b4a8dc586b8824c3defe2d335dc2965f\easypermissions-3.0.0\AndroidManifest.xml:2:1-19:12
+MERGED from [com.sunfusheng:MarqueeView:1.4.1] C:\Users\XiaoTu\.gradle\caches\transforms-2\files-2.1\39c79180da4e8972ce40f7d2355a8ed5\jetified-MarqueeView-1.4.1\AndroidManifest.xml:2:1-11:12
+MERGED from [com.dalong:marqueeview:1.0.1] C:\Users\XiaoTu\.gradle\caches\transforms-2\files-2.1\e304518142f23f91dccb2881d6802341\marqueeview-1.0.1\AndroidManifest.xml:2:1-17:12
+MERGED from [com.github.MZCretin:AutoUpdateProject:v2.0.4] C:\Users\XiaoTu\.gradle\caches\transforms-2\files-2.1\f76dbe287a91ed54d5238d00325b580f\jetified-AutoUpdateProject-v2.0.4\AndroidManifest.xml:2:1-79:12
+MERGED from [com.github.nodemedia:nodemediaclient-android:2.9.5] C:\Users\XiaoTu\.gradle\caches\transforms-2\files-2.1\512bb7d73d30dfc92966481ed3863241\jetified-nodemediaclient-android-2.9.5\AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.appcompat:appcompat:1.1.0] C:\Users\XiaoTu\.gradle\caches\transforms-2\files-2.1\4f4f8eeccc4ecae47d64394b547970c2\appcompat-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] C:\Users\XiaoTu\.gradle\caches\transforms-2\files-2.1\3eac0d02f7467ddb3d07c95962e4f0e1\constraintlayout-1.1.3\AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] C:\Users\XiaoTu\.gradle\caches\transforms-2\files-2.1\f257faf7535c0d6d603a1693dd042bb5\legacy-support-v4-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\XiaoTu\.gradle\caches\transforms-2\files-2.1\c8e28b2620ac156d5aab6d1ab35ab92e\viewpager2-1.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [com.uber.autodispose:autodispose-android-archcomponents:1.0.0-RC2] C:\Users\XiaoTu\.gradle\caches\transforms-2\files-2.1\7f262c17020062abca77675f38f84734\jetified-autodispose-android-archcomponents-1.0.0-RC2\AndroidManifest.xml:17:1-24:12
+MERGED from [me.yokeyword:eventbus-activity-scope:1.1.0] C:\Users\XiaoTu\.gradle\caches\transforms-2\files-2.1\91a5d83759a77aecaf2ec536e618ff64\eventbus-activity-scope-1.1.0\AndroidManifest.xml:2:1-17:12
+MERGED from [com.gyf.immersionbar:immersionbar:3.0.0] C:\Users\XiaoTu\.gradle\caches\transforms-2\files-2.1\6299f5ac1b2c45acc8a8ea37790e998c\jetified-immersionbar-3.0.0\AndroidManifest.xml:2:1-9:12
+MERGED from [com.gyf.immersionbar:immersionbar-components:3.0.0] C:\Users\XiaoTu\.gradle\caches\transforms-2\files-2.1\a2d32f5092785b876a3eafc29df9aad1\jetified-immersionbar-components-3.0.0\AndroidManifest.xml:2:1-9:12
+MERGED from [com.github.tbruyelle:rxpermissions:0.10.2] C:\Users\XiaoTu\.gradle\caches\transforms-2\files-2.1\bf005c80891140468377283e87194b26\jetified-rxpermissions-0.10.2\AndroidManifest.xml:2:1-11:12
+MERGED from [com.kaopiz:kprogresshud:1.2.0] C:\Users\XiaoTu\.gradle\caches\transforms-2\files-2.1\946b08257a5559735d9bc62e127f9abc\kprogresshud-1.2.0\AndroidManifest.xml:2:1-15:12
+MERGED from [com.jakewharton:butterknife:10.2.0] C:\Users\XiaoTu\.gradle\caches\transforms-2\files-2.1\6f434fbbc62ea9deafa63133e765a9f3\butterknife-10.2.0\AndroidManifest.xml:2:1-7:12
+MERGED from [com.tencent.liteavsdk:LiteAVSDK_Smart:9.0.10437] C:\Users\XiaoTu\.gradle\caches\transforms-2\files-2.1\840b84bbcd4db1d753b53235350ecf4e\jetified-LiteAVSDK_Smart-9.0.10437\AndroidManifest.xml:2:1-36:12
+MERGED from [com.daimajia.easing:library:2.0] C:\Users\XiaoTu\.gradle\caches\transforms-2\files-2.1\450d2034abb846385cd8001cb0c6f751\library-2.0\AndroidManifest.xml:2:1-12:12
+MERGED from [com.daimajia.androidanimations:library:2.3] C:\Users\XiaoTu\.gradle\caches\transforms-2\files-2.1\c7da044897236691749459f8629323a3\jetified-library-2.3\AndroidManifest.xml:2:1-12:12
+MERGED from [jp.wasabeef:glide-transformations:4.3.0] C:\Users\XiaoTu\.gradle\caches\transforms-2\files-2.1\054c5ad01124c64f9049606e678592d2\jetified-glide-transformations-4.3.0\AndroidManifest.xml:2:1-9:12
+MERGED from [com.github.bumptech.glide:glide:4.11.0] C:\Users\XiaoTu\.gradle\caches\transforms-2\files-2.1\c873da91e209370f94859765299d329d\glide-4.11.0\AndroidManifest.xml:2:1-12:12
+MERGED from [pl.droidsonroids.gif:android-gif-drawable:1.2.19] C:\Users\XiaoTu\.gradle\caches\transforms-2\files-2.1\979b8dcd3aefd1d21eb803d33ce773a8\jetified-android-gif-drawable-1.2.19\AndroidManifest.xml:2:1-9:12
+MERGED from [com.scwang.smartrefresh:SmartRefreshLayout:1.1.0-alpha-24] C:\Users\XiaoTu\.gradle\caches\transforms-2\files-2.1\4e2d9b4de9a51fd5fe8104cfe51499b9\jetified-SmartRefreshLayout-1.1.0-alpha-24\AndroidManifest.xml:2:1-17:12
+MERGED from [com.scwang.smartrefresh:SmartRefreshHeader:1.1.0-alpha-24] C:\Users\XiaoTu\.gradle\caches\transforms-2\files-2.1\74bd49f6c066f9c278d5c96c158262e4\jetified-SmartRefreshHeader-1.1.0-alpha-24\AndroidManifest.xml:2:1-17:12
+MERGED from [com.zhpan.library:bannerview:2.4.3.1] C:\Users\XiaoTu\.gradle\caches\transforms-2\files-2.1\23d09a1d0f86281c79a52de777c6279c\jetified-bannerview-2.4.3.1\AndroidManifest.xml:2:1-11:12
+MERGED from [com.github.CymChad:BaseRecyclerViewAdapterHelper:3.0.2] C:\Users\XiaoTu\.gradle\caches\transforms-2\files-2.1\d0c41459bce6fa6bb2bbc4ac2d3b759e\jetified-BaseRecyclerViewAdapterHelper-3.0.2\AndroidManifest.xml:2:1-11:12
+MERGED from [me.yokeyword:fragmentationx:1.0.2] C:\Users\XiaoTu\.gradle\caches\transforms-2\files-2.1\13ef079f823d4550bf33679190102bdc\fragmentationx-1.0.2\AndroidManifest.xml:2:1-11:12
+MERGED from [me.yokeyword:fragmentationx-core:1.0.2] C:\Users\XiaoTu\.gradle\caches\transforms-2\files-2.1\b982d1c0c044b3b3ac82c956886b9a2f\jetified-fragmentationx-core-1.0.2\AndroidManifest.xml:2:1-11:12
+MERGED from [me.yokeyword:fragmentationx-swipeback:1.0.2] C:\Users\XiaoTu\.gradle\caches\transforms-2\files-2.1\35a58b27ed2fc557d0759789df957148\jetified-fragmentationx-swipeback-1.0.2\AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] C:\Users\XiaoTu\.gradle\caches\transforms-2\files-2.1\648b635281580f16b5b60a9a9f6c7db0\recyclerview-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [com.github.yyued:SVGAPlayer-Android:2.5.3] C:\Users\XiaoTu\.gradle\caches\transforms-2\files-2.1\82139dd1766ffd8ea7f2842deadcdc04\SVGAPlayer-Android-2.5.3\AndroidManifest.xml:2:1-16:12
+MERGED from [com.github.WangcWj:WeSwipe:1.0.1] C:\Users\XiaoTu\.gradle\caches\transforms-2\files-2.1\d1ef8228ea0d435428d182e681dcbbac\jetified-WeSwipe-1.0.1\AndroidManifest.xml:2:1-11:12
+MERGED from [com.ycjiang:ImagePreview:2.3.5] C:\Users\XiaoTu\.gradle\caches\transforms-2\files-2.1\1ffde35ae43ad499c8eed2c7af5e3f3e\jetified-ImagePreview-2.3.5\AndroidManifest.xml:2:1-19:12
+MERGED from [androidx.core:core-ktx:1.6.0] C:\Users\XiaoTu\.gradle\caches\transforms-2\files-2.1\7d8e560c9ec366a594b62ba1a9948db4\core-ktx-1.6.0\AndroidManifest.xml:2:1-9:12
+MERGED from [com.contrarywind:Android-PickerView:4.1.8] C:\Users\XiaoTu\.gradle\caches\transforms-2\files-2.1\b8aa07689e713a5a2e7ee323565c1635\jetified-Android-PickerView-4.1.8\AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.fragment:fragment:1.1.0] C:\Users\XiaoTu\.gradle\caches\transforms-2\files-2.1\cfa204cbef61173343b502cdae8385a7\fragment-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.appcompat:appcompat-resources:1.1.0] C:\Users\XiaoTu\.gradle\caches\transforms-2\files-2.1\3b8a83b50153142b260bf6d1de76ee93\appcompat-resources-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] C:\Users\XiaoTu\.gradle\caches\transforms-2\files-2.1\c4deaf6c6e6827ce6ef8d3976369002f\legacy-support-core-ui-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\XiaoTu\.gradle\caches\transforms-2\files-2.1\0856edb128ce7d21fa7331e0a47b95ca\drawerlayout-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.media:media:1.0.0] C:\Users\XiaoTu\.gradle\caches\transforms-2\files-2.1\38e74a6ce9ed70f08107f8bcb8b55f10\media-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\XiaoTu\.gradle\caches\transforms-2\files-2.1\b1c393c3d34a26ecdc08bd5282b1fd96\legacy-support-core-utils-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.transition:transition:1.0.0] C:\Users\XiaoTu\.gradle\caches\transforms-2\files-2.1\ea6c61fc7fec1286c76b7ad562dd6f2b\transition-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.jakewharton:butterknife-runtime:10.2.0] C:\Users\XiaoTu\.gradle\caches\transforms-2\files-2.1\1df45cf9e29ebcb939bb6272a02e2bce\butterknife-runtime-10.2.0\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\XiaoTu\.gradle\caches\transforms-2\files-2.1\45b3c33862526d5dafb0829cc7ccb442\viewpager-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] C:\Users\XiaoTu\.gradle\caches\transforms-2\files-2.1\23a2cfbeb83c3313f2cbc339f2dd0113\coordinatorlayout-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] C:\Users\XiaoTu\.gradle\caches\transforms-2\files-2.1\e1c72884d1f49acade219b15a8242691\slidingpanelayout-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.customview:customview:1.0.0] C:\Users\XiaoTu\.gradle\caches\transforms-2\files-2.1\a69cbf8fda224d472a33a3e99ce11fb9\customview-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\XiaoTu\.gradle\caches\transforms-2\files-2.1\4ef40dce4513ef1a23cbab4f375b7d3c\loader-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.activity:activity:1.0.0] C:\Users\XiaoTu\.gradle\caches\transforms-2\files-2.1\22cf092e46e7a449afe07c1039392b27\activity-1.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\XiaoTu\.gradle\caches\transforms-2\files-2.1\3d2f434398f0186ca0e7b1ae4428a580\vectordrawable-animated-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\XiaoTu\.gradle\caches\transforms-2\files-2.1\faef710bd714bd62f1efb2baf3522cab\vectordrawable-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] C:\Users\XiaoTu\.gradle\caches\transforms-2\files-2.1\88dfa7129881730a5c20f2147b1cdf67\swiperefreshlayout-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] C:\Users\XiaoTu\.gradle\caches\transforms-2\files-2.1\eac5b230b6bbcc2d98bf57d13b74d4a5\asynclayoutinflater-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.core:core:1.6.0] C:\Users\XiaoTu\.gradle\caches\transforms-2\files-2.1\8891c6ef6bd9bd61714d9af8cda50caf\core-1.6.0\AndroidManifest.xml:17:1-26:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\XiaoTu\.gradle\caches\transforms-2\files-2.1\455f66d8a4676f45741b7c9d39befc12\cursoradapter-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.databinding:databinding-adapters:3.6.1] C:\Users\XiaoTu\.gradle\caches\transforms-2\files-2.1\ac8cdf95653b0f1eb2cd4481c77eb617\databinding-adapters-3.6.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.databinding:databinding-runtime:3.6.1] C:\Users\XiaoTu\.gradle\caches\transforms-2\files-2.1\c6e7535c840c154611f559b8bfec33f9\databinding-runtime-3.6.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\XiaoTu\.gradle\caches\transforms-2\files-2.1\8d1c4c40357bb78c9487eeea962584f6\versionedparcelable-1.1.1\AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\XiaoTu\.gradle\caches\transforms-2\files-2.1\3c92c3009dae0d6fb93167cfbb13f9d8\cardview-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.trello.rxlifecycle3:rxlifecycle-android-lifecycle:3.1.0] C:\Users\XiaoTu\.gradle\caches\transforms-2\files-2.1\d4d28069933da872cd3018ca4d337f26\rxlifecycle-android-lifecycle-3.1.0\AndroidManifest.xml:2:1-7:12
+MERGED from [com.uber.autodispose:autodispose-android:1.0.0-RC2] C:\Users\XiaoTu\.gradle\caches\transforms-2\files-2.1\5bbd1d1fdcc4607e31458372f0f3c0aa\jetified-autodispose-android-1.0.0-RC2\AndroidManifest.xml:17:1-24:12
+MERGED from [com.contrarywind:wheelview:4.0.9] C:\Users\XiaoTu\.gradle\caches\transforms-2\files-2.1\f36a74cc48fe7ff21e3f07e9c504bea2\wheelview-4.0.9\AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\XiaoTu\.gradle\caches\transforms-2\files-2.1\a484d9170c0e2bee37bb6f5e265bd28a\documentfile-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\XiaoTu\.gradle\caches\transforms-2\files-2.1\2aefa5920188be99bf927f987ae73c82\localbroadcastmanager-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.print:print:1.0.0] C:\Users\XiaoTu\.gradle\caches\transforms-2\files-2.1\a01f7f0f31b058824949adf5eb90ac49\print-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\XiaoTu\.gradle\caches\transforms-2\files-2.1\deb23cb00be590708b6a28513c91b60c\interpolator-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.1.0] C:\Users\XiaoTu\.gradle\caches\transforms-2\files-2.1\9f5b72f02d4740f6c947758ca6c18716\lifecycle-runtime-2.1.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.github.bumptech.glide:gifdecoder:4.11.0] C:\Users\XiaoTu\.gradle\caches\transforms-2\files-2.1\6baad453d36fa9f4d6eeb3a3bf1169f9\gifdecoder-4.11.0\AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.exifinterface:exifinterface:1.0.0] C:\Users\XiaoTu\.gradle\caches\transforms-2\files-2.1\01b5acc3567e3424dc17c335d28418fd\exifinterface-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.databinding:viewbinding:3.6.1] C:\Users\XiaoTu\.gradle\caches\transforms-2\files-2.1\faab5a7fb0b587d052e9e995b60c8469\viewbinding-3.6.1\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] C:\Users\XiaoTu\.gradle\caches\transforms-2\files-2.1\1954ba585c936677b545fbae0d430b42\lifecycle-viewmodel-2.1.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.savedstate:savedstate:1.0.0] C:\Users\XiaoTu\.gradle\caches\transforms-2\files-2.1\67566f35bb58fb89fc0f997c103a0b45\savedstate-1.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\XiaoTu\.gradle\caches\transforms-2\files-2.1\5290999504034eda6ec752b1dfdcf8ee\lifecycle-livedata-2.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] C:\Users\XiaoTu\.gradle\caches\transforms-2\files-2.1\4a2649609f8a6083c580f16c1cf6d048\lifecycle-livedata-core-2.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.arch.core:core-runtime:2.0.0] C:\Users\XiaoTu\.gradle\caches\transforms-2\files-2.1\13ac818f703169862a6eb4f8a2330236\core-runtime-2.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.faceunity:nama:7.3.0-lite] C:\Users\XiaoTu\.gradle\caches\transforms-2\files-2.1\634c8a76e7d6a3b6578eff4fbe020154\nama-7.3.0-lite\AndroidManifest.xml:2:1-11:12
+MERGED from [io.reactivex.rxjava2:rxandroid:2.1.1] C:\Users\XiaoTu\.gradle\caches\transforms-2\files-2.1\a9bcd97455d9c138bfb92aa53b4321d3\rxandroid-2.1.1\AndroidManifest.xml:15:1-20:12
+MERGED from [pl.droidsonroids:relinker:1.3.1] C:\Users\XiaoTu\.gradle\caches\transforms-2\files-2.1\b64290ebb801fd830f529f9cefb8a7eb\relinker-1.3.1\AndroidManifest.xml:2:1-7:12
+MERGED from [com.liulishuo.filedownloader:library:1.7.6] C:\Users\XiaoTu\.gradle\caches\transforms-2\files-2.1\88283ffa5296325385b37bbfa03ea840\library-1.7.6\AndroidManifest.xml:2:1-18:12
+MERGED from [androidx.annotation:annotation-experimental:1.1.0] C:\Users\XiaoTu\.gradle\caches\transforms-2\files-2.1\dd5d3065530365e951dd0b2b77e071b7\jetified-annotation-experimental-1.1.0\AndroidManifest.xml:17:1-24:12
+INJECTED from D:\xiaotu_android\project\trunk\xunbo_live\app\src\main\AndroidManifest.xml:2:1-258:12
+INJECTED from D:\xiaotu_android\project\trunk\xunbo_live\app\src\main\AndroidManifest.xml:2:1-258:12
+INJECTED from D:\xiaotu_android\project\trunk\xunbo_live\app\src\main\AndroidManifest.xml:2:1-258:12
+	package
+		ADDED from D:\xiaotu_android\project\trunk\xunbo_live\app\src\main\AndroidManifest.xml:4:5-26
+		INJECTED from D:\xiaotu_android\project\trunk\xunbo_live\app\src\main\AndroidManifest.xml
+		INJECTED from D:\xiaotu_android\project\trunk\xunbo_live\app\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from D:\xiaotu_android\project\trunk\xunbo_live\app\src\main\AndroidManifest.xml
+		ADDED from D:\xiaotu_android\project\trunk\xunbo_live\app\src\main\AndroidManifest.xml:2:1-258:12
+		INJECTED from D:\xiaotu_android\project\trunk\xunbo_live\app\src\main\AndroidManifest.xml
+	xmlns:tools
+		ADDED from D:\xiaotu_android\project\trunk\xunbo_live\app\src\main\AndroidManifest.xml:3:5-51
+	android:versionCode
+		INJECTED from D:\xiaotu_android\project\trunk\xunbo_live\app\src\main\AndroidManifest.xml
+		ADDED from D:\xiaotu_android\project\trunk\xunbo_live\app\src\main\AndroidManifest.xml:2:1-258:12
+		INJECTED from D:\xiaotu_android\project\trunk\xunbo_live\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from D:\xiaotu_android\project\trunk\xunbo_live\app\src\main\AndroidManifest.xml:2:11-69
+uses-permission#android.permission.INTERNET
+ADDED from D:\xiaotu_android\project\trunk\xunbo_live\app\src\main\AndroidManifest.xml:6:5-67
+MERGED from [lovense.aar] C:\Users\XiaoTu\.gradle\caches\transforms-2\files-2.1\ae7ebb72a8cb56cae8491ff35592c789\jetified-lovense\AndroidManifest.xml:11:5-67
+MERGED from [lovense.aar] C:\Users\XiaoTu\.gradle\caches\transforms-2\files-2.1\ae7ebb72a8cb56cae8491ff35592c789\jetified-lovense\AndroidManifest.xml:11:5-67
+MERGED from [cn.rongcloud.sdk:im_lib:4.0.3.14] C:\Users\XiaoTu\.gradle\caches\transforms-2\files-2.1\761a2d23ca926373fa41080609edf90a\jetified-im_lib-4.0.3.14\AndroidManifest.xml:14:5-67
+MERGED from [cn.rongcloud.sdk:im_lib:4.0.3.14] C:\Users\XiaoTu\.gradle\caches\transforms-2\files-2.1\761a2d23ca926373fa41080609edf90a\jetified-im_lib-4.0.3.14\AndroidManifest.xml:14:5-67
+MERGED from [com.github.MZCretin:AutoUpdateProject:v2.0.4] C:\Users\XiaoTu\.gradle\caches\transforms-2\files-2.1\f76dbe287a91ed54d5238d00325b580f\jetified-AutoUpdateProject-v2.0.4\AndroidManifest.xml:11:5-67
+MERGED from [com.github.MZCretin:AutoUpdateProject:v2.0.4] C:\Users\XiaoTu\.gradle\caches\transforms-2\files-2.1\f76dbe287a91ed54d5238d00325b580f\jetified-AutoUpdateProject-v2.0.4\AndroidManifest.xml:11:5-67
+MERGED from [com.github.MZCretin:AutoUpdateProject:v2.0.4] C:\Users\XiaoTu\.gradle\caches\transforms-2\files-2.1\f76dbe287a91ed54d5238d00325b580f\jetified-AutoUpdateProject-v2.0.4\AndroidManifest.xml:16:5-67
+MERGED from [com.github.MZCretin:AutoUpdateProject:v2.0.4] C:\Users\XiaoTu\.gradle\caches\transforms-2\files-2.1\f76dbe287a91ed54d5238d00325b580f\jetified-AutoUpdateProject-v2.0.4\AndroidManifest.xml:16:5-67
+MERGED from [com.tencent.liteavsdk:LiteAVSDK_Smart:9.0.10437] C:\Users\XiaoTu\.gradle\caches\transforms-2\files-2.1\840b84bbcd4db1d753b53235350ecf4e\jetified-LiteAVSDK_Smart-9.0.10437\AndroidManifest.xml:12:5-67
+MERGED from [com.tencent.liteavsdk:LiteAVSDK_Smart:9.0.10437] C:\Users\XiaoTu\.gradle\caches\transforms-2\files-2.1\840b84bbcd4db1d753b53235350ecf4e\jetified-LiteAVSDK_Smart-9.0.10437\AndroidManifest.xml:12:5-67
+	android:name
+		ADDED from D:\xiaotu_android\project\trunk\xunbo_live\app\src\main\AndroidManifest.xml:6:22-64
+uses-permission#android.permission.ACCESS_COARSE_LOCATION
+ADDED from D:\xiaotu_android\project\trunk\xunbo_live\app\src\main\AndroidManifest.xml:7:5-81
+MERGED from [lovense.aar] C:\Users\XiaoTu\.gradle\caches\transforms-2\files-2.1\ae7ebb72a8cb56cae8491ff35592c789\jetified-lovense\AndroidManifest.xml:15:5-81
+MERGED from [lovense.aar] C:\Users\XiaoTu\.gradle\caches\transforms-2\files-2.1\ae7ebb72a8cb56cae8491ff35592c789\jetified-lovense\AndroidManifest.xml:15:5-81
+	android:name
+		ADDED from D:\xiaotu_android\project\trunk\xunbo_live\app\src\main\AndroidManifest.xml:7:22-78
+uses-permission#android.permission.CHANGE_NETWORK_STATE
+ADDED from D:\xiaotu_android\project\trunk\xunbo_live\app\src\main\AndroidManifest.xml:8:5-79
+	android:name
+		ADDED from D:\xiaotu_android\project\trunk\xunbo_live\app\src\main\AndroidManifest.xml:8:22-76
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from D:\xiaotu_android\project\trunk\xunbo_live\app\src\main\AndroidManifest.xml:9:5-79
+MERGED from [lovense.aar] C:\Users\XiaoTu\.gradle\caches\transforms-2\files-2.1\ae7ebb72a8cb56cae8491ff35592c789\jetified-lovense\AndroidManifest.xml:12:5-79
+MERGED from [lovense.aar] C:\Users\XiaoTu\.gradle\caches\transforms-2\files-2.1\ae7ebb72a8cb56cae8491ff35592c789\jetified-lovense\AndroidManifest.xml:12:5-79
+MERGED from [cn.rongcloud.sdk:im_lib:4.0.3.14] C:\Users\XiaoTu\.gradle\caches\transforms-2\files-2.1\761a2d23ca926373fa41080609edf90a\jetified-im_lib-4.0.3.14\AndroidManifest.xml:15:5-79
+MERGED from [cn.rongcloud.sdk:im_lib:4.0.3.14] C:\Users\XiaoTu\.gradle\caches\transforms-2\files-2.1\761a2d23ca926373fa41080609edf90a\jetified-im_lib-4.0.3.14\AndroidManifest.xml:15:5-79
+MERGED from [:rxhttp] D:\xiaotu_android\project\trunk\xunbo_live\rxhttp\build\intermediates\library_manifest\debug\AndroidManifest.xml:11:5-79
+MERGED from [:rxhttp] D:\xiaotu_android\project\trunk\xunbo_live\rxhttp\build\intermediates\library_manifest\debug\AndroidManifest.xml:11:5-79
+MERGED from [com.github.MZCretin:AutoUpdateProject:v2.0.4] C:\Users\XiaoTu\.gradle\caches\transforms-2\files-2.1\f76dbe287a91ed54d5238d00325b580f\jetified-AutoUpdateProject-v2.0.4\AndroidManifest.xml:14:5-79
+MERGED from [com.github.MZCretin:AutoUpdateProject:v2.0.4] C:\Users\XiaoTu\.gradle\caches\transforms-2\files-2.1\f76dbe287a91ed54d5238d00325b580f\jetified-AutoUpdateProject-v2.0.4\AndroidManifest.xml:14:5-79
+MERGED from [com.tencent.liteavsdk:LiteAVSDK_Smart:9.0.10437] C:\Users\XiaoTu\.gradle\caches\transforms-2\files-2.1\840b84bbcd4db1d753b53235350ecf4e\jetified-LiteAVSDK_Smart-9.0.10437\AndroidManifest.xml:14:5-79
+MERGED from [com.tencent.liteavsdk:LiteAVSDK_Smart:9.0.10437] C:\Users\XiaoTu\.gradle\caches\transforms-2\files-2.1\840b84bbcd4db1d753b53235350ecf4e\jetified-LiteAVSDK_Smart-9.0.10437\AndroidManifest.xml:14:5-79
+	android:name
+		ADDED from D:\xiaotu_android\project\trunk\xunbo_live\app\src\main\AndroidManifest.xml:9:22-76
+uses-permission#android.permission.ACCESS_WIFI_STATE
+ADDED from D:\xiaotu_android\project\trunk\xunbo_live\app\src\main\AndroidManifest.xml:10:5-76
+MERGED from [cn.rongcloud.sdk:im_lib:4.0.3.14] C:\Users\XiaoTu\.gradle\caches\transforms-2\files-2.1\761a2d23ca926373fa41080609edf90a\jetified-im_lib-4.0.3.14\AndroidManifest.xml:16:5-76
+MERGED from [cn.rongcloud.sdk:im_lib:4.0.3.14] C:\Users\XiaoTu\.gradle\caches\transforms-2\files-2.1\761a2d23ca926373fa41080609edf90a\jetified-im_lib-4.0.3.14\AndroidManifest.xml:16:5-76
+MERGED from [com.tencent.liteavsdk:LiteAVSDK_Smart:9.0.10437] C:\Users\XiaoTu\.gradle\caches\transforms-2\files-2.1\840b84bbcd4db1d753b53235350ecf4e\jetified-LiteAVSDK_Smart-9.0.10437\AndroidManifest.xml:16:5-76
+MERGED from [com.tencent.liteavsdk:LiteAVSDK_Smart:9.0.10437] C:\Users\XiaoTu\.gradle\caches\transforms-2\files-2.1\840b84bbcd4db1d753b53235350ecf4e\jetified-LiteAVSDK_Smart-9.0.10437\AndroidManifest.xml:16:5-76
+	android:name
+		ADDED from D:\xiaotu_android\project\trunk\xunbo_live\app\src\main\AndroidManifest.xml:10:22-73
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from D:\xiaotu_android\project\trunk\xunbo_live\app\src\main\AndroidManifest.xml:11:5-81
+MERGED from [cn.rongcloud.sdk:im_lib:4.0.3.14] C:\Users\XiaoTu\.gradle\caches\transforms-2\files-2.1\761a2d23ca926373fa41080609edf90a\jetified-im_lib-4.0.3.14\AndroidManifest.xml:12:5-81
+MERGED from [cn.rongcloud.sdk:im_lib:4.0.3.14] C:\Users\XiaoTu\.gradle\caches\transforms-2\files-2.1\761a2d23ca926373fa41080609edf90a\jetified-im_lib-4.0.3.14\AndroidManifest.xml:12:5-81
+MERGED from [com.github.MZCretin:AutoUpdateProject:v2.0.4] C:\Users\XiaoTu\.gradle\caches\transforms-2\files-2.1\f76dbe287a91ed54d5238d00325b580f\jetified-AutoUpdateProject-v2.0.4\AndroidManifest.xml:12:5-81
+MERGED from [com.github.MZCretin:AutoUpdateProject:v2.0.4] C:\Users\XiaoTu\.gradle\caches\transforms-2\files-2.1\f76dbe287a91ed54d5238d00325b580f\jetified-AutoUpdateProject-v2.0.4\AndroidManifest.xml:12:5-81
+MERGED from [com.tencent.liteavsdk:LiteAVSDK_Smart:9.0.10437] C:\Users\XiaoTu\.gradle\caches\transforms-2\files-2.1\840b84bbcd4db1d753b53235350ecf4e\jetified-LiteAVSDK_Smart-9.0.10437\AndroidManifest.xml:18:5-81
+MERGED from [com.tencent.liteavsdk:LiteAVSDK_Smart:9.0.10437] C:\Users\XiaoTu\.gradle\caches\transforms-2\files-2.1\840b84bbcd4db1d753b53235350ecf4e\jetified-LiteAVSDK_Smart-9.0.10437\AndroidManifest.xml:18:5-81
+	android:name
+		ADDED from D:\xiaotu_android\project\trunk\xunbo_live\app\src\main\AndroidManifest.xml:11:22-78
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from D:\xiaotu_android\project\trunk\xunbo_live\app\src\main\AndroidManifest.xml:12:5-80
+MERGED from [com.github.MZCretin:AutoUpdateProject:v2.0.4] C:\Users\XiaoTu\.gradle\caches\transforms-2\files-2.1\f76dbe287a91ed54d5238d00325b580f\jetified-AutoUpdateProject-v2.0.4\AndroidManifest.xml:13:5-80
+MERGED from [com.github.MZCretin:AutoUpdateProject:v2.0.4] C:\Users\XiaoTu\.gradle\caches\transforms-2\files-2.1\f76dbe287a91ed54d5238d00325b580f\jetified-AutoUpdateProject-v2.0.4\AndroidManifest.xml:13:5-80
+MERGED from [com.tencent.liteavsdk:LiteAVSDK_Smart:9.0.10437] C:\Users\XiaoTu\.gradle\caches\transforms-2\files-2.1\840b84bbcd4db1d753b53235350ecf4e\jetified-LiteAVSDK_Smart-9.0.10437\AndroidManifest.xml:19:5-80
+MERGED from [com.tencent.liteavsdk:LiteAVSDK_Smart:9.0.10437] C:\Users\XiaoTu\.gradle\caches\transforms-2\files-2.1\840b84bbcd4db1d753b53235350ecf4e\jetified-LiteAVSDK_Smart-9.0.10437\AndroidManifest.xml:19:5-80
+	android:name
+		ADDED from D:\xiaotu_android\project\trunk\xunbo_live\app\src\main\AndroidManifest.xml:12:22-77
+uses-permission#android.permission.RECORD_AUDIO
+ADDED from D:\xiaotu_android\project\trunk\xunbo_live\app\src\main\AndroidManifest.xml:13:5-71
+MERGED from [com.tencent.liteavsdk:LiteAVSDK_Smart:9.0.10437] C:\Users\XiaoTu\.gradle\caches\transforms-2\files-2.1\840b84bbcd4db1d753b53235350ecf4e\jetified-LiteAVSDK_Smart-9.0.10437\AndroidManifest.xml:23:5-71
+MERGED from [com.tencent.liteavsdk:LiteAVSDK_Smart:9.0.10437] C:\Users\XiaoTu\.gradle\caches\transforms-2\files-2.1\840b84bbcd4db1d753b53235350ecf4e\jetified-LiteAVSDK_Smart-9.0.10437\AndroidManifest.xml:23:5-71
+	android:name
+		ADDED from D:\xiaotu_android\project\trunk\xunbo_live\app\src\main\AndroidManifest.xml:13:22-68
+uses-permission#android.permission.MODIFY_AUDIO_SETTINGS
+ADDED from D:\xiaotu_android\project\trunk\xunbo_live\app\src\main\AndroidManifest.xml:14:5-80
+MERGED from [com.tencent.liteavsdk:LiteAVSDK_Smart:9.0.10437] C:\Users\XiaoTu\.gradle\caches\transforms-2\files-2.1\840b84bbcd4db1d753b53235350ecf4e\jetified-LiteAVSDK_Smart-9.0.10437\AndroidManifest.xml:25:5-80
+MERGED from [com.tencent.liteavsdk:LiteAVSDK_Smart:9.0.10437] C:\Users\XiaoTu\.gradle\caches\transforms-2\files-2.1\840b84bbcd4db1d753b53235350ecf4e\jetified-LiteAVSDK_Smart-9.0.10437\AndroidManifest.xml:25:5-80
+	android:name
+		ADDED from D:\xiaotu_android\project\trunk\xunbo_live\app\src\main\AndroidManifest.xml:14:22-77
+uses-permission#android.permission.BLUETOOTH
+ADDED from D:\xiaotu_android\project\trunk\xunbo_live\app\src\main\AndroidManifest.xml:15:5-68
+MERGED from [lovense.aar] C:\Users\XiaoTu\.gradle\caches\transforms-2\files-2.1\ae7ebb72a8cb56cae8491ff35592c789\jetified-lovense\AndroidManifest.xml:13:5-68
+MERGED from [lovense.aar] C:\Users\XiaoTu\.gradle\caches\transforms-2\files-2.1\ae7ebb72a8cb56cae8491ff35592c789\jetified-lovense\AndroidManifest.xml:13:5-68
+MERGED from [com.tencent.liteavsdk:LiteAVSDK_Smart:9.0.10437] C:\Users\XiaoTu\.gradle\caches\transforms-2\files-2.1\840b84bbcd4db1d753b53235350ecf4e\jetified-LiteAVSDK_Smart-9.0.10437\AndroidManifest.xml:27:5-68
+MERGED from [com.tencent.liteavsdk:LiteAVSDK_Smart:9.0.10437] C:\Users\XiaoTu\.gradle\caches\transforms-2\files-2.1\840b84bbcd4db1d753b53235350ecf4e\jetified-LiteAVSDK_Smart-9.0.10437\AndroidManifest.xml:27:5-68
+	android:name
+		ADDED from D:\xiaotu_android\project\trunk\xunbo_live\app\src\main\AndroidManifest.xml:15:22-65
+uses-permission#android.permission.CAMERA
+ADDED from D:\xiaotu_android\project\trunk\xunbo_live\app\src\main\AndroidManifest.xml:16:5-65
+MERGED from [com.tencent.liteavsdk:LiteAVSDK_Smart:9.0.10437] C:\Users\XiaoTu\.gradle\caches\transforms-2\files-2.1\840b84bbcd4db1d753b53235350ecf4e\jetified-LiteAVSDK_Smart-9.0.10437\AndroidManifest.xml:21:5-65
+MERGED from [com.tencent.liteavsdk:LiteAVSDK_Smart:9.0.10437] C:\Users\XiaoTu\.gradle\caches\transforms-2\files-2.1\840b84bbcd4db1d753b53235350ecf4e\jetified-LiteAVSDK_Smart-9.0.10437\AndroidManifest.xml:21:5-65
+	android:name
+		ADDED from D:\xiaotu_android\project\trunk\xunbo_live\app\src\main\AndroidManifest.xml:16:22-62
+uses-permission#android.permission.READ_PHONE_STATE
+ADDED from D:\xiaotu_android\project\trunk\xunbo_live\app\src\main\AndroidManifest.xml:17:5-75
+	android:name
+		ADDED from D:\xiaotu_android\project\trunk\xunbo_live\app\src\main\AndroidManifest.xml:17:22-72
+uses-permission#android.permission.FLASHLIGHT
+ADDED from D:\xiaotu_android\project\trunk\xunbo_live\app\src\main\AndroidManifest.xml:18:5-69
+	android:name
+		ADDED from D:\xiaotu_android\project\trunk\xunbo_live\app\src\main\AndroidManifest.xml:18:22-66
+uses-permission#android.permission.BLUETOOTH_ADMIN
+ADDED from D:\xiaotu_android\project\trunk\xunbo_live\app\src\main\AndroidManifest.xml:20:5-74
+MERGED from [lovense.aar] C:\Users\XiaoTu\.gradle\caches\transforms-2\files-2.1\ae7ebb72a8cb56cae8491ff35592c789\jetified-lovense\AndroidManifest.xml:14:5-74
+MERGED from [lovense.aar] C:\Users\XiaoTu\.gradle\caches\transforms-2\files-2.1\ae7ebb72a8cb56cae8491ff35592c789\jetified-lovense\AndroidManifest.xml:14:5-74
+	android:name
+		ADDED from D:\xiaotu_android\project\trunk\xunbo_live\app\src\main\AndroidManifest.xml:20:22-71
+uses-permission#android.permission.ACCESS_FINE_LOCATION
+ADDED from D:\xiaotu_android\project\trunk\xunbo_live\app\src\main\AndroidManifest.xml:21:5-79
+MERGED from [lovense.aar] C:\Users\XiaoTu\.gradle\caches\transforms-2\files-2.1\ae7ebb72a8cb56cae8491ff35592c789\jetified-lovense\AndroidManifest.xml:16:5-79
+MERGED from [lovense.aar] C:\Users\XiaoTu\.gradle\caches\transforms-2\files-2.1\ae7ebb72a8cb56cae8491ff35592c789\jetified-lovense\AndroidManifest.xml:16:5-79
+	android:name
+		ADDED from D:\xiaotu_android\project\trunk\xunbo_live\app\src\main\AndroidManifest.xml:21:22-76
+uses-feature#android.hardware.Camera
+ADDED from D:\xiaotu_android\project\trunk\xunbo_live\app\src\main\AndroidManifest.xml:23:5-60
+	android:name
+		ADDED from D:\xiaotu_android\project\trunk\xunbo_live\app\src\main\AndroidManifest.xml:23:19-57
+uses-feature#android.hardware.camera.autofocus
+ADDED from D:\xiaotu_android\project\trunk\xunbo_live\app\src\main\AndroidManifest.xml:24:5-70
+	android:name
+		ADDED from D:\xiaotu_android\project\trunk\xunbo_live\app\src\main\AndroidManifest.xml:24:19-67
+application
+ADDED from D:\xiaotu_android\project\trunk\xunbo_live\app\src\main\AndroidManifest.xml:26:5-256:19
+MERGED from [cn.rongcloud.sdk:im_lib:4.0.3.14] C:\Users\XiaoTu\.gradle\caches\transforms-2\files-2.1\761a2d23ca926373fa41080609edf90a\jetified-im_lib-4.0.3.14\AndroidManifest.xml:30:5-73:19
+MERGED from [cn.rongcloud.sdk:im_lib:4.0.3.14] C:\Users\XiaoTu\.gradle\caches\transforms-2\files-2.1\761a2d23ca926373fa41080609edf90a\jetified-im_lib-4.0.3.14\AndroidManifest.xml:30:5-73:19
+MERGED from [com.androidkun:XTabLayout:1.1.4] C:\Users\XiaoTu\.gradle\caches\transforms-2\files-2.1\c3dc7aec7b9ff47e98d86da2d43e3ea6\jetified-XTabLayout-1.1.4\AndroidManifest.xml:11:5-14:19
+MERGED from [com.androidkun:XTabLayout:1.1.4] C:\Users\XiaoTu\.gradle\caches\transforms-2\files-2.1\c3dc7aec7b9ff47e98d86da2d43e3ea6\jetified-XTabLayout-1.1.4\AndroidManifest.xml:11:5-14:19
+MERGED from [com.google.android.material:material:1.0.0] C:\Users\XiaoTu\.gradle\caches\transforms-2\files-2.1\327fe425aa28b0bfe0f8cc6b351782e3\material-1.0.0\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.material:material:1.0.0] C:\Users\XiaoTu\.gradle\caches\transforms-2\files-2.1\327fe425aa28b0bfe0f8cc6b351782e3\material-1.0.0\AndroidManifest.xml:22:5-20
+MERGED from [pub.devrel:easypermissions:3.0.0] C:\Users\XiaoTu\.gradle\caches\transforms-2\files-2.1\b4a8dc586b8824c3defe2d335dc2965f\easypermissions-3.0.0\AndroidManifest.xml:11:5-17:19
+MERGED from [pub.devrel:easypermissions:3.0.0] C:\Users\XiaoTu\.gradle\caches\transforms-2\files-2.1\b4a8dc586b8824c3defe2d335dc2965f\easypermissions-3.0.0\AndroidManifest.xml:11:5-17:19
+MERGED from [com.dalong:marqueeview:1.0.1] C:\Users\XiaoTu\.gradle\caches\transforms-2\files-2.1\e304518142f23f91dccb2881d6802341\marqueeview-1.0.1\AndroidManifest.xml:11:5-15:19
+MERGED from [com.dalong:marqueeview:1.0.1] C:\Users\XiaoTu\.gradle\caches\transforms-2\files-2.1\e304518142f23f91dccb2881d6802341\marqueeview-1.0.1\AndroidManifest.xml:11:5-15:19
+MERGED from [com.github.MZCretin:AutoUpdateProject:v2.0.4] C:\Users\XiaoTu\.gradle\caches\transforms-2\files-2.1\f76dbe287a91ed54d5238d00325b580f\jetified-AutoUpdateProject-v2.0.4\AndroidManifest.xml:22:5-77:19
+MERGED from [com.github.MZCretin:AutoUpdateProject:v2.0.4] C:\Users\XiaoTu\.gradle\caches\transforms-2\files-2.1\f76dbe287a91ed54d5238d00325b580f\jetified-AutoUpdateProject-v2.0.4\AndroidManifest.xml:22:5-77:19
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] C:\Users\XiaoTu\.gradle\caches\transforms-2\files-2.1\3eac0d02f7467ddb3d07c95962e4f0e1\constraintlayout-1.1.3\AndroidManifest.xml:9:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] C:\Users\XiaoTu\.gradle\caches\transforms-2\files-2.1\3eac0d02f7467ddb3d07c95962e4f0e1\constraintlayout-1.1.3\AndroidManifest.xml:9:5-20
+MERGED from [me.yokeyword:eventbus-activity-scope:1.1.0] C:\Users\XiaoTu\.gradle\caches\transforms-2\files-2.1\91a5d83759a77aecaf2ec536e618ff64\eventbus-activity-scope-1.1.0\AndroidManifest.xml:9:5-15:19
+MERGED from [me.yokeyword:eventbus-activity-scope:1.1.0] C:\Users\XiaoTu\.gradle\caches\transforms-2\files-2.1\91a5d83759a77aecaf2ec536e618ff64\eventbus-activity-scope-1.1.0\AndroidManifest.xml:9:5-15:19
+MERGED from [com.github.tbruyelle:rxpermissions:0.10.2] C:\Users\XiaoTu\.gradle\caches\transforms-2\files-2.1\bf005c80891140468377283e87194b26\jetified-rxpermissions-0.10.2\AndroidManifest.xml:9:5-20
+MERGED from [com.github.tbruyelle:rxpermissions:0.10.2] C:\Users\XiaoTu\.gradle\caches\transforms-2\files-2.1\bf005c80891140468377283e87194b26\jetified-rxpermissions-0.10.2\AndroidManifest.xml:9:5-20
+MERGED from [com.kaopiz:kprogresshud:1.2.0] C:\Users\XiaoTu\.gradle\caches\transforms-2\files-2.1\946b08257a5559735d9bc62e127f9abc\kprogresshud-1.2.0\AndroidManifest.xml:11:5-13:38
+MERGED from [com.kaopiz:kprogresshud:1.2.0] C:\Users\XiaoTu\.gradle\caches\transforms-2\files-2.1\946b08257a5559735d9bc62e127f9abc\kprogresshud-1.2.0\AndroidManifest.xml:11:5-13:38
+MERGED from [com.tencent.liteavsdk:LiteAVSDK_Smart:9.0.10437] C:\Users\XiaoTu\.gradle\caches\transforms-2\files-2.1\840b84bbcd4db1d753b53235350ecf4e\jetified-LiteAVSDK_Smart-9.0.10437\AndroidManifest.xml:30:5-34:19
+MERGED from [com.tencent.liteavsdk:LiteAVSDK_Smart:9.0.10437] C:\Users\XiaoTu\.gradle\caches\transforms-2\files-2.1\840b84bbcd4db1d753b53235350ecf4e\jetified-LiteAVSDK_Smart-9.0.10437\AndroidManifest.xml:30:5-34:19
+MERGED from [com.github.bumptech.glide:glide:4.11.0] C:\Users\XiaoTu\.gradle\caches\transforms-2\files-2.1\c873da91e209370f94859765299d329d\glide-4.11.0\AndroidManifest.xml:10:5-20
+MERGED from [com.github.bumptech.glide:glide:4.11.0] C:\Users\XiaoTu\.gradle\caches\transforms-2\files-2.1\c873da91e209370f94859765299d329d\glide-4.11.0\AndroidManifest.xml:10:5-20
+MERGED from [com.scwang.smartrefresh:SmartRefreshLayout:1.1.0-alpha-24] C:\Users\XiaoTu\.gradle\caches\transforms-2\files-2.1\4e2d9b4de9a51fd5fe8104cfe51499b9\jetified-SmartRefreshLayout-1.1.0-alpha-24\AndroidManifest.xml:11:5-15:19
+MERGED from [com.scwang.smartrefresh:SmartRefreshLayout:1.1.0-alpha-24] C:\Users\XiaoTu\.gradle\caches\transforms-2\files-2.1\4e2d9b4de9a51fd5fe8104cfe51499b9\jetified-SmartRefreshLayout-1.1.0-alpha-24\AndroidManifest.xml:11:5-15:19
+MERGED from [com.scwang.smartrefresh:SmartRefreshHeader:1.1.0-alpha-24] C:\Users\XiaoTu\.gradle\caches\transforms-2\files-2.1\74bd49f6c066f9c278d5c96c158262e4\jetified-SmartRefreshHeader-1.1.0-alpha-24\AndroidManifest.xml:11:5-15:19
+MERGED from [com.scwang.smartrefresh:SmartRefreshHeader:1.1.0-alpha-24] C:\Users\XiaoTu\.gradle\caches\transforms-2\files-2.1\74bd49f6c066f9c278d5c96c158262e4\jetified-SmartRefreshHeader-1.1.0-alpha-24\AndroidManifest.xml:11:5-15:19
+MERGED from [me.yokeyword:fragmentationx:1.0.2] C:\Users\XiaoTu\.gradle\caches\transforms-2\files-2.1\13ef079f823d4550bf33679190102bdc\fragmentationx-1.0.2\AndroidManifest.xml:9:5-20
+MERGED from [me.yokeyword:fragmentationx:1.0.2] C:\Users\XiaoTu\.gradle\caches\transforms-2\files-2.1\13ef079f823d4550bf33679190102bdc\fragmentationx-1.0.2\AndroidManifest.xml:9:5-20
+MERGED from [me.yokeyword:fragmentationx-core:1.0.2] C:\Users\XiaoTu\.gradle\caches\transforms-2\files-2.1\b982d1c0c044b3b3ac82c956886b9a2f\jetified-fragmentationx-core-1.0.2\AndroidManifest.xml:9:5-20
+MERGED from [me.yokeyword:fragmentationx-core:1.0.2] C:\Users\XiaoTu\.gradle\caches\transforms-2\files-2.1\b982d1c0c044b3b3ac82c956886b9a2f\jetified-fragmentationx-core-1.0.2\AndroidManifest.xml:9:5-20
+MERGED from [me.yokeyword:fragmentationx-swipeback:1.0.2] C:\Users\XiaoTu\.gradle\caches\transforms-2\files-2.1\35a58b27ed2fc557d0759789df957148\jetified-fragmentationx-swipeback-1.0.2\AndroidManifest.xml:9:5-20
+MERGED from [me.yokeyword:fragmentationx-swipeback:1.0.2] C:\Users\XiaoTu\.gradle\caches\transforms-2\files-2.1\35a58b27ed2fc557d0759789df957148\jetified-fragmentationx-swipeback-1.0.2\AndroidManifest.xml:9:5-20
+MERGED from [com.github.yyued:SVGAPlayer-Android:2.5.3] C:\Users\XiaoTu\.gradle\caches\transforms-2\files-2.1\82139dd1766ffd8ea7f2842deadcdc04\SVGAPlayer-Android-2.5.3\AndroidManifest.xml:11:5-14:19
+MERGED from [com.github.yyued:SVGAPlayer-Android:2.5.3] C:\Users\XiaoTu\.gradle\caches\transforms-2\files-2.1\82139dd1766ffd8ea7f2842deadcdc04\SVGAPlayer-Android-2.5.3\AndroidManifest.xml:11:5-14:19
+MERGED from [com.ycjiang:ImagePreview:2.3.5] C:\Users\XiaoTu\.gradle\caches\transforms-2\files-2.1\1ffde35ae43ad499c8eed2c7af5e3f3e\jetified-ImagePreview-2.3.5\AndroidManifest.xml:9:5-17:19
+MERGED from [com.ycjiang:ImagePreview:2.3.5] C:\Users\XiaoTu\.gradle\caches\transforms-2\files-2.1\1ffde35ae43ad499c8eed2c7af5e3f3e\jetified-ImagePreview-2.3.5\AndroidManifest.xml:9:5-17:19
+MERGED from [androidx.core:core:1.6.0] C:\Users\XiaoTu\.gradle\caches\transforms-2\files-2.1\8891c6ef6bd9bd61714d9af8cda50caf\core-1.6.0\AndroidManifest.xml:24:5-89
+MERGED from [androidx.core:core:1.6.0] C:\Users\XiaoTu\.gradle\caches\transforms-2\files-2.1\8891c6ef6bd9bd61714d9af8cda50caf\core-1.6.0\AndroidManifest.xml:24:5-89
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\XiaoTu\.gradle\caches\transforms-2\files-2.1\8d1c4c40357bb78c9487eeea962584f6\versionedparcelable-1.1.1\AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\XiaoTu\.gradle\caches\transforms-2\files-2.1\8d1c4c40357bb78c9487eeea962584f6\versionedparcelable-1.1.1\AndroidManifest.xml:24:5-25:19
+MERGED from [com.github.bumptech.glide:gifdecoder:4.11.0] C:\Users\XiaoTu\.gradle\caches\transforms-2\files-2.1\6baad453d36fa9f4d6eeb3a3bf1169f9\gifdecoder-4.11.0\AndroidManifest.xml:9:5-20
+MERGED from [com.github.bumptech.glide:gifdecoder:4.11.0] C:\Users\XiaoTu\.gradle\caches\transforms-2\files-2.1\6baad453d36fa9f4d6eeb3a3bf1169f9\gifdecoder-4.11.0\AndroidManifest.xml:9:5-20
+MERGED from [com.liulishuo.filedownloader:library:1.7.6] C:\Users\XiaoTu\.gradle\caches\transforms-2\files-2.1\88283ffa5296325385b37bbfa03ea840\library-1.7.6\AndroidManifest.xml:11:5-16:19
+MERGED from [com.liulishuo.filedownloader:library:1.7.6] C:\Users\XiaoTu\.gradle\caches\transforms-2\files-2.1\88283ffa5296325385b37bbfa03ea840\library-1.7.6\AndroidManifest.xml:11:5-16:19
+	android:screenOrientation
+		ADDED from D:\xiaotu_android\project\trunk\xunbo_live\app\src\main\AndroidManifest.xml:33:9-45
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.6.0] C:\Users\XiaoTu\.gradle\caches\transforms-2\files-2.1\8891c6ef6bd9bd61714d9af8cda50caf\core-1.6.0\AndroidManifest.xml:24:18-86
+	android:supportsRtl
+		ADDED from D:\xiaotu_android\project\trunk\xunbo_live\app\src\main\AndroidManifest.xml:34:9-35
+	android:label
+		ADDED from D:\xiaotu_android\project\trunk\xunbo_live\app\src\main\AndroidManifest.xml:30:9-41
+	android:roundIcon
+		ADDED from D:\xiaotu_android\project\trunk\xunbo_live\app\src\main\AndroidManifest.xml:32:9-48
+	android:icon
+		ADDED from D:\xiaotu_android\project\trunk\xunbo_live\app\src\main\AndroidManifest.xml:29:9-43
+	android:allowBackup
+		ADDED from D:\xiaotu_android\project\trunk\xunbo_live\app\src\main\AndroidManifest.xml:28:9-35
+	android:theme
+		ADDED from D:\xiaotu_android\project\trunk\xunbo_live\app\src\main\AndroidManifest.xml:35:9-55
+	android:networkSecurityConfig
+		ADDED from D:\xiaotu_android\project\trunk\xunbo_live\app\src\main\AndroidManifest.xml:31:9-60
+		REJECTED from [com.github.MZCretin:AutoUpdateProject:v2.0.4] C:\Users\XiaoTu\.gradle\caches\transforms-2\files-2.1\f76dbe287a91ed54d5238d00325b580f\jetified-AutoUpdateProject-v2.0.4\AndroidManifest.xml:25:9-69
+	tools:replace
+		ADDED from D:\xiaotu_android\project\trunk\xunbo_live\app\src\main\AndroidManifest.xml:36:9-54
+	android:usesCleartextTraffic
+		ADDED from [com.tencent.liteavsdk:LiteAVSDK_Smart:9.0.10437] C:\Users\XiaoTu\.gradle\caches\transforms-2\files-2.1\840b84bbcd4db1d753b53235350ecf4e\jetified-LiteAVSDK_Smart-9.0.10437\AndroidManifest.xml:33:9-44
+	android:name
+		ADDED from D:\xiaotu_android\project\trunk\xunbo_live\app\src\main\AndroidManifest.xml:27:9-38
+activity#com.zz.live.ui.activity.main_tab_activity.ToyActivity
+ADDED from D:\xiaotu_android\project\trunk\xunbo_live\app\src\main\AndroidManifest.xml:37:9-88
+	android:name
+		ADDED from D:\xiaotu_android\project\trunk\xunbo_live\app\src\main\AndroidManifest.xml:37:19-76
+activity#com.zz.live.ui.activity.main_tab_activity.house_keeper_activity.AnchorReportActivity
+ADDED from D:\xiaotu_android\project\trunk\xunbo_live\app\src\main\AndroidManifest.xml:38:9-40:52
+	android:screenOrientation
+		ADDED from D:\xiaotu_android\project\trunk\xunbo_live\app\src\main\AndroidManifest.xml:40:13-49
+	android:name
+		ADDED from D:\xiaotu_android\project\trunk\xunbo_live\app\src\main\AndroidManifest.xml:39:13-101
+activity#com.zz.live.ui.activity.main_tab_activity.ChooseBaseUrlAvtivity
+ADDED from D:\xiaotu_android\project\trunk\xunbo_live\app\src\main\AndroidManifest.xml:41:9-43:52
+	android:screenOrientation
+		ADDED from D:\xiaotu_android\project\trunk\xunbo_live\app\src\main\AndroidManifest.xml:43:13-49
+	android:name
+		ADDED from D:\xiaotu_android\project\trunk\xunbo_live\app\src\main\AndroidManifest.xml:42:13-80
+activity#com.zz.live.ui.activity.mine_fragment_activity.income_live_activity.ChooseBankcardActivity
+ADDED from D:\xiaotu_android\project\trunk\xunbo_live\app\src\main\AndroidManifest.xml:44:9-46:52
+	android:screenOrientation
+		ADDED from D:\xiaotu_android\project\trunk\xunbo_live\app\src\main\AndroidManifest.xml:46:13-49
+	android:name
+		ADDED from D:\xiaotu_android\project\trunk\xunbo_live\app\src\main\AndroidManifest.xml:45:13-107
+activity#com.zz.live.ui.activity.main_tab_activity.OnLineCustomerActivity
+ADDED from D:\xiaotu_android\project\trunk\xunbo_live\app\src\main\AndroidManifest.xml:47:9-49:52
+	android:screenOrientation
+		ADDED from D:\xiaotu_android\project\trunk\xunbo_live\app\src\main\AndroidManifest.xml:49:13-49
+	android:name
+		ADDED from D:\xiaotu_android\project\trunk\xunbo_live\app\src\main\AndroidManifest.xml:48:13-81
+activity#com.zz.live.ui.activity.main_tab_activity.house_keeper_activity.ChangeCashBackActivity
+ADDED from D:\xiaotu_android\project\trunk\xunbo_live\app\src\main\AndroidManifest.xml:50:9-53:52
+	android:screenOrientation
+		ADDED from D:\xiaotu_android\project\trunk\xunbo_live\app\src\main\AndroidManifest.xml:53:13-49
+	android:launchMode
+		ADDED from D:\xiaotu_android\project\trunk\xunbo_live\app\src\main\AndroidManifest.xml:52:13-43
+	android:name
+		ADDED from D:\xiaotu_android\project\trunk\xunbo_live\app\src\main\AndroidManifest.xml:51:13-103
+activity#com.zz.live.ui.activity.main_tab_activity.house_keeper_activity.anchor_manage_activity.AddAnchorActitity
+ADDED from D:\xiaotu_android\project\trunk\xunbo_live\app\src\main\AndroidManifest.xml:54:9-57:52
+	android:screenOrientation
+		ADDED from D:\xiaotu_android\project\trunk\xunbo_live\app\src\main\AndroidManifest.xml:57:13-49
+	android:launchMode
+		ADDED from D:\xiaotu_android\project\trunk\xunbo_live\app\src\main\AndroidManifest.xml:56:13-43
+	android:name
+		ADDED from D:\xiaotu_android\project\trunk\xunbo_live\app\src\main\AndroidManifest.xml:55:13-121
+activity#com.zz.live.ui.activity.main_tab_activity.house_keeper_activity.anchor_manage_activity.ModifyAnchorPasswordActivity
+ADDED from D:\xiaotu_android\project\trunk\xunbo_live\app\src\main\AndroidManifest.xml:58:9-61:52
+	android:screenOrientation
+		ADDED from D:\xiaotu_android\project\trunk\xunbo_live\app\src\main\AndroidManifest.xml:61:13-49
+	android:launchMode
+		ADDED from D:\xiaotu_android\project\trunk\xunbo_live\app\src\main\AndroidManifest.xml:60:13-43
+	android:name
+		ADDED from D:\xiaotu_android\project\trunk\xunbo_live\app\src\main\AndroidManifest.xml:59:13-132
+activity#com.zz.live.ui.activity.main_tab_activity.house_keeper_activity.anchor_manage_activity.ChildAnchorActivity
+ADDED from D:\xiaotu_android\project\trunk\xunbo_live\app\src\main\AndroidManifest.xml:62:9-65:52
+	android:screenOrientation
+		ADDED from D:\xiaotu_android\project\trunk\xunbo_live\app\src\main\AndroidManifest.xml:65:13-49
+	android:launchMode
+		ADDED from D:\xiaotu_android\project\trunk\xunbo_live\app\src\main\AndroidManifest.xml:64:13-43
+	android:name
+		ADDED from D:\xiaotu_android\project\trunk\xunbo_live\app\src\main\AndroidManifest.xml:63:13-123
+activity#com.zz.live.ui.activity.main_tab_activity.house_keeper_activity.anchor_manage_activity.AnchorManageActivity
+ADDED from D:\xiaotu_android\project\trunk\xunbo_live\app\src\main\AndroidManifest.xml:66:9-69:52
+	android:screenOrientation
+		ADDED from D:\xiaotu_android\project\trunk\xunbo_live\app\src\main\AndroidManifest.xml:69:13-49
+	android:launchMode
+		ADDED from D:\xiaotu_android\project\trunk\xunbo_live\app\src\main\AndroidManifest.xml:68:13-43
+	android:name
+		ADDED from D:\xiaotu_android\project\trunk\xunbo_live\app\src\main\AndroidManifest.xml:67:13-124
+activity#com.zz.live.ui.activity.main_tab_activity.house_keeper_activity.AnchorHouseKeeperActivity
+ADDED from D:\xiaotu_android\project\trunk\xunbo_live\app\src\main\AndroidManifest.xml:70:9-73:52
+	android:screenOrientation
+		ADDED from D:\xiaotu_android\project\trunk\xunbo_live\app\src\main\AndroidManifest.xml:73:13-49
+	android:launchMode
+		ADDED from D:\xiaotu_android\project\trunk\xunbo_live\app\src\main\AndroidManifest.xml:72:13-43
+	android:name
+		ADDED from D:\xiaotu_android\project\trunk\xunbo_live\app\src\main\AndroidManifest.xml:71:13-106
+activity#com.zz.live.ui.activity.mine_fragment_activity.wallet_activity.CashBackTipAcitivity
+ADDED from D:\xiaotu_android\project\trunk\xunbo_live\app\src\main\AndroidManifest.xml:74:9-77:52
+	android:screenOrientation
+		ADDED from D:\xiaotu_android\project\trunk\xunbo_live\app\src\main\AndroidManifest.xml:77:13-49
+	android:launchMode
+		ADDED from D:\xiaotu_android\project\trunk\xunbo_live\app\src\main\AndroidManifest.xml:76:13-43
+	android:name
+		ADDED from D:\xiaotu_android\project\trunk\xunbo_live\app\src\main\AndroidManifest.xml:75:13-100
+activity#com.zz.live.ui.activity.mine_fragment_activity.income_activity.InComeActivity
+ADDED from D:\xiaotu_android\project\trunk\xunbo_live\app\src\main\AndroidManifest.xml:78:9-80:52
+	android:screenOrientation
+		ADDED from D:\xiaotu_android\project\trunk\xunbo_live\app\src\main\AndroidManifest.xml:80:13-49
+	android:name
+		ADDED from D:\xiaotu_android\project\trunk\xunbo_live\app\src\main\AndroidManifest.xml:79:13-94
+activity#com.zz.live.ui.activity.mine_fragment_activity.wallet_activity.MineWalletActivity
+ADDED from D:\xiaotu_android\project\trunk\xunbo_live\app\src\main\AndroidManifest.xml:81:9-84:52
+	android:screenOrientation
+		ADDED from D:\xiaotu_android\project\trunk\xunbo_live\app\src\main\AndroidManifest.xml:84:13-49
+	android:launchMode
+		ADDED from D:\xiaotu_android\project\trunk\xunbo_live\app\src\main\AndroidManifest.xml:83:13-43
+	android:name
+		ADDED from D:\xiaotu_android\project\trunk\xunbo_live\app\src\main\AndroidManifest.xml:82:13-98
+activity#com.zz.live.ui.activity.start_live_activity.ChooseLotteryActivity
+ADDED from D:\xiaotu_android\project\trunk\xunbo_live\app\src\main\AndroidManifest.xml:85:9-88:52
+	android:screenOrientation
+		ADDED from D:\xiaotu_android\project\trunk\xunbo_live\app\src\main\AndroidManifest.xml:88:13-49
+	android:launchMode
+		ADDED from D:\xiaotu_android\project\trunk\xunbo_live\app\src\main\AndroidManifest.xml:87:13-43
+	android:name
+		ADDED from D:\xiaotu_android\project\trunk\xunbo_live\app\src\main\AndroidManifest.xml:86:13-82
+activity#com.zz.live.ui.activity.start_live_activity.ChooseChannelActivity
+ADDED from D:\xiaotu_android\project\trunk\xunbo_live\app\src\main\AndroidManifest.xml:89:9-92:52
+	android:screenOrientation
+		ADDED from D:\xiaotu_android\project\trunk\xunbo_live\app\src\main\AndroidManifest.xml:92:13-49
+	android:launchMode
+		ADDED from D:\xiaotu_android\project\trunk\xunbo_live\app\src\main\AndroidManifest.xml:91:13-43
+	android:name
+		ADDED from D:\xiaotu_android\project\trunk\xunbo_live\app\src\main\AndroidManifest.xml:90:13-82
+activity#com.zz.live.ui.activity.mine_fragment_activity.agent_center_activity.AnchorDataActivity
+ADDED from D:\xiaotu_android\project\trunk\xunbo_live\app\src\main\AndroidManifest.xml:93:9-96:52
+	android:screenOrientation
+		ADDED from D:\xiaotu_android\project\trunk\xunbo_live\app\src\main\AndroidManifest.xml:96:13-49
+	android:launchMode
+		ADDED from D:\xiaotu_android\project\trunk\xunbo_live\app\src\main\AndroidManifest.xml:95:13-43
+	android:name
+		ADDED from D:\xiaotu_android\project\trunk\xunbo_live\app\src\main\AndroidManifest.xml:94:13-104
+activity#com.zz.live.ui.activity.mine_fragment_activity.agent_center_activity.AgentCenterActivity
+ADDED from D:\xiaotu_android\project\trunk\xunbo_live\app\src\main\AndroidManifest.xml:97:9-100:52
+	android:screenOrientation
+		ADDED from D:\xiaotu_android\project\trunk\xunbo_live\app\src\main\AndroidManifest.xml:100:13-49
+	android:launchMode
+		ADDED from D:\xiaotu_android\project\trunk\xunbo_live\app\src\main\AndroidManifest.xml:99:13-43
+	android:name
+		ADDED from D:\xiaotu_android\project\trunk\xunbo_live\app\src\main\AndroidManifest.xml:98:13-105
+activity#com.zz.live.ui.activity.mine_fragment_activity.InviteActivity
+ADDED from D:\xiaotu_android\project\trunk\xunbo_live\app\src\main\AndroidManifest.xml:101:9-104:52
+	android:screenOrientation
+		ADDED from D:\xiaotu_android\project\trunk\xunbo_live\app\src\main\AndroidManifest.xml:104:13-49
+	android:launchMode
+		ADDED from D:\xiaotu_android\project\trunk\xunbo_live\app\src\main\AndroidManifest.xml:103:13-43
+	android:name
+		ADDED from D:\xiaotu_android\project\trunk\xunbo_live\app\src\main\AndroidManifest.xml:102:13-78
+activity#com.zz.live.ui.activity.mine_fragment_activity.certification_activity.CertifitionSuccessActivity
+ADDED from D:\xiaotu_android\project\trunk\xunbo_live\app\src\main\AndroidManifest.xml:105:9-108:52
+	android:screenOrientation
+		ADDED from D:\xiaotu_android\project\trunk\xunbo_live\app\src\main\AndroidManifest.xml:108:13-49
+	android:launchMode
+		ADDED from D:\xiaotu_android\project\trunk\xunbo_live\app\src\main\AndroidManifest.xml:107:13-43
+	android:name
+		ADDED from D:\xiaotu_android\project\trunk\xunbo_live\app\src\main\AndroidManifest.xml:106:13-113
+activity#com.zz.live.ui.activity.start_live_activity.open_result_activity.Happy8OpentActivity
+ADDED from D:\xiaotu_android\project\trunk\xunbo_live\app\src\main\AndroidManifest.xml:109:9-112:52
+	android:screenOrientation
+		ADDED from D:\xiaotu_android\project\trunk\xunbo_live\app\src\main\AndroidManifest.xml:112:13-49
+	android:launchMode
+		ADDED from D:\xiaotu_android\project\trunk\xunbo_live\app\src\main\AndroidManifest.xml:111:13-43
+	android:name
+		ADDED from D:\xiaotu_android\project\trunk\xunbo_live\app\src\main\AndroidManifest.xml:110:13-101
+activity#com.zz.live.ui.activity.start_live_activity.open_result_activity.Happy10OpentActivity
+ADDED from D:\xiaotu_android\project\trunk\xunbo_live\app\src\main\AndroidManifest.xml:113:9-116:52
+	android:screenOrientation
+		ADDED from D:\xiaotu_android\project\trunk\xunbo_live\app\src\main\AndroidManifest.xml:116:13-49
+	android:launchMode
+		ADDED from D:\xiaotu_android\project\trunk\xunbo_live\app\src\main\AndroidManifest.xml:115:13-43
+	android:name
+		ADDED from D:\xiaotu_android\project\trunk\xunbo_live\app\src\main\AndroidManifest.xml:114:13-102
+activity#com.zz.live.ui.activity.start_live_activity.open_result_activity.KuaiSanOpenActivity
+ADDED from D:\xiaotu_android\project\trunk\xunbo_live\app\src\main\AndroidManifest.xml:117:9-120:52
+	android:screenOrientation
+		ADDED from D:\xiaotu_android\project\trunk\xunbo_live\app\src\main\AndroidManifest.xml:120:13-49
+	android:launchMode
+		ADDED from D:\xiaotu_android\project\trunk\xunbo_live\app\src\main\AndroidManifest.xml:119:13-43
+	android:name
+		ADDED from D:\xiaotu_android\project\trunk\xunbo_live\app\src\main\AndroidManifest.xml:118:13-101
+activity#com.zz.live.ui.activity.start_live_activity.open_result_activity.LuckFarmOpenActivity
+ADDED from D:\xiaotu_android\project\trunk\xunbo_live\app\src\main\AndroidManifest.xml:121:9-124:52
+	android:screenOrientation
+		ADDED from D:\xiaotu_android\project\trunk\xunbo_live\app\src\main\AndroidManifest.xml:124:13-49
+	android:launchMode
+		ADDED from D:\xiaotu_android\project\trunk\xunbo_live\app\src\main\AndroidManifest.xml:123:13-43
+	android:name
+		ADDED from D:\xiaotu_android\project\trunk\xunbo_live\app\src\main\AndroidManifest.xml:122:13-102
+activity#com.zz.live.ui.activity.start_live_activity.open_result_activity.PcDanOpenActivity
+ADDED from D:\xiaotu_android\project\trunk\xunbo_live\app\src\main\AndroidManifest.xml:125:9-128:52
+	android:screenOrientation
+		ADDED from D:\xiaotu_android\project\trunk\xunbo_live\app\src\main\AndroidManifest.xml:128:13-49
+	android:launchMode
+		ADDED from D:\xiaotu_android\project\trunk\xunbo_live\app\src\main\AndroidManifest.xml:127:13-43
+	android:name
+		ADDED from D:\xiaotu_android\project\trunk\xunbo_live\app\src\main\AndroidManifest.xml:126:13-99
+activity#com.zz.live.ui.activity.start_live_activity.open_result_activity.RaceOpenActivity
+ADDED from D:\xiaotu_android\project\trunk\xunbo_live\app\src\main\AndroidManifest.xml:129:9-132:52
+	android:screenOrientation
+		ADDED from D:\xiaotu_android\project\trunk\xunbo_live\app\src\main\AndroidManifest.xml:132:13-49
+	android:launchMode
+		ADDED from D:\xiaotu_android\project\trunk\xunbo_live\app\src\main\AndroidManifest.xml:131:13-43
+	android:name
+		ADDED from D:\xiaotu_android\project\trunk\xunbo_live\app\src\main\AndroidManifest.xml:130:13-98
+activity#com.zz.live.ui.activity.start_live_activity.open_result_activity.SixOpenActivity
+ADDED from D:\xiaotu_android\project\trunk\xunbo_live\app\src\main\AndroidManifest.xml:133:9-136:52
+	android:screenOrientation
+		ADDED from D:\xiaotu_android\project\trunk\xunbo_live\app\src\main\AndroidManifest.xml:136:13-49
+	android:launchMode
+		ADDED from D:\xiaotu_android\project\trunk\xunbo_live\app\src\main\AndroidManifest.xml:135:13-43
+	android:name
+		ADDED from D:\xiaotu_android\project\trunk\xunbo_live\app\src\main\AndroidManifest.xml:134:13-97
+activity#com.zz.live.ui.activity.start_live_activity.open_result_activity.SscOpenActivity
+ADDED from D:\xiaotu_android\project\trunk\xunbo_live\app\src\main\AndroidManifest.xml:137:9-140:52
+	android:screenOrientation
+		ADDED from D:\xiaotu_android\project\trunk\xunbo_live\app\src\main\AndroidManifest.xml:140:13-49
+	android:launchMode
+		ADDED from D:\xiaotu_android\project\trunk\xunbo_live\app\src\main\AndroidManifest.xml:139:13-43
+	android:name
+		ADDED from D:\xiaotu_android\project\trunk\xunbo_live\app\src\main\AndroidManifest.xml:138:13-97
+activity#com.zz.live.ui.activity.main_tab_activity.SplashActivity
+ADDED from D:\xiaotu_android\project\trunk\xunbo_live\app\src\main\AndroidManifest.xml:141:9-150:20
+	android:screenOrientation
+		ADDED from D:\xiaotu_android\project\trunk\xunbo_live\app\src\main\AndroidManifest.xml:143:13-49
+	android:theme
+		ADDED from D:\xiaotu_android\project\trunk\xunbo_live\app\src\main\AndroidManifest.xml:144:13-55
+	android:name
+		ADDED from D:\xiaotu_android\project\trunk\xunbo_live\app\src\main\AndroidManifest.xml:142:13-73
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from D:\xiaotu_android\project\trunk\xunbo_live\app\src\main\AndroidManifest.xml:145:13-149:29
+action#android.intent.action.MAIN
+ADDED from D:\xiaotu_android\project\trunk\xunbo_live\app\src\main\AndroidManifest.xml:146:17-69
+	android:name
+		ADDED from D:\xiaotu_android\project\trunk\xunbo_live\app\src\main\AndroidManifest.xml:146:25-66
+category#android.intent.category.LAUNCHER
+ADDED from D:\xiaotu_android\project\trunk\xunbo_live\app\src\main\AndroidManifest.xml:148:17-77
+	android:name
+		ADDED from D:\xiaotu_android\project\trunk\xunbo_live\app\src\main\AndroidManifest.xml:148:27-74
+activity#com.zz.live.ui.activity.mine_fragment_activity.certification_activity.CertificationActivity
+ADDED from D:\xiaotu_android\project\trunk\xunbo_live\app\src\main\AndroidManifest.xml:151:9-154:52
+	android:screenOrientation
+		ADDED from D:\xiaotu_android\project\trunk\xunbo_live\app\src\main\AndroidManifest.xml:154:13-49
+	android:launchMode
+		ADDED from D:\xiaotu_android\project\trunk\xunbo_live\app\src\main\AndroidManifest.xml:153:13-43
+	android:name
+		ADDED from D:\xiaotu_android\project\trunk\xunbo_live\app\src\main\AndroidManifest.xml:152:13-108
+activity#com.zz.live.ui.activity.main_tab_activity.RegisterSussessActivity
+ADDED from D:\xiaotu_android\project\trunk\xunbo_live\app\src\main\AndroidManifest.xml:155:9-158:52
+	android:screenOrientation
+		ADDED from D:\xiaotu_android\project\trunk\xunbo_live\app\src\main\AndroidManifest.xml:158:13-49
+	android:launchMode
+		ADDED from D:\xiaotu_android\project\trunk\xunbo_live\app\src\main\AndroidManifest.xml:157:13-43
+	android:name
+		ADDED from D:\xiaotu_android\project\trunk\xunbo_live\app\src\main\AndroidManifest.xml:156:13-82
+activity#com.zz.live.ui.activity.mine_fragment_activity.income_live_activity.WithdrawDetailsActivity
+ADDED from D:\xiaotu_android\project\trunk\xunbo_live\app\src\main\AndroidManifest.xml:159:9-162:52
+	android:screenOrientation
+		ADDED from D:\xiaotu_android\project\trunk\xunbo_live\app\src\main\AndroidManifest.xml:162:13-49
+	android:launchMode
+		ADDED from D:\xiaotu_android\project\trunk\xunbo_live\app\src\main\AndroidManifest.xml:161:13-43
+	android:name
+		ADDED from D:\xiaotu_android\project\trunk\xunbo_live\app\src\main\AndroidManifest.xml:160:13-108
+activity#com.zz.live.ui.activity.mine_fragment_activity.income_live_activity.WithDrawNoteActivity
+ADDED from D:\xiaotu_android\project\trunk\xunbo_live\app\src\main\AndroidManifest.xml:163:9-166:52
+	android:screenOrientation
+		ADDED from D:\xiaotu_android\project\trunk\xunbo_live\app\src\main\AndroidManifest.xml:166:13-49
+	android:launchMode
+		ADDED from D:\xiaotu_android\project\trunk\xunbo_live\app\src\main\AndroidManifest.xml:165:13-43
+	android:name
+		ADDED from D:\xiaotu_android\project\trunk\xunbo_live\app\src\main\AndroidManifest.xml:164:13-105
+activity#com.zz.live.ui.activity.mine_fragment_activity.income_live_activity.MineBankcardActivity
+ADDED from D:\xiaotu_android\project\trunk\xunbo_live\app\src\main\AndroidManifest.xml:167:9-170:52
+	android:screenOrientation
+		ADDED from D:\xiaotu_android\project\trunk\xunbo_live\app\src\main\AndroidManifest.xml:170:13-49
+	android:launchMode
+		ADDED from D:\xiaotu_android\project\trunk\xunbo_live\app\src\main\AndroidManifest.xml:169:13-43
+	android:name
+		ADDED from D:\xiaotu_android\project\trunk\xunbo_live\app\src\main\AndroidManifest.xml:168:13-105
+activity#com.zz.live.ui.activity.mine_fragment_activity.income_live_activity.AddBankcardActivity
+ADDED from D:\xiaotu_android\project\trunk\xunbo_live\app\src\main\AndroidManifest.xml:171:9-174:52
+	android:screenOrientation
+		ADDED from D:\xiaotu_android\project\trunk\xunbo_live\app\src\main\AndroidManifest.xml:174:13-49
+	android:launchMode
+		ADDED from D:\xiaotu_android\project\trunk\xunbo_live\app\src\main\AndroidManifest.xml:173:13-43
+	android:name
+		ADDED from D:\xiaotu_android\project\trunk\xunbo_live\app\src\main\AndroidManifest.xml:172:13-104
+activity#com.zz.live.ui.activity.mine_fragment_activity.income_live_activity.IncomeLiveActivity
+ADDED from D:\xiaotu_android\project\trunk\xunbo_live\app\src\main\AndroidManifest.xml:175:9-178:52
+	android:screenOrientation
+		ADDED from D:\xiaotu_android\project\trunk\xunbo_live\app\src\main\AndroidManifest.xml:178:13-49
+	android:launchMode
+		ADDED from D:\xiaotu_android\project\trunk\xunbo_live\app\src\main\AndroidManifest.xml:177:13-43
+	android:name
+		ADDED from D:\xiaotu_android\project\trunk\xunbo_live\app\src\main\AndroidManifest.xml:176:13-103
+activity#com.zz.live.ui.activity.mine_fragment_activity.MineDetailsActivity
+ADDED from D:\xiaotu_android\project\trunk\xunbo_live\app\src\main\AndroidManifest.xml:179:9-182:52
+	android:screenOrientation
+		ADDED from D:\xiaotu_android\project\trunk\xunbo_live\app\src\main\AndroidManifest.xml:182:13-49
+	android:launchMode
+		ADDED from D:\xiaotu_android\project\trunk\xunbo_live\app\src\main\AndroidManifest.xml:181:13-43
+	android:name
+		ADDED from D:\xiaotu_android\project\trunk\xunbo_live\app\src\main\AndroidManifest.xml:180:13-83
+activity#com.zz.live.ui.activity.user_info_activity.ModifyPasswordActivity
+ADDED from D:\xiaotu_android\project\trunk\xunbo_live\app\src\main\AndroidManifest.xml:183:9-186:52
+	android:screenOrientation
+		ADDED from D:\xiaotu_android\project\trunk\xunbo_live\app\src\main\AndroidManifest.xml:186:13-49
+	android:launchMode
+		ADDED from D:\xiaotu_android\project\trunk\xunbo_live\app\src\main\AndroidManifest.xml:185:13-43
+	android:name
+		ADDED from D:\xiaotu_android\project\trunk\xunbo_live\app\src\main\AndroidManifest.xml:184:13-82
+activity#com.zz.live.ui.activity.user_info_activity.UserInfoActivity
+ADDED from D:\xiaotu_android\project\trunk\xunbo_live\app\src\main\AndroidManifest.xml:187:9-190:52
+	android:screenOrientation
+		ADDED from D:\xiaotu_android\project\trunk\xunbo_live\app\src\main\AndroidManifest.xml:190:13-49
+	android:launchMode
+		ADDED from D:\xiaotu_android\project\trunk\xunbo_live\app\src\main\AndroidManifest.xml:189:13-43
+	android:name
+		ADDED from D:\xiaotu_android\project\trunk\xunbo_live\app\src\main\AndroidManifest.xml:188:13-76
+activity#com.zz.live.ui.activity.message_activity.FollowMessageActivity
+ADDED from D:\xiaotu_android\project\trunk\xunbo_live\app\src\main\AndroidManifest.xml:191:9-194:52
+	android:screenOrientation
+		ADDED from D:\xiaotu_android\project\trunk\xunbo_live\app\src\main\AndroidManifest.xml:194:13-49
+	android:launchMode
+		ADDED from D:\xiaotu_android\project\trunk\xunbo_live\app\src\main\AndroidManifest.xml:193:13-43
+	android:name
+		ADDED from D:\xiaotu_android\project\trunk\xunbo_live\app\src\main\AndroidManifest.xml:192:13-79
+activity#com.zz.live.ui.activity.message_activity.MessageDetailsActivity
+ADDED from D:\xiaotu_android\project\trunk\xunbo_live\app\src\main\AndroidManifest.xml:195:9-198:52
+	android:screenOrientation
+		ADDED from D:\xiaotu_android\project\trunk\xunbo_live\app\src\main\AndroidManifest.xml:198:13-49
+	android:launchMode
+		ADDED from D:\xiaotu_android\project\trunk\xunbo_live\app\src\main\AndroidManifest.xml:197:13-43
+	android:name
+		ADDED from D:\xiaotu_android\project\trunk\xunbo_live\app\src\main\AndroidManifest.xml:196:13-80
+activity#com.zz.live.ui.activity.message_activity.SystemMessageActivity
+ADDED from D:\xiaotu_android\project\trunk\xunbo_live\app\src\main\AndroidManifest.xml:199:9-202:52
+	android:screenOrientation
+		ADDED from D:\xiaotu_android\project\trunk\xunbo_live\app\src\main\AndroidManifest.xml:202:13-49
+	android:launchMode
+		ADDED from D:\xiaotu_android\project\trunk\xunbo_live\app\src\main\AndroidManifest.xml:201:13-43
+	android:name
+		ADDED from D:\xiaotu_android\project\trunk\xunbo_live\app\src\main\AndroidManifest.xml:200:13-79
+activity#com.zz.live.ui.activity.mine_fragment_activity.MessageActivity
+ADDED from D:\xiaotu_android\project\trunk\xunbo_live\app\src\main\AndroidManifest.xml:203:9-206:52
+	android:screenOrientation
+		ADDED from D:\xiaotu_android\project\trunk\xunbo_live\app\src\main\AndroidManifest.xml:206:13-49
+	android:launchMode
+		ADDED from D:\xiaotu_android\project\trunk\xunbo_live\app\src\main\AndroidManifest.xml:205:13-43
+	android:name
+		ADDED from D:\xiaotu_android\project\trunk\xunbo_live\app\src\main\AndroidManifest.xml:204:13-79
+activity#com.zz.live.ui.activity.start_live_activity.FinishLiveActivity
+ADDED from D:\xiaotu_android\project\trunk\xunbo_live\app\src\main\AndroidManifest.xml:207:9-210:52
+	android:screenOrientation
+		ADDED from D:\xiaotu_android\project\trunk\xunbo_live\app\src\main\AndroidManifest.xml:210:13-49
+	android:launchMode
+		ADDED from D:\xiaotu_android\project\trunk\xunbo_live\app\src\main\AndroidManifest.xml:209:13-43
+	android:name
+		ADDED from D:\xiaotu_android\project\trunk\xunbo_live\app\src\main\AndroidManifest.xml:208:13-79
+activity#com.zz.live.ui.activity.play_live_activity.PlayLiveActivity
+ADDED from D:\xiaotu_android\project\trunk\xunbo_live\app\src\main\AndroidManifest.xml:211:9-214:52
+	android:screenOrientation
+		ADDED from D:\xiaotu_android\project\trunk\xunbo_live\app\src\main\AndroidManifest.xml:214:13-49
+	android:launchMode
+		ADDED from D:\xiaotu_android\project\trunk\xunbo_live\app\src\main\AndroidManifest.xml:213:13-43
+	android:name
+		ADDED from D:\xiaotu_android\project\trunk\xunbo_live\app\src\main\AndroidManifest.xml:212:13-76
+activity#com.zz.live.ui.activity.start_live_activity.StartLiveActivity
+ADDED from D:\xiaotu_android\project\trunk\xunbo_live\app\src\main\AndroidManifest.xml:215:9-219:59
+	android:screenOrientation
+		ADDED from D:\xiaotu_android\project\trunk\xunbo_live\app\src\main\AndroidManifest.xml:218:13-49
+	android:launchMode
+		ADDED from D:\xiaotu_android\project\trunk\xunbo_live\app\src\main\AndroidManifest.xml:217:13-43
+	android:windowSoftInputMode
+		ADDED from D:\xiaotu_android\project\trunk\xunbo_live\app\src\main\AndroidManifest.xml:219:13-56
+	android:name
+		ADDED from D:\xiaotu_android\project\trunk\xunbo_live\app\src\main\AndroidManifest.xml:216:13-78
+activity#com.zz.live.ui.activity.main_tab_activity.LoginActivity
+ADDED from D:\xiaotu_android\project\trunk\xunbo_live\app\src\main\AndroidManifest.xml:220:9-223:52
+	android:screenOrientation
+		ADDED from D:\xiaotu_android\project\trunk\xunbo_live\app\src\main\AndroidManifest.xml:223:13-49
+	android:launchMode
+		ADDED from D:\xiaotu_android\project\trunk\xunbo_live\app\src\main\AndroidManifest.xml:222:13-43
+	android:name
+		ADDED from D:\xiaotu_android\project\trunk\xunbo_live\app\src\main\AndroidManifest.xml:221:13-72
+activity#com.zz.live.TestActitivy
+ADDED from D:\xiaotu_android\project\trunk\xunbo_live\app\src\main\AndroidManifest.xml:224:9-50
+	android:name
+		ADDED from D:\xiaotu_android\project\trunk\xunbo_live\app\src\main\AndroidManifest.xml:224:19-47
+activity#com.zz.live.ui.activity.main_tab_activity.RegisterActivity
+ADDED from D:\xiaotu_android\project\trunk\xunbo_live\app\src\main\AndroidManifest.xml:225:9-228:52
+	android:screenOrientation
+		ADDED from D:\xiaotu_android\project\trunk\xunbo_live\app\src\main\AndroidManifest.xml:228:13-49
+	android:launchMode
+		ADDED from D:\xiaotu_android\project\trunk\xunbo_live\app\src\main\AndroidManifest.xml:227:13-43
+	android:name
+		ADDED from D:\xiaotu_android\project\trunk\xunbo_live\app\src\main\AndroidManifest.xml:226:13-75
+activity#com.zz.live.MainActivity
+ADDED from D:\xiaotu_android\project\trunk\xunbo_live\app\src\main\AndroidManifest.xml:229:9-232:52
+	android:screenOrientation
+		ADDED from D:\xiaotu_android\project\trunk\xunbo_live\app\src\main\AndroidManifest.xml:232:13-49
+	android:launchMode
+		ADDED from D:\xiaotu_android\project\trunk\xunbo_live\app\src\main\AndroidManifest.xml:231:13-43
+	android:name
+		ADDED from D:\xiaotu_android\project\trunk\xunbo_live\app\src\main\AndroidManifest.xml:230:13-41
+activity#com.zz.live.ui.activity.mine_fragment_activity.FeedBackActivity
+ADDED from D:\xiaotu_android\project\trunk\xunbo_live\app\src\main\AndroidManifest.xml:233:9-235:52
+	android:screenOrientation
+		ADDED from D:\xiaotu_android\project\trunk\xunbo_live\app\src\main\AndroidManifest.xml:235:13-49
+	android:name
+		ADDED from D:\xiaotu_android\project\trunk\xunbo_live\app\src\main\AndroidManifest.xml:234:13-80
+meta-data#UMENG_APPKEY
+ADDED from D:\xiaotu_android\project\trunk\xunbo_live\app\src\main\AndroidManifest.xml:246:9-248:56
+	android:value
+		ADDED from D:\xiaotu_android\project\trunk\xunbo_live\app\src\main\AndroidManifest.xml:248:13-53
+	android:name
+		ADDED from D:\xiaotu_android\project\trunk\xunbo_live\app\src\main\AndroidManifest.xml:247:13-40
+service#com.xtremeprog.sdk.ble.BleService
+ADDED from D:\xiaotu_android\project\trunk\xunbo_live\app\src\main\AndroidManifest.xml:253:9-255:38
+	android:enabled
+		ADDED from D:\xiaotu_android\project\trunk\xunbo_live\app\src\main\AndroidManifest.xml:255:13-35
+	android:name
+		ADDED from D:\xiaotu_android\project\trunk\xunbo_live\app\src\main\AndroidManifest.xml:254:13-61
+uses-sdk
+INJECTED from D:\xiaotu_android\project\trunk\xunbo_live\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from D:\xiaotu_android\project\trunk\xunbo_live\app\src\main\AndroidManifest.xml
+INJECTED from D:\xiaotu_android\project\trunk\xunbo_live\app\src\main\AndroidManifest.xml
+MERGED from [lovense.aar] C:\Users\XiaoTu\.gradle\caches\transforms-2\files-2.1\ae7ebb72a8cb56cae8491ff35592c789\jetified-lovense\AndroidManifest.xml:7:5-9:41
+MERGED from [lovense.aar] C:\Users\XiaoTu\.gradle\caches\transforms-2\files-2.1\ae7ebb72a8cb56cae8491ff35592c789\jetified-lovense\AndroidManifest.xml:7:5-9:41
+MERGED from [cn.rongcloud.sdk:im_lib:4.0.3.14] C:\Users\XiaoTu\.gradle\caches\transforms-2\files-2.1\761a2d23ca926373fa41080609edf90a\jetified-im_lib-4.0.3.14\AndroidManifest.xml:7:5-9:41
+MERGED from [cn.rongcloud.sdk:im_lib:4.0.3.14] C:\Users\XiaoTu\.gradle\caches\transforms-2\files-2.1\761a2d23ca926373fa41080609edf90a\jetified-im_lib-4.0.3.14\AndroidManifest.xml:7:5-9:41
+MERGED from [:faceunity] D:\xiaotu_android\project\trunk\xunbo_live\faceunity\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [:faceunity] D:\xiaotu_android\project\trunk\xunbo_live\faceunity\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [com.androidkun:XTabLayout:1.1.4] C:\Users\XiaoTu\.gradle\caches\transforms-2\files-2.1\c3dc7aec7b9ff47e98d86da2d43e3ea6\jetified-XTabLayout-1.1.4\AndroidManifest.xml:7:5-9:41
+MERGED from [com.androidkun:XTabLayout:1.1.4] C:\Users\XiaoTu\.gradle\caches\transforms-2\files-2.1\c3dc7aec7b9ff47e98d86da2d43e3ea6\jetified-XTabLayout-1.1.4\AndroidManifest.xml:7:5-9:41
+MERGED from [com.google.android.material:material:1.0.0] C:\Users\XiaoTu\.gradle\caches\transforms-2\files-2.1\327fe425aa28b0bfe0f8cc6b351782e3\material-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.material:material:1.0.0] C:\Users\XiaoTu\.gradle\caches\transforms-2\files-2.1\327fe425aa28b0bfe0f8cc6b351782e3\material-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [:rxhttp] D:\xiaotu_android\project\trunk\xunbo_live\rxhttp\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [:rxhttp] D:\xiaotu_android\project\trunk\xunbo_live\rxhttp\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [pub.devrel:easypermissions:3.0.0] C:\Users\XiaoTu\.gradle\caches\transforms-2\files-2.1\b4a8dc586b8824c3defe2d335dc2965f\easypermissions-3.0.0\AndroidManifest.xml:7:5-9:41
+MERGED from [pub.devrel:easypermissions:3.0.0] C:\Users\XiaoTu\.gradle\caches\transforms-2\files-2.1\b4a8dc586b8824c3defe2d335dc2965f\easypermissions-3.0.0\AndroidManifest.xml:7:5-9:41
+MERGED from [com.sunfusheng:MarqueeView:1.4.1] C:\Users\XiaoTu\.gradle\caches\transforms-2\files-2.1\39c79180da4e8972ce40f7d2355a8ed5\jetified-MarqueeView-1.4.1\AndroidManifest.xml:7:5-9:41
+MERGED from [com.sunfusheng:MarqueeView:1.4.1] C:\Users\XiaoTu\.gradle\caches\transforms-2\files-2.1\39c79180da4e8972ce40f7d2355a8ed5\jetified-MarqueeView-1.4.1\AndroidManifest.xml:7:5-9:41
+MERGED from [com.dalong:marqueeview:1.0.1] C:\Users\XiaoTu\.gradle\caches\transforms-2\files-2.1\e304518142f23f91dccb2881d6802341\marqueeview-1.0.1\AndroidManifest.xml:7:5-9:41
+MERGED from [com.dalong:marqueeview:1.0.1] C:\Users\XiaoTu\.gradle\caches\transforms-2\files-2.1\e304518142f23f91dccb2881d6802341\marqueeview-1.0.1\AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.MZCretin:AutoUpdateProject:v2.0.4] C:\Users\XiaoTu\.gradle\caches\transforms-2\files-2.1\f76dbe287a91ed54d5238d00325b580f\jetified-AutoUpdateProject-v2.0.4\AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.MZCretin:AutoUpdateProject:v2.0.4] C:\Users\XiaoTu\.gradle\caches\transforms-2\files-2.1\f76dbe287a91ed54d5238d00325b580f\jetified-AutoUpdateProject-v2.0.4\AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.nodemedia:nodemediaclient-android:2.9.5] C:\Users\XiaoTu\.gradle\caches\transforms-2\files-2.1\512bb7d73d30dfc92966481ed3863241\jetified-nodemediaclient-android-2.9.5\AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.nodemedia:nodemediaclient-android:2.9.5] C:\Users\XiaoTu\.gradle\caches\transforms-2\files-2.1\512bb7d73d30dfc92966481ed3863241\jetified-nodemediaclient-android-2.9.5\AndroidManifest.xml:7:5-9:41
+MERGED from [androidx.appcompat:appcompat:1.1.0] C:\Users\XiaoTu\.gradle\caches\transforms-2\files-2.1\4f4f8eeccc4ecae47d64394b547970c2\appcompat-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat:1.1.0] C:\Users\XiaoTu\.gradle\caches\transforms-2\files-2.1\4f4f8eeccc4ecae47d64394b547970c2\appcompat-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] C:\Users\XiaoTu\.gradle\caches\transforms-2\files-2.1\3eac0d02f7467ddb3d07c95962e4f0e1\constraintlayout-1.1.3\AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] C:\Users\XiaoTu\.gradle\caches\transforms-2\files-2.1\3eac0d02f7467ddb3d07c95962e4f0e1\constraintlayout-1.1.3\AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] C:\Users\XiaoTu\.gradle\caches\transforms-2\files-2.1\f257faf7535c0d6d603a1693dd042bb5\legacy-support-v4-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] C:\Users\XiaoTu\.gradle\caches\transforms-2\files-2.1\f257faf7535c0d6d603a1693dd042bb5\legacy-support-v4-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\XiaoTu\.gradle\caches\transforms-2\files-2.1\c8e28b2620ac156d5aab6d1ab35ab92e\viewpager2-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\XiaoTu\.gradle\caches\transforms-2\files-2.1\c8e28b2620ac156d5aab6d1ab35ab92e\viewpager2-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [com.uber.autodispose:autodispose-android-archcomponents:1.0.0-RC2] C:\Users\XiaoTu\.gradle\caches\transforms-2\files-2.1\7f262c17020062abca77675f38f84734\jetified-autodispose-android-archcomponents-1.0.0-RC2\AndroidManifest.xml:20:5-22:41
+MERGED from [com.uber.autodispose:autodispose-android-archcomponents:1.0.0-RC2] C:\Users\XiaoTu\.gradle\caches\transforms-2\files-2.1\7f262c17020062abca77675f38f84734\jetified-autodispose-android-archcomponents-1.0.0-RC2\AndroidManifest.xml:20:5-22:41
+MERGED from [me.yokeyword:eventbus-activity-scope:1.1.0] C:\Users\XiaoTu\.gradle\caches\transforms-2\files-2.1\91a5d83759a77aecaf2ec536e618ff64\eventbus-activity-scope-1.1.0\AndroidManifest.xml:5:5-7:41
+MERGED from [me.yokeyword:eventbus-activity-scope:1.1.0] C:\Users\XiaoTu\.gradle\caches\transforms-2\files-2.1\91a5d83759a77aecaf2ec536e618ff64\eventbus-activity-scope-1.1.0\AndroidManifest.xml:5:5-7:41
+MERGED from [com.gyf.immersionbar:immersionbar:3.0.0] C:\Users\XiaoTu\.gradle\caches\transforms-2\files-2.1\6299f5ac1b2c45acc8a8ea37790e998c\jetified-immersionbar-3.0.0\AndroidManifest.xml:5:5-7:41
+MERGED from [com.gyf.immersionbar:immersionbar:3.0.0] C:\Users\XiaoTu\.gradle\caches\transforms-2\files-2.1\6299f5ac1b2c45acc8a8ea37790e998c\jetified-immersionbar-3.0.0\AndroidManifest.xml:5:5-7:41
+MERGED from [com.gyf.immersionbar:immersionbar-components:3.0.0] C:\Users\XiaoTu\.gradle\caches\transforms-2\files-2.1\a2d32f5092785b876a3eafc29df9aad1\jetified-immersionbar-components-3.0.0\AndroidManifest.xml:5:5-7:41
+MERGED from [com.gyf.immersionbar:immersionbar-components:3.0.0] C:\Users\XiaoTu\.gradle\caches\transforms-2\files-2.1\a2d32f5092785b876a3eafc29df9aad1\jetified-immersionbar-components-3.0.0\AndroidManifest.xml:5:5-7:41
+MERGED from [com.github.tbruyelle:rxpermissions:0.10.2] C:\Users\XiaoTu\.gradle\caches\transforms-2\files-2.1\bf005c80891140468377283e87194b26\jetified-rxpermissions-0.10.2\AndroidManifest.xml:5:5-7:41
+MERGED from [com.github.tbruyelle:rxpermissions:0.10.2] C:\Users\XiaoTu\.gradle\caches\transforms-2\files-2.1\bf005c80891140468377283e87194b26\jetified-rxpermissions-0.10.2\AndroidManifest.xml:5:5-7:41
+MERGED from [com.kaopiz:kprogresshud:1.2.0] C:\Users\XiaoTu\.gradle\caches\transforms-2\files-2.1\946b08257a5559735d9bc62e127f9abc\kprogresshud-1.2.0\AndroidManifest.xml:7:5-9:41
+MERGED from [com.kaopiz:kprogresshud:1.2.0] C:\Users\XiaoTu\.gradle\caches\transforms-2\files-2.1\946b08257a5559735d9bc62e127f9abc\kprogresshud-1.2.0\AndroidManifest.xml:7:5-9:41
+MERGED from [com.jakewharton:butterknife:10.2.0] C:\Users\XiaoTu\.gradle\caches\transforms-2\files-2.1\6f434fbbc62ea9deafa63133e765a9f3\butterknife-10.2.0\AndroidManifest.xml:5:5-44
+MERGED from [com.jakewharton:butterknife:10.2.0] C:\Users\XiaoTu\.gradle\caches\transforms-2\files-2.1\6f434fbbc62ea9deafa63133e765a9f3\butterknife-10.2.0\AndroidManifest.xml:5:5-44
+MERGED from [com.tencent.liteavsdk:LiteAVSDK_Smart:9.0.10437] C:\Users\XiaoTu\.gradle\caches\transforms-2\files-2.1\840b84bbcd4db1d753b53235350ecf4e\jetified-LiteAVSDK_Smart-9.0.10437\AndroidManifest.xml:7:5-9:41
+MERGED from [com.tencent.liteavsdk:LiteAVSDK_Smart:9.0.10437] C:\Users\XiaoTu\.gradle\caches\transforms-2\files-2.1\840b84bbcd4db1d753b53235350ecf4e\jetified-LiteAVSDK_Smart-9.0.10437\AndroidManifest.xml:7:5-9:41
+MERGED from [com.daimajia.easing:library:2.0] C:\Users\XiaoTu\.gradle\caches\transforms-2\files-2.1\450d2034abb846385cd8001cb0c6f751\library-2.0\AndroidManifest.xml:8:5-10:41
+MERGED from [com.daimajia.easing:library:2.0] C:\Users\XiaoTu\.gradle\caches\transforms-2\files-2.1\450d2034abb846385cd8001cb0c6f751\library-2.0\AndroidManifest.xml:8:5-10:41
+MERGED from [com.daimajia.androidanimations:library:2.3] C:\Users\XiaoTu\.gradle\caches\transforms-2\files-2.1\c7da044897236691749459f8629323a3\jetified-library-2.3\AndroidManifest.xml:8:5-10:41
+MERGED from [com.daimajia.androidanimations:library:2.3] C:\Users\XiaoTu\.gradle\caches\transforms-2\files-2.1\c7da044897236691749459f8629323a3\jetified-library-2.3\AndroidManifest.xml:8:5-10:41
+MERGED from [jp.wasabeef:glide-transformations:4.3.0] C:\Users\XiaoTu\.gradle\caches\transforms-2\files-2.1\054c5ad01124c64f9049606e678592d2\jetified-glide-transformations-4.3.0\AndroidManifest.xml:5:5-7:41
+MERGED from [jp.wasabeef:glide-transformations:4.3.0] C:\Users\XiaoTu\.gradle\caches\transforms-2\files-2.1\054c5ad01124c64f9049606e678592d2\jetified-glide-transformations-4.3.0\AndroidManifest.xml:5:5-7:41
+MERGED from [com.github.bumptech.glide:glide:4.11.0] C:\Users\XiaoTu\.gradle\caches\transforms-2\files-2.1\c873da91e209370f94859765299d329d\glide-4.11.0\AndroidManifest.xml:6:5-8:41
+MERGED from [com.github.bumptech.glide:glide:4.11.0] C:\Users\XiaoTu\.gradle\caches\transforms-2\files-2.1\c873da91e209370f94859765299d329d\glide-4.11.0\AndroidManifest.xml:6:5-8:41
+MERGED from [pl.droidsonroids.gif:android-gif-drawable:1.2.19] C:\Users\XiaoTu\.gradle\caches\transforms-2\files-2.1\979b8dcd3aefd1d21eb803d33ce773a8\jetified-android-gif-drawable-1.2.19\AndroidManifest.xml:5:5-7:41
+MERGED from [pl.droidsonroids.gif:android-gif-drawable:1.2.19] C:\Users\XiaoTu\.gradle\caches\transforms-2\files-2.1\979b8dcd3aefd1d21eb803d33ce773a8\jetified-android-gif-drawable-1.2.19\AndroidManifest.xml:5:5-7:41
+MERGED from [com.scwang.smartrefresh:SmartRefreshLayout:1.1.0-alpha-24] C:\Users\XiaoTu\.gradle\caches\transforms-2\files-2.1\4e2d9b4de9a51fd5fe8104cfe51499b9\jetified-SmartRefreshLayout-1.1.0-alpha-24\AndroidManifest.xml:7:5-9:41
+MERGED from [com.scwang.smartrefresh:SmartRefreshLayout:1.1.0-alpha-24] C:\Users\XiaoTu\.gradle\caches\transforms-2\files-2.1\4e2d9b4de9a51fd5fe8104cfe51499b9\jetified-SmartRefreshLayout-1.1.0-alpha-24\AndroidManifest.xml:7:5-9:41
+MERGED from [com.scwang.smartrefresh:SmartRefreshHeader:1.1.0-alpha-24] C:\Users\XiaoTu\.gradle\caches\transforms-2\files-2.1\74bd49f6c066f9c278d5c96c158262e4\jetified-SmartRefreshHeader-1.1.0-alpha-24\AndroidManifest.xml:7:5-9:41
+MERGED from [com.scwang.smartrefresh:SmartRefreshHeader:1.1.0-alpha-24] C:\Users\XiaoTu\.gradle\caches\transforms-2\files-2.1\74bd49f6c066f9c278d5c96c158262e4\jetified-SmartRefreshHeader-1.1.0-alpha-24\AndroidManifest.xml:7:5-9:41
+MERGED from [com.zhpan.library:bannerview:2.4.3.1] C:\Users\XiaoTu\.gradle\caches\transforms-2\files-2.1\23d09a1d0f86281c79a52de777c6279c\jetified-bannerview-2.4.3.1\AndroidManifest.xml:7:5-9:41
+MERGED from [com.zhpan.library:bannerview:2.4.3.1] C:\Users\XiaoTu\.gradle\caches\transforms-2\files-2.1\23d09a1d0f86281c79a52de777c6279c\jetified-bannerview-2.4.3.1\AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.CymChad:BaseRecyclerViewAdapterHelper:3.0.2] C:\Users\XiaoTu\.gradle\caches\transforms-2\files-2.1\d0c41459bce6fa6bb2bbc4ac2d3b759e\jetified-BaseRecyclerViewAdapterHelper-3.0.2\AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.CymChad:BaseRecyclerViewAdapterHelper:3.0.2] C:\Users\XiaoTu\.gradle\caches\transforms-2\files-2.1\d0c41459bce6fa6bb2bbc4ac2d3b759e\jetified-BaseRecyclerViewAdapterHelper-3.0.2\AndroidManifest.xml:7:5-9:41
+MERGED from [me.yokeyword:fragmentationx:1.0.2] C:\Users\XiaoTu\.gradle\caches\transforms-2\files-2.1\13ef079f823d4550bf33679190102bdc\fragmentationx-1.0.2\AndroidManifest.xml:5:5-7:41
+MERGED from [me.yokeyword:fragmentationx:1.0.2] C:\Users\XiaoTu\.gradle\caches\transforms-2\files-2.1\13ef079f823d4550bf33679190102bdc\fragmentationx-1.0.2\AndroidManifest.xml:5:5-7:41
+MERGED from [me.yokeyword:fragmentationx-core:1.0.2] C:\Users\XiaoTu\.gradle\caches\transforms-2\files-2.1\b982d1c0c044b3b3ac82c956886b9a2f\jetified-fragmentationx-core-1.0.2\AndroidManifest.xml:5:5-7:41
+MERGED from [me.yokeyword:fragmentationx-core:1.0.2] C:\Users\XiaoTu\.gradle\caches\transforms-2\files-2.1\b982d1c0c044b3b3ac82c956886b9a2f\jetified-fragmentationx-core-1.0.2\AndroidManifest.xml:5:5-7:41
+MERGED from [me.yokeyword:fragmentationx-swipeback:1.0.2] C:\Users\XiaoTu\.gradle\caches\transforms-2\files-2.1\35a58b27ed2fc557d0759789df957148\jetified-fragmentationx-swipeback-1.0.2\AndroidManifest.xml:5:5-7:41
+MERGED from [me.yokeyword:fragmentationx-swipeback:1.0.2] C:\Users\XiaoTu\.gradle\caches\transforms-2\files-2.1\35a58b27ed2fc557d0759789df957148\jetified-fragmentationx-swipeback-1.0.2\AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] C:\Users\XiaoTu\.gradle\caches\transforms-2\files-2.1\648b635281580f16b5b60a9a9f6c7db0\recyclerview-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] C:\Users\XiaoTu\.gradle\caches\transforms-2\files-2.1\648b635281580f16b5b60a9a9f6c7db0\recyclerview-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [com.github.yyued:SVGAPlayer-Android:2.5.3] C:\Users\XiaoTu\.gradle\caches\transforms-2\files-2.1\82139dd1766ffd8ea7f2842deadcdc04\SVGAPlayer-Android-2.5.3\AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.yyued:SVGAPlayer-Android:2.5.3] C:\Users\XiaoTu\.gradle\caches\transforms-2\files-2.1\82139dd1766ffd8ea7f2842deadcdc04\SVGAPlayer-Android-2.5.3\AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.WangcWj:WeSwipe:1.0.1] C:\Users\XiaoTu\.gradle\caches\transforms-2\files-2.1\d1ef8228ea0d435428d182e681dcbbac\jetified-WeSwipe-1.0.1\AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.WangcWj:WeSwipe:1.0.1] C:\Users\XiaoTu\.gradle\caches\transforms-2\files-2.1\d1ef8228ea0d435428d182e681dcbbac\jetified-WeSwipe-1.0.1\AndroidManifest.xml:7:5-9:41
+MERGED from [com.ycjiang:ImagePreview:2.3.5] C:\Users\XiaoTu\.gradle\caches\transforms-2\files-2.1\1ffde35ae43ad499c8eed2c7af5e3f3e\jetified-ImagePreview-2.3.5\AndroidManifest.xml:5:5-7:41
+MERGED from [com.ycjiang:ImagePreview:2.3.5] C:\Users\XiaoTu\.gradle\caches\transforms-2\files-2.1\1ffde35ae43ad499c8eed2c7af5e3f3e\jetified-ImagePreview-2.3.5\AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.core:core-ktx:1.6.0] C:\Users\XiaoTu\.gradle\caches\transforms-2\files-2.1\7d8e560c9ec366a594b62ba1a9948db4\core-ktx-1.6.0\AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.core:core-ktx:1.6.0] C:\Users\XiaoTu\.gradle\caches\transforms-2\files-2.1\7d8e560c9ec366a594b62ba1a9948db4\core-ktx-1.6.0\AndroidManifest.xml:5:5-7:41
+MERGED from [com.contrarywind:Android-PickerView:4.1.8] C:\Users\XiaoTu\.gradle\caches\transforms-2\files-2.1\b8aa07689e713a5a2e7ee323565c1635\jetified-Android-PickerView-4.1.8\AndroidManifest.xml:7:5-9:41
+MERGED from [com.contrarywind:Android-PickerView:4.1.8] C:\Users\XiaoTu\.gradle\caches\transforms-2\files-2.1\b8aa07689e713a5a2e7ee323565c1635\jetified-Android-PickerView-4.1.8\AndroidManifest.xml:7:5-9:41
+MERGED from [androidx.fragment:fragment:1.1.0] C:\Users\XiaoTu\.gradle\caches\transforms-2\files-2.1\cfa204cbef61173343b502cdae8385a7\fragment-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.1.0] C:\Users\XiaoTu\.gradle\caches\transforms-2\files-2.1\cfa204cbef61173343b502cdae8385a7\fragment-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.1.0] C:\Users\XiaoTu\.gradle\caches\transforms-2\files-2.1\3b8a83b50153142b260bf6d1de76ee93\appcompat-resources-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.1.0] C:\Users\XiaoTu\.gradle\caches\transforms-2\files-2.1\3b8a83b50153142b260bf6d1de76ee93\appcompat-resources-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] C:\Users\XiaoTu\.gradle\caches\transforms-2\files-2.1\c4deaf6c6e6827ce6ef8d3976369002f\legacy-support-core-ui-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] C:\Users\XiaoTu\.gradle\caches\transforms-2\files-2.1\c4deaf6c6e6827ce6ef8d3976369002f\legacy-support-core-ui-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\XiaoTu\.gradle\caches\transforms-2\files-2.1\0856edb128ce7d21fa7331e0a47b95ca\drawerlayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\XiaoTu\.gradle\caches\transforms-2\files-2.1\0856edb128ce7d21fa7331e0a47b95ca\drawerlayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.media:media:1.0.0] C:\Users\XiaoTu\.gradle\caches\transforms-2\files-2.1\38e74a6ce9ed70f08107f8bcb8b55f10\media-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.media:media:1.0.0] C:\Users\XiaoTu\.gradle\caches\transforms-2\files-2.1\38e74a6ce9ed70f08107f8bcb8b55f10\media-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\XiaoTu\.gradle\caches\transforms-2\files-2.1\b1c393c3d34a26ecdc08bd5282b1fd96\legacy-support-core-utils-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\XiaoTu\.gradle\caches\transforms-2\files-2.1\b1c393c3d34a26ecdc08bd5282b1fd96\legacy-support-core-utils-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.transition:transition:1.0.0] C:\Users\XiaoTu\.gradle\caches\transforms-2\files-2.1\ea6c61fc7fec1286c76b7ad562dd6f2b\transition-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.transition:transition:1.0.0] C:\Users\XiaoTu\.gradle\caches\transforms-2\files-2.1\ea6c61fc7fec1286c76b7ad562dd6f2b\transition-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.jakewharton:butterknife-runtime:10.2.0] C:\Users\XiaoTu\.gradle\caches\transforms-2\files-2.1\1df45cf9e29ebcb939bb6272a02e2bce\butterknife-runtime-10.2.0\AndroidManifest.xml:5:5-44
+MERGED from [com.jakewharton:butterknife-runtime:10.2.0] C:\Users\XiaoTu\.gradle\caches\transforms-2\files-2.1\1df45cf9e29ebcb939bb6272a02e2bce\butterknife-runtime-10.2.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\XiaoTu\.gradle\caches\transforms-2\files-2.1\45b3c33862526d5dafb0829cc7ccb442\viewpager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\XiaoTu\.gradle\caches\transforms-2\files-2.1\45b3c33862526d5dafb0829cc7ccb442\viewpager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] C:\Users\XiaoTu\.gradle\caches\transforms-2\files-2.1\23a2cfbeb83c3313f2cbc339f2dd0113\coordinatorlayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] C:\Users\XiaoTu\.gradle\caches\transforms-2\files-2.1\23a2cfbeb83c3313f2cbc339f2dd0113\coordinatorlayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] C:\Users\XiaoTu\.gradle\caches\transforms-2\files-2.1\e1c72884d1f49acade219b15a8242691\slidingpanelayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] C:\Users\XiaoTu\.gradle\caches\transforms-2\files-2.1\e1c72884d1f49acade219b15a8242691\slidingpanelayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] C:\Users\XiaoTu\.gradle\caches\transforms-2\files-2.1\a69cbf8fda224d472a33a3e99ce11fb9\customview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] C:\Users\XiaoTu\.gradle\caches\transforms-2\files-2.1\a69cbf8fda224d472a33a3e99ce11fb9\customview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\XiaoTu\.gradle\caches\transforms-2\files-2.1\4ef40dce4513ef1a23cbab4f375b7d3c\loader-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\XiaoTu\.gradle\caches\transforms-2\files-2.1\4ef40dce4513ef1a23cbab4f375b7d3c\loader-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity:1.0.0] C:\Users\XiaoTu\.gradle\caches\transforms-2\files-2.1\22cf092e46e7a449afe07c1039392b27\activity-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.0.0] C:\Users\XiaoTu\.gradle\caches\transforms-2\files-2.1\22cf092e46e7a449afe07c1039392b27\activity-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\XiaoTu\.gradle\caches\transforms-2\files-2.1\3d2f434398f0186ca0e7b1ae4428a580\vectordrawable-animated-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\XiaoTu\.gradle\caches\transforms-2\files-2.1\3d2f434398f0186ca0e7b1ae4428a580\vectordrawable-animated-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\XiaoTu\.gradle\caches\transforms-2\files-2.1\faef710bd714bd62f1efb2baf3522cab\vectordrawable-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\XiaoTu\.gradle\caches\transforms-2\files-2.1\faef710bd714bd62f1efb2baf3522cab\vectordrawable-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] C:\Users\XiaoTu\.gradle\caches\transforms-2\files-2.1\88dfa7129881730a5c20f2147b1cdf67\swiperefreshlayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] C:\Users\XiaoTu\.gradle\caches\transforms-2\files-2.1\88dfa7129881730a5c20f2147b1cdf67\swiperefreshlayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] C:\Users\XiaoTu\.gradle\caches\transforms-2\files-2.1\eac5b230b6bbcc2d98bf57d13b74d4a5\asynclayoutinflater-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] C:\Users\XiaoTu\.gradle\caches\transforms-2\files-2.1\eac5b230b6bbcc2d98bf57d13b74d4a5\asynclayoutinflater-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.6.0] C:\Users\XiaoTu\.gradle\caches\transforms-2\files-2.1\8891c6ef6bd9bd61714d9af8cda50caf\core-1.6.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.6.0] C:\Users\XiaoTu\.gradle\caches\transforms-2\files-2.1\8891c6ef6bd9bd61714d9af8cda50caf\core-1.6.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\XiaoTu\.gradle\caches\transforms-2\files-2.1\455f66d8a4676f45741b7c9d39befc12\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\XiaoTu\.gradle\caches\transforms-2\files-2.1\455f66d8a4676f45741b7c9d39befc12\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.databinding:databinding-adapters:3.6.1] C:\Users\XiaoTu\.gradle\caches\transforms-2\files-2.1\ac8cdf95653b0f1eb2cd4481c77eb617\databinding-adapters-3.6.1\AndroidManifest.xml:22:5-44
+MERGED from [androidx.databinding:databinding-adapters:3.6.1] C:\Users\XiaoTu\.gradle\caches\transforms-2\files-2.1\ac8cdf95653b0f1eb2cd4481c77eb617\databinding-adapters-3.6.1\AndroidManifest.xml:22:5-44
+MERGED from [androidx.databinding:databinding-runtime:3.6.1] C:\Users\XiaoTu\.gradle\caches\transforms-2\files-2.1\c6e7535c840c154611f559b8bfec33f9\databinding-runtime-3.6.1\AndroidManifest.xml:22:5-44
+MERGED from [androidx.databinding:databinding-runtime:3.6.1] C:\Users\XiaoTu\.gradle\caches\transforms-2\files-2.1\c6e7535c840c154611f559b8bfec33f9\databinding-runtime-3.6.1\AndroidManifest.xml:22:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\XiaoTu\.gradle\caches\transforms-2\files-2.1\8d1c4c40357bb78c9487eeea962584f6\versionedparcelable-1.1.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\XiaoTu\.gradle\caches\transforms-2\files-2.1\8d1c4c40357bb78c9487eeea962584f6\versionedparcelable-1.1.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\XiaoTu\.gradle\caches\transforms-2\files-2.1\3c92c3009dae0d6fb93167cfbb13f9d8\cardview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\XiaoTu\.gradle\caches\transforms-2\files-2.1\3c92c3009dae0d6fb93167cfbb13f9d8\cardview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.trello.rxlifecycle3:rxlifecycle-android-lifecycle:3.1.0] C:\Users\XiaoTu\.gradle\caches\transforms-2\files-2.1\d4d28069933da872cd3018ca4d337f26\rxlifecycle-android-lifecycle-3.1.0\AndroidManifest.xml:5:5-44
+MERGED from [com.trello.rxlifecycle3:rxlifecycle-android-lifecycle:3.1.0] C:\Users\XiaoTu\.gradle\caches\transforms-2\files-2.1\d4d28069933da872cd3018ca4d337f26\rxlifecycle-android-lifecycle-3.1.0\AndroidManifest.xml:5:5-44
+MERGED from [com.uber.autodispose:autodispose-android:1.0.0-RC2] C:\Users\XiaoTu\.gradle\caches\transforms-2\files-2.1\5bbd1d1fdcc4607e31458372f0f3c0aa\jetified-autodispose-android-1.0.0-RC2\AndroidManifest.xml:20:5-22:41
+MERGED from [com.uber.autodispose:autodispose-android:1.0.0-RC2] C:\Users\XiaoTu\.gradle\caches\transforms-2\files-2.1\5bbd1d1fdcc4607e31458372f0f3c0aa\jetified-autodispose-android-1.0.0-RC2\AndroidManifest.xml:20:5-22:41
+MERGED from [com.contrarywind:wheelview:4.0.9] C:\Users\XiaoTu\.gradle\caches\transforms-2\files-2.1\f36a74cc48fe7ff21e3f07e9c504bea2\wheelview-4.0.9\AndroidManifest.xml:7:5-9:41
+MERGED from [com.contrarywind:wheelview:4.0.9] C:\Users\XiaoTu\.gradle\caches\transforms-2\files-2.1\f36a74cc48fe7ff21e3f07e9c504bea2\wheelview-4.0.9\AndroidManifest.xml:7:5-9:41
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\XiaoTu\.gradle\caches\transforms-2\files-2.1\a484d9170c0e2bee37bb6f5e265bd28a\documentfile-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\XiaoTu\.gradle\caches\transforms-2\files-2.1\a484d9170c0e2bee37bb6f5e265bd28a\documentfile-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\XiaoTu\.gradle\caches\transforms-2\files-2.1\2aefa5920188be99bf927f987ae73c82\localbroadcastmanager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\XiaoTu\.gradle\caches\transforms-2\files-2.1\2aefa5920188be99bf927f987ae73c82\localbroadcastmanager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] C:\Users\XiaoTu\.gradle\caches\transforms-2\files-2.1\a01f7f0f31b058824949adf5eb90ac49\print-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] C:\Users\XiaoTu\.gradle\caches\transforms-2\files-2.1\a01f7f0f31b058824949adf5eb90ac49\print-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\XiaoTu\.gradle\caches\transforms-2\files-2.1\deb23cb00be590708b6a28513c91b60c\interpolator-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\XiaoTu\.gradle\caches\transforms-2\files-2.1\deb23cb00be590708b6a28513c91b60c\interpolator-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.1.0] C:\Users\XiaoTu\.gradle\caches\transforms-2\files-2.1\9f5b72f02d4740f6c947758ca6c18716\lifecycle-runtime-2.1.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.1.0] C:\Users\XiaoTu\.gradle\caches\transforms-2\files-2.1\9f5b72f02d4740f6c947758ca6c18716\lifecycle-runtime-2.1.0\AndroidManifest.xml:20:5-44
+MERGED from [com.github.bumptech.glide:gifdecoder:4.11.0] C:\Users\XiaoTu\.gradle\caches\transforms-2\files-2.1\6baad453d36fa9f4d6eeb3a3bf1169f9\gifdecoder-4.11.0\AndroidManifest.xml:5:5-7:41
+MERGED from [com.github.bumptech.glide:gifdecoder:4.11.0] C:\Users\XiaoTu\.gradle\caches\transforms-2\files-2.1\6baad453d36fa9f4d6eeb3a3bf1169f9\gifdecoder-4.11.0\AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.exifinterface:exifinterface:1.0.0] C:\Users\XiaoTu\.gradle\caches\transforms-2\files-2.1\01b5acc3567e3424dc17c335d28418fd\exifinterface-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.exifinterface:exifinterface:1.0.0] C:\Users\XiaoTu\.gradle\caches\transforms-2\files-2.1\01b5acc3567e3424dc17c335d28418fd\exifinterface-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.databinding:viewbinding:3.6.1] C:\Users\XiaoTu\.gradle\caches\transforms-2\files-2.1\faab5a7fb0b587d052e9e995b60c8469\viewbinding-3.6.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.databinding:viewbinding:3.6.1] C:\Users\XiaoTu\.gradle\caches\transforms-2\files-2.1\faab5a7fb0b587d052e9e995b60c8469\viewbinding-3.6.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] C:\Users\XiaoTu\.gradle\caches\transforms-2\files-2.1\1954ba585c936677b545fbae0d430b42\lifecycle-viewmodel-2.1.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] C:\Users\XiaoTu\.gradle\caches\transforms-2\files-2.1\1954ba585c936677b545fbae0d430b42\lifecycle-viewmodel-2.1.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate:1.0.0] C:\Users\XiaoTu\.gradle\caches\transforms-2\files-2.1\67566f35bb58fb89fc0f997c103a0b45\savedstate-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.0.0] C:\Users\XiaoTu\.gradle\caches\transforms-2\files-2.1\67566f35bb58fb89fc0f997c103a0b45\savedstate-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\XiaoTu\.gradle\caches\transforms-2\files-2.1\5290999504034eda6ec752b1dfdcf8ee\lifecycle-livedata-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\XiaoTu\.gradle\caches\transforms-2\files-2.1\5290999504034eda6ec752b1dfdcf8ee\lifecycle-livedata-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] C:\Users\XiaoTu\.gradle\caches\transforms-2\files-2.1\4a2649609f8a6083c580f16c1cf6d048\lifecycle-livedata-core-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] C:\Users\XiaoTu\.gradle\caches\transforms-2\files-2.1\4a2649609f8a6083c580f16c1cf6d048\lifecycle-livedata-core-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.0.0] C:\Users\XiaoTu\.gradle\caches\transforms-2\files-2.1\13ac818f703169862a6eb4f8a2330236\core-runtime-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.0.0] C:\Users\XiaoTu\.gradle\caches\transforms-2\files-2.1\13ac818f703169862a6eb4f8a2330236\core-runtime-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.faceunity:nama:7.3.0-lite] C:\Users\XiaoTu\.gradle\caches\transforms-2\files-2.1\634c8a76e7d6a3b6578eff4fbe020154\nama-7.3.0-lite\AndroidManifest.xml:7:5-9:41
+MERGED from [com.faceunity:nama:7.3.0-lite] C:\Users\XiaoTu\.gradle\caches\transforms-2\files-2.1\634c8a76e7d6a3b6578eff4fbe020154\nama-7.3.0-lite\AndroidManifest.xml:7:5-9:41
+MERGED from [io.reactivex.rxjava2:rxandroid:2.1.1] C:\Users\XiaoTu\.gradle\caches\transforms-2\files-2.1\a9bcd97455d9c138bfb92aa53b4321d3\rxandroid-2.1.1\AndroidManifest.xml:18:5-43
+MERGED from [io.reactivex.rxjava2:rxandroid:2.1.1] C:\Users\XiaoTu\.gradle\caches\transforms-2\files-2.1\a9bcd97455d9c138bfb92aa53b4321d3\rxandroid-2.1.1\AndroidManifest.xml:18:5-43
+MERGED from [pl.droidsonroids:relinker:1.3.1] C:\Users\XiaoTu\.gradle\caches\transforms-2\files-2.1\b64290ebb801fd830f529f9cefb8a7eb\relinker-1.3.1\AndroidManifest.xml:5:5-43
+MERGED from [pl.droidsonroids:relinker:1.3.1] C:\Users\XiaoTu\.gradle\caches\transforms-2\files-2.1\b64290ebb801fd830f529f9cefb8a7eb\relinker-1.3.1\AndroidManifest.xml:5:5-43
+MERGED from [com.liulishuo.filedownloader:library:1.7.6] C:\Users\XiaoTu\.gradle\caches\transforms-2\files-2.1\88283ffa5296325385b37bbfa03ea840\library-1.7.6\AndroidManifest.xml:6:5-43
+MERGED from [com.liulishuo.filedownloader:library:1.7.6] C:\Users\XiaoTu\.gradle\caches\transforms-2\files-2.1\88283ffa5296325385b37bbfa03ea840\library-1.7.6\AndroidManifest.xml:6:5-43
+MERGED from [androidx.annotation:annotation-experimental:1.1.0] C:\Users\XiaoTu\.gradle\caches\transforms-2\files-2.1\dd5d3065530365e951dd0b2b77e071b7\jetified-annotation-experimental-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.annotation:annotation-experimental:1.1.0] C:\Users\XiaoTu\.gradle\caches\transforms-2\files-2.1\dd5d3065530365e951dd0b2b77e071b7\jetified-annotation-experimental-1.1.0\AndroidManifest.xml:20:5-22:41
+INJECTED from D:\xiaotu_android\project\trunk\xunbo_live\app\src\main\AndroidManifest.xml
+INJECTED from D:\xiaotu_android\project\trunk\xunbo_live\app\src\main\AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from D:\xiaotu_android\project\trunk\xunbo_live\app\src\main\AndroidManifest.xml
+		ADDED from D:\xiaotu_android\project\trunk\xunbo_live\app\src\main\AndroidManifest.xml
+		INJECTED from D:\xiaotu_android\project\trunk\xunbo_live\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from D:\xiaotu_android\project\trunk\xunbo_live\app\src\main\AndroidManifest.xml
+		ADDED from D:\xiaotu_android\project\trunk\xunbo_live\app\src\main\AndroidManifest.xml
+		INJECTED from D:\xiaotu_android\project\trunk\xunbo_live\app\src\main\AndroidManifest.xml
+meta-data#android.support.FILE_PROVIDER_PATHS
+ADDED from D:\xiaotu_android\project\trunk\xunbo_live\app\src\main\AndroidManifest.xml:242:13-244:58
+	android:resource
+		ADDED from D:\xiaotu_android\project\trunk\xunbo_live\app\src\main\AndroidManifest.xml:244:17-55
+	android:name
+		ADDED from D:\xiaotu_android\project\trunk\xunbo_live\app\src\main\AndroidManifest.xml:243:17-67
+uses-permission#android.permission.WAKE_LOCK
+ADDED from [cn.rongcloud.sdk:im_lib:4.0.3.14] C:\Users\XiaoTu\.gradle\caches\transforms-2\files-2.1\761a2d23ca926373fa41080609edf90a\jetified-im_lib-4.0.3.14\AndroidManifest.xml:18:5-68
+	android:name
+		ADDED from [cn.rongcloud.sdk:im_lib:4.0.3.14] C:\Users\XiaoTu\.gradle\caches\transforms-2\files-2.1\761a2d23ca926373fa41080609edf90a\jetified-im_lib-4.0.3.14\AndroidManifest.xml:18:22-65
+uses-permission#${applicationId}.permission.RONG_ACCESS_RECEIVER
+ADDED from [cn.rongcloud.sdk:im_lib:4.0.3.14] C:\Users\XiaoTu\.gradle\caches\transforms-2\files-2.1\761a2d23ca926373fa41080609edf90a\jetified-im_lib-4.0.3.14\AndroidManifest.xml:22:5-88
+	android:name
+		ADDED from [cn.rongcloud.sdk:im_lib:4.0.3.14] C:\Users\XiaoTu\.gradle\caches\transforms-2\files-2.1\761a2d23ca926373fa41080609edf90a\jetified-im_lib-4.0.3.14\AndroidManifest.xml:22:22-85
+uses-permission#com.zz.live.permission.RONG_ACCESS_RECEIVER
+ADDED from [cn.rongcloud.sdk:im_lib:4.0.3.14] C:\Users\XiaoTu\.gradle\caches\transforms-2\files-2.1\761a2d23ca926373fa41080609edf90a\jetified-im_lib-4.0.3.14\AndroidManifest.xml:22:5-88
+	android:name
+		ADDED from [cn.rongcloud.sdk:im_lib:4.0.3.14] C:\Users\XiaoTu\.gradle\caches\transforms-2\files-2.1\761a2d23ca926373fa41080609edf90a\jetified-im_lib-4.0.3.14\AndroidManifest.xml:22:22-85
+permission#${applicationId}.permission.RONG_ACCESS_RECEIVER
+ADDED from [cn.rongcloud.sdk:im_lib:4.0.3.14] C:\Users\XiaoTu\.gradle\caches\transforms-2\files-2.1\761a2d23ca926373fa41080609edf90a\jetified-im_lib-4.0.3.14\AndroidManifest.xml:25:5-28:18
+	android:protectionLevel
+		ADDED from [cn.rongcloud.sdk:im_lib:4.0.3.14] C:\Users\XiaoTu\.gradle\caches\transforms-2\files-2.1\761a2d23ca926373fa41080609edf90a\jetified-im_lib-4.0.3.14\AndroidManifest.xml:27:9-44
+	android:name
+		ADDED from [cn.rongcloud.sdk:im_lib:4.0.3.14] C:\Users\XiaoTu\.gradle\caches\transforms-2\files-2.1\761a2d23ca926373fa41080609edf90a\jetified-im_lib-4.0.3.14\AndroidManifest.xml:26:9-72
+permission#com.zz.live.permission.RONG_ACCESS_RECEIVER
+ADDED from [cn.rongcloud.sdk:im_lib:4.0.3.14] C:\Users\XiaoTu\.gradle\caches\transforms-2\files-2.1\761a2d23ca926373fa41080609edf90a\jetified-im_lib-4.0.3.14\AndroidManifest.xml:25:5-28:18
+	android:protectionLevel
+		ADDED from [cn.rongcloud.sdk:im_lib:4.0.3.14] C:\Users\XiaoTu\.gradle\caches\transforms-2\files-2.1\761a2d23ca926373fa41080609edf90a\jetified-im_lib-4.0.3.14\AndroidManifest.xml:27:9-44
+	android:name
+		ADDED from [cn.rongcloud.sdk:im_lib:4.0.3.14] C:\Users\XiaoTu\.gradle\caches\transforms-2\files-2.1\761a2d23ca926373fa41080609edf90a\jetified-im_lib-4.0.3.14\AndroidManifest.xml:26:9-72
+service#io.rong.imlib.ipc.RongService
+ADDED from [cn.rongcloud.sdk:im_lib:4.0.3.14] C:\Users\XiaoTu\.gradle\caches\transforms-2\files-2.1\761a2d23ca926373fa41080609edf90a\jetified-im_lib-4.0.3.14\AndroidManifest.xml:33:9-35:38
+	android:process
+		ADDED from [cn.rongcloud.sdk:im_lib:4.0.3.14] C:\Users\XiaoTu\.gradle\caches\transforms-2\files-2.1\761a2d23ca926373fa41080609edf90a\jetified-im_lib-4.0.3.14\AndroidManifest.xml:35:13-35
+	android:name
+		ADDED from [cn.rongcloud.sdk:im_lib:4.0.3.14] C:\Users\XiaoTu\.gradle\caches\transforms-2\files-2.1\761a2d23ca926373fa41080609edf90a\jetified-im_lib-4.0.3.14\AndroidManifest.xml:34:13-57
+receiver#io.rong.imlib.ConnectChangeReceiver
+ADDED from [cn.rongcloud.sdk:im_lib:4.0.3.14] C:\Users\XiaoTu\.gradle\caches\transforms-2\files-2.1\761a2d23ca926373fa41080609edf90a\jetified-im_lib-4.0.3.14\AndroidManifest.xml:37:9-72
+	android:name
+		ADDED from [cn.rongcloud.sdk:im_lib:4.0.3.14] C:\Users\XiaoTu\.gradle\caches\transforms-2\files-2.1\761a2d23ca926373fa41080609edf90a\jetified-im_lib-4.0.3.14\AndroidManifest.xml:37:19-69
+receiver#io.rong.imlib.HeartbeatReceiver
+ADDED from [cn.rongcloud.sdk:im_lib:4.0.3.14] C:\Users\XiaoTu\.gradle\caches\transforms-2\files-2.1\761a2d23ca926373fa41080609edf90a\jetified-im_lib-4.0.3.14\AndroidManifest.xml:38:9-40:38
+	android:process
+		ADDED from [cn.rongcloud.sdk:im_lib:4.0.3.14] C:\Users\XiaoTu\.gradle\caches\transforms-2\files-2.1\761a2d23ca926373fa41080609edf90a\jetified-im_lib-4.0.3.14\AndroidManifest.xml:40:13-35
+	android:name
+		ADDED from [cn.rongcloud.sdk:im_lib:4.0.3.14] C:\Users\XiaoTu\.gradle\caches\transforms-2\files-2.1\761a2d23ca926373fa41080609edf90a\jetified-im_lib-4.0.3.14\AndroidManifest.xml:39:13-59
+service#io.rong.push.rongpush.PushService
+ADDED from [cn.rongcloud.sdk:im_lib:4.0.3.14] C:\Users\XiaoTu\.gradle\caches\transforms-2\files-2.1\761a2d23ca926373fa41080609edf90a\jetified-im_lib-4.0.3.14\AndroidManifest.xml:45:9-49:46
+	android:process
+		ADDED from [cn.rongcloud.sdk:im_lib:4.0.3.14] C:\Users\XiaoTu\.gradle\caches\transforms-2\files-2.1\761a2d23ca926373fa41080609edf90a\jetified-im_lib-4.0.3.14\AndroidManifest.xml:49:13-43
+	android:exported
+		ADDED from [cn.rongcloud.sdk:im_lib:4.0.3.14] C:\Users\XiaoTu\.gradle\caches\transforms-2\files-2.1\761a2d23ca926373fa41080609edf90a\jetified-im_lib-4.0.3.14\AndroidManifest.xml:47:13-36
+	android:permission
+		ADDED from [cn.rongcloud.sdk:im_lib:4.0.3.14] C:\Users\XiaoTu\.gradle\caches\transforms-2\files-2.1\761a2d23ca926373fa41080609edf90a\jetified-im_lib-4.0.3.14\AndroidManifest.xml:48:13-69
+	android:name
+		ADDED from [cn.rongcloud.sdk:im_lib:4.0.3.14] C:\Users\XiaoTu\.gradle\caches\transforms-2\files-2.1\761a2d23ca926373fa41080609edf90a\jetified-im_lib-4.0.3.14\AndroidManifest.xml:46:13-61
+receiver#io.rong.push.rongpush.PushReceiver
+ADDED from [cn.rongcloud.sdk:im_lib:4.0.3.14] C:\Users\XiaoTu\.gradle\caches\transforms-2\files-2.1\761a2d23ca926373fa41080609edf90a\jetified-im_lib-4.0.3.14\AndroidManifest.xml:52:9-67:20
+	android:process
+		ADDED from [cn.rongcloud.sdk:im_lib:4.0.3.14] C:\Users\XiaoTu\.gradle\caches\transforms-2\files-2.1\761a2d23ca926373fa41080609edf90a\jetified-im_lib-4.0.3.14\AndroidManifest.xml:54:13-43
+	android:name
+		ADDED from [cn.rongcloud.sdk:im_lib:4.0.3.14] C:\Users\XiaoTu\.gradle\caches\transforms-2\files-2.1\761a2d23ca926373fa41080609edf90a\jetified-im_lib-4.0.3.14\AndroidManifest.xml:53:13-62
+intent-filter#action:name:android.net.conn.CONNECTIVITY_CHANGE+action:name:io.rong.push.intent.action.HEART_BEAT
+ADDED from [cn.rongcloud.sdk:im_lib:4.0.3.14] C:\Users\XiaoTu\.gradle\caches\transforms-2\files-2.1\761a2d23ca926373fa41080609edf90a\jetified-im_lib-4.0.3.14\AndroidManifest.xml:56:13-59:29
+action#io.rong.push.intent.action.HEART_BEAT
+ADDED from [cn.rongcloud.sdk:im_lib:4.0.3.14] C:\Users\XiaoTu\.gradle\caches\transforms-2\files-2.1\761a2d23ca926373fa41080609edf90a\jetified-im_lib-4.0.3.14\AndroidManifest.xml:57:17-80
+	android:name
+		ADDED from [cn.rongcloud.sdk:im_lib:4.0.3.14] C:\Users\XiaoTu\.gradle\caches\transforms-2\files-2.1\761a2d23ca926373fa41080609edf90a\jetified-im_lib-4.0.3.14\AndroidManifest.xml:57:25-77
+action#android.net.conn.CONNECTIVITY_CHANGE
+ADDED from [cn.rongcloud.sdk:im_lib:4.0.3.14] C:\Users\XiaoTu\.gradle\caches\transforms-2\files-2.1\761a2d23ca926373fa41080609edf90a\jetified-im_lib-4.0.3.14\AndroidManifest.xml:58:17-79
+	android:name
+		ADDED from [cn.rongcloud.sdk:im_lib:4.0.3.14] C:\Users\XiaoTu\.gradle\caches\transforms-2\files-2.1\761a2d23ca926373fa41080609edf90a\jetified-im_lib-4.0.3.14\AndroidManifest.xml:58:25-76
+intent-filter#action:name:android.intent.action.ACTION_POWER_CONNECTED+action:name:android.intent.action.ACTION_POWER_DISCONNECTED+action:name:android.intent.action.USER_PRESENT
+ADDED from [cn.rongcloud.sdk:im_lib:4.0.3.14] C:\Users\XiaoTu\.gradle\caches\transforms-2\files-2.1\761a2d23ca926373fa41080609edf90a\jetified-im_lib-4.0.3.14\AndroidManifest.xml:62:13-66:29
+action#android.intent.action.USER_PRESENT
+ADDED from [cn.rongcloud.sdk:im_lib:4.0.3.14] C:\Users\XiaoTu\.gradle\caches\transforms-2\files-2.1\761a2d23ca926373fa41080609edf90a\jetified-im_lib-4.0.3.14\AndroidManifest.xml:63:17-77
+	android:name
+		ADDED from [cn.rongcloud.sdk:im_lib:4.0.3.14] C:\Users\XiaoTu\.gradle\caches\transforms-2\files-2.1\761a2d23ca926373fa41080609edf90a\jetified-im_lib-4.0.3.14\AndroidManifest.xml:63:25-74
+action#android.intent.action.ACTION_POWER_CONNECTED
+ADDED from [cn.rongcloud.sdk:im_lib:4.0.3.14] C:\Users\XiaoTu\.gradle\caches\transforms-2\files-2.1\761a2d23ca926373fa41080609edf90a\jetified-im_lib-4.0.3.14\AndroidManifest.xml:64:17-87
+	android:name
+		ADDED from [cn.rongcloud.sdk:im_lib:4.0.3.14] C:\Users\XiaoTu\.gradle\caches\transforms-2\files-2.1\761a2d23ca926373fa41080609edf90a\jetified-im_lib-4.0.3.14\AndroidManifest.xml:64:25-84
+action#android.intent.action.ACTION_POWER_DISCONNECTED
+ADDED from [cn.rongcloud.sdk:im_lib:4.0.3.14] C:\Users\XiaoTu\.gradle\caches\transforms-2\files-2.1\761a2d23ca926373fa41080609edf90a\jetified-im_lib-4.0.3.14\AndroidManifest.xml:65:17-90
+	android:name
+		ADDED from [cn.rongcloud.sdk:im_lib:4.0.3.14] C:\Users\XiaoTu\.gradle\caches\transforms-2\files-2.1\761a2d23ca926373fa41080609edf90a\jetified-im_lib-4.0.3.14\AndroidManifest.xml:65:25-87
+activity#pub.devrel.easypermissions.AppSettingsDialogHolderActivity
+ADDED from [pub.devrel:easypermissions:3.0.0] C:\Users\XiaoTu\.gradle\caches\transforms-2\files-2.1\b4a8dc586b8824c3defe2d335dc2965f\easypermissions-3.0.0\AndroidManifest.xml:12:9-16:66
+	android:label
+		ADDED from [pub.devrel:easypermissions:3.0.0] C:\Users\XiaoTu\.gradle\caches\transforms-2\files-2.1\b4a8dc586b8824c3defe2d335dc2965f\easypermissions-3.0.0\AndroidManifest.xml:15:13-29
+	android:exported
+		ADDED from [pub.devrel:easypermissions:3.0.0] C:\Users\XiaoTu\.gradle\caches\transforms-2\files-2.1\b4a8dc586b8824c3defe2d335dc2965f\easypermissions-3.0.0\AndroidManifest.xml:14:13-37
+	android:theme
+		ADDED from [pub.devrel:easypermissions:3.0.0] C:\Users\XiaoTu\.gradle\caches\transforms-2\files-2.1\b4a8dc586b8824c3defe2d335dc2965f\easypermissions-3.0.0\AndroidManifest.xml:16:13-63
+	android:name
+		ADDED from [pub.devrel:easypermissions:3.0.0] C:\Users\XiaoTu\.gradle\caches\transforms-2\files-2.1\b4a8dc586b8824c3defe2d335dc2965f\easypermissions-3.0.0\AndroidManifest.xml:13:13-86
+uses-permission#android.permission.DOWNLOAD_WITHOUT_NOTIFICATION
+ADDED from [com.github.MZCretin:AutoUpdateProject:v2.0.4] C:\Users\XiaoTu\.gradle\caches\transforms-2\files-2.1\f76dbe287a91ed54d5238d00325b580f\jetified-AutoUpdateProject-v2.0.4\AndroidManifest.xml:15:5-88
+	android:name
+		ADDED from [com.github.MZCretin:AutoUpdateProject:v2.0.4] C:\Users\XiaoTu\.gradle\caches\transforms-2\files-2.1\f76dbe287a91ed54d5238d00325b580f\jetified-AutoUpdateProject-v2.0.4\AndroidManifest.xml:15:22-85
+uses-permission#android.permission.REQUEST_INSTALL_PACKAGES
+ADDED from [com.github.MZCretin:AutoUpdateProject:v2.0.4] C:\Users\XiaoTu\.gradle\caches\transforms-2\files-2.1\f76dbe287a91ed54d5238d00325b580f\jetified-AutoUpdateProject-v2.0.4\AndroidManifest.xml:17:5-83
+	android:name
+		ADDED from [com.github.MZCretin:AutoUpdateProject:v2.0.4] C:\Users\XiaoTu\.gradle\caches\transforms-2\files-2.1\f76dbe287a91ed54d5238d00325b580f\jetified-AutoUpdateProject-v2.0.4\AndroidManifest.xml:17:22-80
+uses-permission#android.permission.KILL_BACKGROUND_PROCESSES
+ADDED from [com.github.MZCretin:AutoUpdateProject:v2.0.4] C:\Users\XiaoTu\.gradle\caches\transforms-2\files-2.1\f76dbe287a91ed54d5238d00325b580f\jetified-AutoUpdateProject-v2.0.4\AndroidManifest.xml:18:5-84
+	android:name
+		ADDED from [com.github.MZCretin:AutoUpdateProject:v2.0.4] C:\Users\XiaoTu\.gradle\caches\transforms-2\files-2.1\f76dbe287a91ed54d5238d00325b580f\jetified-AutoUpdateProject-v2.0.4\AndroidManifest.xml:18:22-81
+uses-permission#android.permission.RESTART_PACKAGES
+ADDED from [com.github.MZCretin:AutoUpdateProject:v2.0.4] C:\Users\XiaoTu\.gradle\caches\transforms-2\files-2.1\f76dbe287a91ed54d5238d00325b580f\jetified-AutoUpdateProject-v2.0.4\AndroidManifest.xml:19:5-75
+	android:name
+		ADDED from [com.github.MZCretin:AutoUpdateProject:v2.0.4] C:\Users\XiaoTu\.gradle\caches\transforms-2\files-2.1\f76dbe287a91ed54d5238d00325b580f\jetified-AutoUpdateProject-v2.0.4\AndroidManifest.xml:19:22-72
+uses-permission#android.permission.FOREGROUND_SERVICE
+ADDED from [com.github.MZCretin:AutoUpdateProject:v2.0.4] C:\Users\XiaoTu\.gradle\caches\transforms-2\files-2.1\f76dbe287a91ed54d5238d00325b580f\jetified-AutoUpdateProject-v2.0.4\AndroidManifest.xml:20:5-77
+MERGED from [com.liulishuo.filedownloader:library:1.7.6] C:\Users\XiaoTu\.gradle\caches\transforms-2\files-2.1\88283ffa5296325385b37bbfa03ea840\library-1.7.6\AndroidManifest.xml:9:5-77
+MERGED from [com.liulishuo.filedownloader:library:1.7.6] C:\Users\XiaoTu\.gradle\caches\transforms-2\files-2.1\88283ffa5296325385b37bbfa03ea840\library-1.7.6\AndroidManifest.xml:9:5-77
+	android:name
+		ADDED from [com.github.MZCretin:AutoUpdateProject:v2.0.4] C:\Users\XiaoTu\.gradle\caches\transforms-2\files-2.1\f76dbe287a91ed54d5238d00325b580f\jetified-AutoUpdateProject-v2.0.4\AndroidManifest.xml:20:22-74
+activity#com.cretin.www.cretinautoupdatelibrary.activity.UpdateBackgroundActivity
+ADDED from [com.github.MZCretin:AutoUpdateProject:v2.0.4] C:\Users\XiaoTu\.gradle\caches\transforms-2\files-2.1\f76dbe287a91ed54d5238d00325b580f\jetified-AutoUpdateProject-v2.0.4\AndroidManifest.xml:27:9-109
+	android:name
+		ADDED from [com.github.MZCretin:AutoUpdateProject:v2.0.4] C:\Users\XiaoTu\.gradle\caches\transforms-2\files-2.1\f76dbe287a91ed54d5238d00325b580f\jetified-AutoUpdateProject-v2.0.4\AndroidManifest.xml:27:19-106
+activity#com.cretin.www.cretinautoupdatelibrary.activity.UpdateType12Activity
+ADDED from [com.github.MZCretin:AutoUpdateProject:v2.0.4] C:\Users\XiaoTu\.gradle\caches\transforms-2\files-2.1\f76dbe287a91ed54d5238d00325b580f\jetified-AutoUpdateProject-v2.0.4\AndroidManifest.xml:28:9-30:58
+	android:theme
+		ADDED from [com.github.MZCretin:AutoUpdateProject:v2.0.4] C:\Users\XiaoTu\.gradle\caches\transforms-2\files-2.1\f76dbe287a91ed54d5238d00325b580f\jetified-AutoUpdateProject-v2.0.4\AndroidManifest.xml:30:13-55
+	android:name
+		ADDED from [com.github.MZCretin:AutoUpdateProject:v2.0.4] C:\Users\XiaoTu\.gradle\caches\transforms-2\files-2.1\f76dbe287a91ed54d5238d00325b580f\jetified-AutoUpdateProject-v2.0.4\AndroidManifest.xml:29:13-96
+activity#com.cretin.www.cretinautoupdatelibrary.activity.UpdateType11Activity
+ADDED from [com.github.MZCretin:AutoUpdateProject:v2.0.4] C:\Users\XiaoTu\.gradle\caches\transforms-2\files-2.1\f76dbe287a91ed54d5238d00325b580f\jetified-AutoUpdateProject-v2.0.4\AndroidManifest.xml:31:9-33:58
+	android:theme
+		ADDED from [com.github.MZCretin:AutoUpdateProject:v2.0.4] C:\Users\XiaoTu\.gradle\caches\transforms-2\files-2.1\f76dbe287a91ed54d5238d00325b580f\jetified-AutoUpdateProject-v2.0.4\AndroidManifest.xml:33:13-55
+	android:name
+		ADDED from [com.github.MZCretin:AutoUpdateProject:v2.0.4] C:\Users\XiaoTu\.gradle\caches\transforms-2\files-2.1\f76dbe287a91ed54d5238d00325b580f\jetified-AutoUpdateProject-v2.0.4\AndroidManifest.xml:32:13-96
+activity#com.cretin.www.cretinautoupdatelibrary.activity.UpdateType10Activity
+ADDED from [com.github.MZCretin:AutoUpdateProject:v2.0.4] C:\Users\XiaoTu\.gradle\caches\transforms-2\files-2.1\f76dbe287a91ed54d5238d00325b580f\jetified-AutoUpdateProject-v2.0.4\AndroidManifest.xml:34:9-36:58
+	android:theme
+		ADDED from [com.github.MZCretin:AutoUpdateProject:v2.0.4] C:\Users\XiaoTu\.gradle\caches\transforms-2\files-2.1\f76dbe287a91ed54d5238d00325b580f\jetified-AutoUpdateProject-v2.0.4\AndroidManifest.xml:36:13-55
+	android:name
+		ADDED from [com.github.MZCretin:AutoUpdateProject:v2.0.4] C:\Users\XiaoTu\.gradle\caches\transforms-2\files-2.1\f76dbe287a91ed54d5238d00325b580f\jetified-AutoUpdateProject-v2.0.4\AndroidManifest.xml:35:13-96
+activity#com.cretin.www.cretinautoupdatelibrary.activity.UpdateType9Activity
+ADDED from [com.github.MZCretin:AutoUpdateProject:v2.0.4] C:\Users\XiaoTu\.gradle\caches\transforms-2\files-2.1\f76dbe287a91ed54d5238d00325b580f\jetified-AutoUpdateProject-v2.0.4\AndroidManifest.xml:37:9-39:58
+	android:theme
+		ADDED from [com.github.MZCretin:AutoUpdateProject:v2.0.4] C:\Users\XiaoTu\.gradle\caches\transforms-2\files-2.1\f76dbe287a91ed54d5238d00325b580f\jetified-AutoUpdateProject-v2.0.4\AndroidManifest.xml:39:13-55
+	android:name
+		ADDED from [com.github.MZCretin:AutoUpdateProject:v2.0.4] C:\Users\XiaoTu\.gradle\caches\transforms-2\files-2.1\f76dbe287a91ed54d5238d00325b580f\jetified-AutoUpdateProject-v2.0.4\AndroidManifest.xml:38:13-95
+activity#com.cretin.www.cretinautoupdatelibrary.activity.UpdateType8Activity
+ADDED from [com.github.MZCretin:AutoUpdateProject:v2.0.4] C:\Users\XiaoTu\.gradle\caches\transforms-2\files-2.1\f76dbe287a91ed54d5238d00325b580f\jetified-AutoUpdateProject-v2.0.4\AndroidManifest.xml:40:9-42:58
+	android:theme
+		ADDED from [com.github.MZCretin:AutoUpdateProject:v2.0.4] C:\Users\XiaoTu\.gradle\caches\transforms-2\files-2.1\f76dbe287a91ed54d5238d00325b580f\jetified-AutoUpdateProject-v2.0.4\AndroidManifest.xml:42:13-55
+	android:name
+		ADDED from [com.github.MZCretin:AutoUpdateProject:v2.0.4] C:\Users\XiaoTu\.gradle\caches\transforms-2\files-2.1\f76dbe287a91ed54d5238d00325b580f\jetified-AutoUpdateProject-v2.0.4\AndroidManifest.xml:41:13-95
+activity#com.cretin.www.cretinautoupdatelibrary.activity.UpdateType7Activity
+ADDED from [com.github.MZCretin:AutoUpdateProject:v2.0.4] C:\Users\XiaoTu\.gradle\caches\transforms-2\files-2.1\f76dbe287a91ed54d5238d00325b580f\jetified-AutoUpdateProject-v2.0.4\AndroidManifest.xml:43:9-45:58
+	android:theme
+		ADDED from [com.github.MZCretin:AutoUpdateProject:v2.0.4] C:\Users\XiaoTu\.gradle\caches\transforms-2\files-2.1\f76dbe287a91ed54d5238d00325b580f\jetified-AutoUpdateProject-v2.0.4\AndroidManifest.xml:45:13-55
+	android:name
+		ADDED from [com.github.MZCretin:AutoUpdateProject:v2.0.4] C:\Users\XiaoTu\.gradle\caches\transforms-2\files-2.1\f76dbe287a91ed54d5238d00325b580f\jetified-AutoUpdateProject-v2.0.4\AndroidManifest.xml:44:13-95
+activity#com.cretin.www.cretinautoupdatelibrary.activity.UpdateType6Activity
+ADDED from [com.github.MZCretin:AutoUpdateProject:v2.0.4] C:\Users\XiaoTu\.gradle\caches\transforms-2\files-2.1\f76dbe287a91ed54d5238d00325b580f\jetified-AutoUpdateProject-v2.0.4\AndroidManifest.xml:46:9-48:58
+	android:theme
+		ADDED from [com.github.MZCretin:AutoUpdateProject:v2.0.4] C:\Users\XiaoTu\.gradle\caches\transforms-2\files-2.1\f76dbe287a91ed54d5238d00325b580f\jetified-AutoUpdateProject-v2.0.4\AndroidManifest.xml:48:13-55
+	android:name
+		ADDED from [com.github.MZCretin:AutoUpdateProject:v2.0.4] C:\Users\XiaoTu\.gradle\caches\transforms-2\files-2.1\f76dbe287a91ed54d5238d00325b580f\jetified-AutoUpdateProject-v2.0.4\AndroidManifest.xml:47:13-95
+activity#com.cretin.www.cretinautoupdatelibrary.activity.UpdateType5Activity
+ADDED from [com.github.MZCretin:AutoUpdateProject:v2.0.4] C:\Users\XiaoTu\.gradle\caches\transforms-2\files-2.1\f76dbe287a91ed54d5238d00325b580f\jetified-AutoUpdateProject-v2.0.4\AndroidManifest.xml:49:9-51:58
+	android:theme
+		ADDED from [com.github.MZCretin:AutoUpdateProject:v2.0.4] C:\Users\XiaoTu\.gradle\caches\transforms-2\files-2.1\f76dbe287a91ed54d5238d00325b580f\jetified-AutoUpdateProject-v2.0.4\AndroidManifest.xml:51:13-55
+	android:name
+		ADDED from [com.github.MZCretin:AutoUpdateProject:v2.0.4] C:\Users\XiaoTu\.gradle\caches\transforms-2\files-2.1\f76dbe287a91ed54d5238d00325b580f\jetified-AutoUpdateProject-v2.0.4\AndroidManifest.xml:50:13-95
+activity#com.cretin.www.cretinautoupdatelibrary.activity.UpdateType4Activity
+ADDED from [com.github.MZCretin:AutoUpdateProject:v2.0.4] C:\Users\XiaoTu\.gradle\caches\transforms-2\files-2.1\f76dbe287a91ed54d5238d00325b580f\jetified-AutoUpdateProject-v2.0.4\AndroidManifest.xml:52:9-54:58
+	android:theme
+		ADDED from [com.github.MZCretin:AutoUpdateProject:v2.0.4] C:\Users\XiaoTu\.gradle\caches\transforms-2\files-2.1\f76dbe287a91ed54d5238d00325b580f\jetified-AutoUpdateProject-v2.0.4\AndroidManifest.xml:54:13-55
+	android:name
+		ADDED from [com.github.MZCretin:AutoUpdateProject:v2.0.4] C:\Users\XiaoTu\.gradle\caches\transforms-2\files-2.1\f76dbe287a91ed54d5238d00325b580f\jetified-AutoUpdateProject-v2.0.4\AndroidManifest.xml:53:13-95
+activity#com.cretin.www.cretinautoupdatelibrary.activity.UpdateType3Activity
+ADDED from [com.github.MZCretin:AutoUpdateProject:v2.0.4] C:\Users\XiaoTu\.gradle\caches\transforms-2\files-2.1\f76dbe287a91ed54d5238d00325b580f\jetified-AutoUpdateProject-v2.0.4\AndroidManifest.xml:55:9-57:58
+	android:theme
+		ADDED from [com.github.MZCretin:AutoUpdateProject:v2.0.4] C:\Users\XiaoTu\.gradle\caches\transforms-2\files-2.1\f76dbe287a91ed54d5238d00325b580f\jetified-AutoUpdateProject-v2.0.4\AndroidManifest.xml:57:13-55
+	android:name
+		ADDED from [com.github.MZCretin:AutoUpdateProject:v2.0.4] C:\Users\XiaoTu\.gradle\caches\transforms-2\files-2.1\f76dbe287a91ed54d5238d00325b580f\jetified-AutoUpdateProject-v2.0.4\AndroidManifest.xml:56:13-95
+activity#com.cretin.www.cretinautoupdatelibrary.activity.UpdateType2Activity
+ADDED from [com.github.MZCretin:AutoUpdateProject:v2.0.4] C:\Users\XiaoTu\.gradle\caches\transforms-2\files-2.1\f76dbe287a91ed54d5238d00325b580f\jetified-AutoUpdateProject-v2.0.4\AndroidManifest.xml:58:9-60:58
+	android:theme
+		ADDED from [com.github.MZCretin:AutoUpdateProject:v2.0.4] C:\Users\XiaoTu\.gradle\caches\transforms-2\files-2.1\f76dbe287a91ed54d5238d00325b580f\jetified-AutoUpdateProject-v2.0.4\AndroidManifest.xml:60:13-55
+	android:name
+		ADDED from [com.github.MZCretin:AutoUpdateProject:v2.0.4] C:\Users\XiaoTu\.gradle\caches\transforms-2\files-2.1\f76dbe287a91ed54d5238d00325b580f\jetified-AutoUpdateProject-v2.0.4\AndroidManifest.xml:59:13-95
+activity#com.cretin.www.cretinautoupdatelibrary.activity.UpdateType1Activity
+ADDED from [com.github.MZCretin:AutoUpdateProject:v2.0.4] C:\Users\XiaoTu\.gradle\caches\transforms-2\files-2.1\f76dbe287a91ed54d5238d00325b580f\jetified-AutoUpdateProject-v2.0.4\AndroidManifest.xml:61:9-63:58
+	android:theme
+		ADDED from [com.github.MZCretin:AutoUpdateProject:v2.0.4] C:\Users\XiaoTu\.gradle\caches\transforms-2\files-2.1\f76dbe287a91ed54d5238d00325b580f\jetified-AutoUpdateProject-v2.0.4\AndroidManifest.xml:63:13-55
+	android:name
+		ADDED from [com.github.MZCretin:AutoUpdateProject:v2.0.4] C:\Users\XiaoTu\.gradle\caches\transforms-2\files-2.1\f76dbe287a91ed54d5238d00325b580f\jetified-AutoUpdateProject-v2.0.4\AndroidManifest.xml:62:13-95
+service#com.cretin.www.cretinautoupdatelibrary.service.UpdateService
+ADDED from [com.github.MZCretin:AutoUpdateProject:v2.0.4] C:\Users\XiaoTu\.gradle\caches\transforms-2\files-2.1\f76dbe287a91ed54d5238d00325b580f\jetified-AutoUpdateProject-v2.0.4\AndroidManifest.xml:65:9-96
+	android:name
+		ADDED from [com.github.MZCretin:AutoUpdateProject:v2.0.4] C:\Users\XiaoTu\.gradle\caches\transforms-2\files-2.1\f76dbe287a91ed54d5238d00325b580f\jetified-AutoUpdateProject-v2.0.4\AndroidManifest.xml:65:18-93
+service#com.cretin.www.cretinautoupdatelibrary.utils.DownloadService
+ADDED from [com.github.MZCretin:AutoUpdateProject:v2.0.4] C:\Users\XiaoTu\.gradle\caches\transforms-2\files-2.1\f76dbe287a91ed54d5238d00325b580f\jetified-AutoUpdateProject-v2.0.4\AndroidManifest.xml:66:9-96
+	android:name
+		ADDED from [com.github.MZCretin:AutoUpdateProject:v2.0.4] C:\Users\XiaoTu\.gradle\caches\transforms-2\files-2.1\f76dbe287a91ed54d5238d00325b580f\jetified-AutoUpdateProject-v2.0.4\AndroidManifest.xml:66:18-93
+provider#com.cretin.www.cretinautoupdatelibrary.utils.InstallFileProvider
+ADDED from [com.github.MZCretin:AutoUpdateProject:v2.0.4] C:\Users\XiaoTu\.gradle\caches\transforms-2\files-2.1\f76dbe287a91ed54d5238d00325b580f\jetified-AutoUpdateProject-v2.0.4\AndroidManifest.xml:68:9-76:20
+	android:grantUriPermissions
+		ADDED from [com.github.MZCretin:AutoUpdateProject:v2.0.4] C:\Users\XiaoTu\.gradle\caches\transforms-2\files-2.1\f76dbe287a91ed54d5238d00325b580f\jetified-AutoUpdateProject-v2.0.4\AndroidManifest.xml:72:13-47
+	android:authorities
+		ADDED from [com.github.MZCretin:AutoUpdateProject:v2.0.4] C:\Users\XiaoTu\.gradle\caches\transforms-2\files-2.1\f76dbe287a91ed54d5238d00325b580f\jetified-AutoUpdateProject-v2.0.4\AndroidManifest.xml:70:13-64
+	android:exported
+		ADDED from [com.github.MZCretin:AutoUpdateProject:v2.0.4] C:\Users\XiaoTu\.gradle\caches\transforms-2\files-2.1\f76dbe287a91ed54d5238d00325b580f\jetified-AutoUpdateProject-v2.0.4\AndroidManifest.xml:71:13-37
+	android:name
+		ADDED from [com.github.MZCretin:AutoUpdateProject:v2.0.4] C:\Users\XiaoTu\.gradle\caches\transforms-2\files-2.1\f76dbe287a91ed54d5238d00325b580f\jetified-AutoUpdateProject-v2.0.4\AndroidManifest.xml:69:13-92
+provider#me.yokeyword.eventbusactivityscope.RuntimeTrojanProvider
+ADDED from [me.yokeyword:eventbus-activity-scope:1.1.0] C:\Users\XiaoTu\.gradle\caches\transforms-2\files-2.1\91a5d83759a77aecaf2ec536e618ff64\eventbus-activity-scope-1.1.0\AndroidManifest.xml:10:9-14:43
+	android:authorities
+		ADDED from [me.yokeyword:eventbus-activity-scope:1.1.0] C:\Users\XiaoTu\.gradle\caches\transforms-2\files-2.1\91a5d83759a77aecaf2ec536e618ff64\eventbus-activity-scope-1.1.0\AndroidManifest.xml:12:13-82
+	android:multiprocess
+		ADDED from [me.yokeyword:eventbus-activity-scope:1.1.0] C:\Users\XiaoTu\.gradle\caches\transforms-2\files-2.1\91a5d83759a77aecaf2ec536e618ff64\eventbus-activity-scope-1.1.0\AndroidManifest.xml:14:13-40
+	android:exported
+		ADDED from [me.yokeyword:eventbus-activity-scope:1.1.0] C:\Users\XiaoTu\.gradle\caches\transforms-2\files-2.1\91a5d83759a77aecaf2ec536e618ff64\eventbus-activity-scope-1.1.0\AndroidManifest.xml:13:13-37
+	android:name
+		ADDED from [me.yokeyword:eventbus-activity-scope:1.1.0] C:\Users\XiaoTu\.gradle\caches\transforms-2\files-2.1\91a5d83759a77aecaf2ec536e618ff64\eventbus-activity-scope-1.1.0\AndroidManifest.xml:11:13-84
+uses-permission#android.permission.BLUETOOTH_CONNECT
+ADDED from [com.tencent.liteavsdk:LiteAVSDK_Smart:9.0.10437] C:\Users\XiaoTu\.gradle\caches\transforms-2\files-2.1\840b84bbcd4db1d753b53235350ecf4e\jetified-LiteAVSDK_Smart-9.0.10437\AndroidManifest.xml:28:5-76
+	android:name
+		ADDED from [com.tencent.liteavsdk:LiteAVSDK_Smart:9.0.10437] C:\Users\XiaoTu\.gradle\caches\transforms-2\files-2.1\840b84bbcd4db1d753b53235350ecf4e\jetified-LiteAVSDK_Smart-9.0.10437\AndroidManifest.xml:28:22-73
+activity#com.previewlibrary.GPreviewActivity
+ADDED from [com.ycjiang:ImagePreview:2.3.5] C:\Users\XiaoTu\.gradle\caches\transforms-2\files-2.1\1ffde35ae43ad499c8eed2c7af5e3f3e\jetified-ImagePreview-2.3.5\AndroidManifest.xml:13:9-15:75
+	android:theme
+		ADDED from [com.ycjiang:ImagePreview:2.3.5] C:\Users\XiaoTu\.gradle\caches\transforms-2\files-2.1\1ffde35ae43ad499c8eed2c7af5e3f3e\jetified-ImagePreview-2.3.5\AndroidManifest.xml:15:13-72
+	android:name
+		ADDED from [com.ycjiang:ImagePreview:2.3.5] C:\Users\XiaoTu\.gradle\caches\transforms-2\files-2.1\1ffde35ae43ad499c8eed2c7af5e3f3e\jetified-ImagePreview-2.3.5\AndroidManifest.xml:14:13-63
+activity#com.previewlibrary.GPVideoPlayerActivity
+ADDED from [com.ycjiang:ImagePreview:2.3.5] C:\Users\XiaoTu\.gradle\caches\transforms-2\files-2.1\1ffde35ae43ad499c8eed2c7af5e3f3e\jetified-ImagePreview-2.3.5\AndroidManifest.xml:16:9-77
+	android:name
+		ADDED from [com.ycjiang:ImagePreview:2.3.5] C:\Users\XiaoTu\.gradle\caches\transforms-2\files-2.1\1ffde35ae43ad499c8eed2c7af5e3f3e\jetified-ImagePreview-2.3.5\AndroidManifest.xml:16:19-74
+service#com.liulishuo.filedownloader.services.FileDownloadService$SharedMainProcessService
+ADDED from [com.liulishuo.filedownloader:library:1.7.6] C:\Users\XiaoTu\.gradle\caches\transforms-2\files-2.1\88283ffa5296325385b37bbfa03ea840\library-1.7.6\AndroidManifest.xml:12:9-118
+	android:name
+		ADDED from [com.liulishuo.filedownloader:library:1.7.6] C:\Users\XiaoTu\.gradle\caches\transforms-2\files-2.1\88283ffa5296325385b37bbfa03ea840\library-1.7.6\AndroidManifest.xml:12:18-115
+service#com.liulishuo.filedownloader.services.FileDownloadService$SeparateProcessService
+ADDED from [com.liulishuo.filedownloader:library:1.7.6] C:\Users\XiaoTu\.gradle\caches\transforms-2\files-2.1\88283ffa5296325385b37bbfa03ea840\library-1.7.6\AndroidManifest.xml:13:9-15:49
+	android:process
+		ADDED from [com.liulishuo.filedownloader:library:1.7.6] C:\Users\XiaoTu\.gradle\caches\transforms-2\files-2.1\88283ffa5296325385b37bbfa03ea840\library-1.7.6\AndroidManifest.xml:15:13-46
+	android:name
+		ADDED from [com.liulishuo.filedownloader:library:1.7.6] C:\Users\XiaoTu\.gradle\caches\transforms-2\files-2.1\88283ffa5296325385b37bbfa03ea840\library-1.7.6\AndroidManifest.xml:14:13-108

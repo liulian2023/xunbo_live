@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/rank_num_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="17dp"
+        android:layout_marginTop="28dp"
+        android:layout_marginBottom="28dp"
+        android:text="4"
+        android:textColor="@color/default_color"
+        android:textSize="13sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/rank_title_iv"
+        android:layout_width="36dp"
+        android:layout_height="36dp"
+        android:layout_marginStart="10dp"
+        app:layout_constraintBottom_toBottomOf="@+id/rank_num_tv"
+        app:layout_constraintStart_toEndOf="@+id/rank_num_tv"
+        app:layout_constraintTop_toTopOf="@+id/rank_num_tv"
+        app:srcCompat="@drawable/yinghong" />
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="200dp"
+            android:layout_height="0dp"
+            android:layout_marginLeft="5dp"
+            app:layout_constraintBottom_toBottomOf="@+id/rank_title_iv"
+            app:layout_constraintStart_toEndOf="@+id/rank_title_iv"
+            app:layout_constraintTop_toTopOf="@+id/rank_title_iv">
+
+            <TextView
+                android:id="@+id/rank_name_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Tf16"
+                android:textSize="14sp"
+                android:textColor="@color/default_color"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <ImageView
+                android:id="@+id/rank_sex_iv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="4dp"
+                app:layout_constraintBottom_toBottomOf="@+id/rank_name_tv"
+                app:layout_constraintStart_toEndOf="@+id/rank_name_tv"
+                app:layout_constraintTop_toTopOf="@+id/rank_name_tv"
+                app:srcCompat="@drawable/xingbie_nan" />
+
+            <ImageView
+                android:visibility="invisible"
+                android:id="@+id/rank_level_iv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="2dp"
+                app:layout_constraintBottom_toBottomOf="@+id/rank_sex_iv"
+                app:layout_constraintStart_toEndOf="@+id/rank_sex_iv"
+                app:layout_constraintTop_toTopOf="@+id/rank_sex_iv"
+                app:srcCompat="@drawable/hanmai_icon" />
+
+            <TextView
+                android:id="@+id/rank_gift_amount_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="6666"
+                android:textSize="12sp"
+                android:textColor="#666666"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toStartOf="@+id/rank_name_tv" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <TextView
+        android:visibility="invisible"
+        android:id="@+id/rank_follw_tv"
+        android:layout_width="66dp"
+        android:layout_height="30dp"
+        android:layout_marginEnd="17dp"
+        android:text="关注"
+        android:textSize="14sp"
+        android:textColor="#E94848"
+        android:gravity="center"
+        android:background="@drawable/rank_item_follow_shape"
+        app:layout_constraintBottom_toBottomOf="@+id/rank_title_iv"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/rank_title_iv" />
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="0dp"
+        android:layout_height="1dp"
+        android:background="#D8D8D8"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/rank_num_tv" />
+</androidx.constraintlayout.widget.ConstraintLayout>

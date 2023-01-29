@@ -1,0 +1,1 @@
+[{"outputType":{"type":"INSTANT_APP_MANIFEST"},"apkData":{"type":"MAIN","splits":[],"versionCode":35,"versionName":"1.3.6","enabled":true,"outputFile":"app-miaomi-debug.apk","fullName":"miaomiDebug","baseName":"miaomi-debug"},"path":"AndroidManifest.xml","properties":{"packageId":"com.zz.live","split":"","minSdkVersion":"23"}}]

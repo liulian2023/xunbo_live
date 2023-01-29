@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".ui.activity.main_tab_activity.house_keeper_activity.anchor_manage_activity.AddAnchorActitity">
+    <include
+        android:id="@+id/include"
+        layout="@layout/toolbar_layout"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <EditText
+        android:id="@+id/account_etv"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="38dp"
+        android:layout_marginTop="104dp"
+        android:layout_marginEnd="38dp"
+        android:hint="请设置主播账号(6-11位字母加数字)"
+        android:singleLine="true"
+        android:textColor="@color/default_color"
+        android:textColorHint="#999999"
+        android:textSize="12sp"
+        android:theme="@style/LoginEditText"
+        app:layout_constraintEnd_toEndOf="@+id/include"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/include" />
+
+    <EditText
+        android:id="@+id/login_password_etv"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="38dp"
+        android:layout_marginTop="38dp"
+        android:layout_marginEnd="38dp"
+        android:hint="请设置主播登录密码(8-20位字母加数字)"
+        android:singleLine="true"
+        android:textColor="@color/default_color"
+        android:textColorHint="#999999"
+        android:textSize="12sp"
+        android:inputType="textPassword"
+        android:theme="@style/LoginEditText"
+        app:layout_constraintEnd_toEndOf="@+id/include"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/account_etv" />
+
+    <EditText
+        android:id="@+id/sure_password_etv"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="38dp"
+        android:layout_marginTop="38dp"
+        android:layout_marginEnd="38dp"
+        android:hint="请再次输入密码~"
+        android:inputType="textPassword"
+        android:singleLine="true"
+        android:textColor="@color/default_color"
+        android:textColorHint="#999999"
+        android:textSize="12sp"
+        android:theme="@style/LoginEditText"
+        app:layout_constraintEnd_toEndOf="@+id/include"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/login_password_etv" />
+
+    <Button
+        android:id="@+id/add_anchor_btn"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="55dp"
+        android:text="添加主播"
+        android:textSize="16sp"
+        android:textColor="@color/white"
+        android:gravity="center"
+        android:background="@drawable/commit_btn_selector"
+        app:layout_constraintEnd_toEndOf="@+id/sure_password_etv"
+        app:layout_constraintStart_toStartOf="@+id/sure_password_etv"
+        app:layout_constraintTop_toBottomOf="@+id/sure_password_etv" />
+</androidx.constraintlayout.widget.ConstraintLayout>

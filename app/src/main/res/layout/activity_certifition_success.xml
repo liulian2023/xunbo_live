@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".ui.activity.mine_fragment_activity.certification_activity.CertifitionSuccessActivity">
+
+    <include
+        android:id="@+id/include"
+        layout="@layout/toolbar_layout"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView33"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="18dp"
+        android:text="真实姓名:"
+        android:textSize="14sp"
+        android:textColor="#666666"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/include" />
+
+    <TextView
+        android:id="@+id/name_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="14dp"
+        android:text="- - - "
+        android:textSize="14sp"
+        android:textColor="@color/default_color"
+        app:layout_constraintBottom_toBottomOf="@+id/textView33"
+        app:layout_constraintStart_toEndOf="@+id/textView33"
+        app:layout_constraintTop_toTopOf="@+id/textView33" />
+
+    <TextView
+        android:id="@+id/textView35"
+        android:layout_width="0dp"
+        android:layout_height="1dp"
+        android:layout_marginTop="19dp"
+        android:background="#D8D8D8"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/textView33"
+        app:layout_constraintTop_toBottomOf="@+id/textView33" />
+
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="19dp"
+        android:text="身份证号:"
+        android:textColor="#666666"
+        android:textSize="14sp"
+        app:layout_constraintStart_toStartOf="@+id/textView33"
+        app:layout_constraintTop_toBottomOf="@+id/textView35" />
+
+    <TextView
+        android:id="@+id/id_card_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="- - - "
+        android:textColor="@color/default_color"
+        android:textSize="14sp"
+        app:layout_constraintBottom_toBottomOf="@+id/textView1"
+        app:layout_constraintStart_toStartOf="@+id/name_tv"
+        app:layout_constraintTop_toTopOf="@+id/textView1" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="0dp"
+        android:layout_height="1dp"
+        android:layout_marginTop="19dp"
+        android:background="#D8D8D8"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/textView1"
+        app:layout_constraintTop_toBottomOf="@+id/textView1" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="19dp"
+        android:text="手机号:"
+        android:textColor="#666666"
+        android:textSize="14sp"
+        app:layout_constraintStart_toStartOf="@+id/textView1"
+        app:layout_constraintTop_toBottomOf="@+id/textView2" />
+
+    <TextView
+        android:id="@+id/phone_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="- - - "
+        android:textColor="@color/default_color"
+        android:textSize="14sp"
+        app:layout_constraintBottom_toBottomOf="@+id/textView4"
+        app:layout_constraintStart_toStartOf="@+id/id_card_tv"
+        app:layout_constraintTop_toTopOf="@+id/textView4" />
+
+    <TextView
+        android:id="@+id/textView36"
+        android:layout_width="0dp"
+        android:layout_height="6dp"
+        android:layout_marginTop="19dp"
+        android:background="#F3F7FA"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/phone_tv" />
+
+    <TextView
+        android:id="@+id/textView37"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="11dp"
+        android:text="生活照"
+        android:textSize="14sp"
+        android:textColor="@color/default_color"
+        app:layout_constraintStart_toStartOf="@+id/textView4"
+        app:layout_constraintTop_toBottomOf="@+id/textView36" />
+
+    <ImageView
+        android:id="@+id/one_photo_iv"
+        android:layout_width="110dp"
+        android:layout_height="110dp"
+        android:layout_marginTop="12dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView37"
+        app:layout_constraintEnd_toStartOf="@+id/two_photo_iv"
+        app:srcCompat="@drawable/yinghong" />
+
+    <ImageView
+        android:id="@+id/two_photo_iv"
+        android:layout_width="110dp"
+        android:layout_height="110dp"
+        app:layout_constraintBottom_toBottomOf="@+id/one_photo_iv"
+        app:layout_constraintStart_toEndOf="@+id/one_photo_iv"
+        app:layout_constraintTop_toTopOf="@+id/one_photo_iv"
+        app:layout_constraintEnd_toStartOf="@+id/three_photo_iv"
+        app:srcCompat="@drawable/yinghong" />
+
+    <ImageView
+        android:id="@+id/three_photo_iv"
+        android:layout_width="110dp"
+        android:layout_height="110dp"
+        app:layout_constraintBottom_toBottomOf="@+id/one_photo_iv"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/two_photo_iv"
+        app:layout_constraintTop_toTopOf="@+id/one_photo_iv"
+        app:srcCompat="@drawable/yinghong" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

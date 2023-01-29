@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="Gradle: com.tencent.liteavsdk:LiteAVSDK_Smart:9.4.10921@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/8c18c9692d3d8c895ac35e8ddbf5d668/LiteAVSDK_Smart-9.4.10921/jars/classes.jar!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/8c18c9692d3d8c895ac35e8ddbf5d668/LiteAVSDK_Smart-9.4.10921/jars/libs/LiteAVSDK_Smart-0.0.1.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/8c18c9692d3d8c895ac35e8ddbf5d668/LiteAVSDK_Smart-9.4.10921/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/8c18c9692d3d8c895ac35e8ddbf5d668/LiteAVSDK_Smart-9.4.10921/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

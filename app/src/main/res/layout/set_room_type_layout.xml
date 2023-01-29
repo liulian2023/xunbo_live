@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:orientation="vertical"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:background="@drawable/game_rule_wrap_shape">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:gravity="center"
+            android:textColor="@color/default_color"
+            android:text="设置付费金额"
+            android:textStyle="bold"
+            android:textSize="16sp"
+            android:layout_marginBottom="20dp"
+            />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:layout_marginBottom="22dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:background="@drawable/splite_stroke_shape"
+            android:orientation="horizontal">
+
+            <EditText
+                android:id="@+id/set_amount_etv"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginLeft="3dp"
+                android:layout_weight="1"
+                android:background="@null"
+                android:hint="请输入0.1-1000"
+                android:inputType="numberDecimal"
+                android:lineSpacingExtra="4dp"
+                android:paddingTop="5dp"
+                android:paddingBottom="5dp"
+                android:textColor="@color/default_color"
+                android:focusable="true"
+                android:textSize="14sp" />
+            <TextView
+                android:layout_width="1dp"
+                android:layout_height="22dp"
+                android:background="#D8D8D8"
+                android:layout_marginTop="12dp"
+                android:layout_marginBottom="12dp"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="12dp"
+                android:layout_marginRight="12dp"
+                android:textColor="@color/default_color"
+                android:gravity="center"
+                android:textSize="13sp"
+                android:text="元/10分钟"
+                />
+        </LinearLayout>
+
+
+        <include layout="@layout/split_horizontal"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+
+            >
+            <TextView
+                android:id="@+id/set_room_type_free_tv"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="免费"
+                android:gravity="center"
+                android:textColor="#63a4e8"
+                android:paddingTop="12dp"
+                android:paddingBottom="12dp"
+                android:background="@drawable/pop_cancel_selector"
+                />
+            <TextView
+                android:layout_width="1dp"
+                android:layout_height="match_parent"
+                android:background="@color/split"
+                />
+            <TextView
+                android:id="@+id/set_room_type_sure_tv"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="确定"
+                android:textColor="#dc2e2e"
+                android:gravity="center"
+                android:background="@drawable/pop_sure_selector"
+                />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

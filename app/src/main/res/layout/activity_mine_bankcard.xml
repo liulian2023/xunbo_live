@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#EBEDF3"
+    tools:context=".ui.activity.mine_fragment_activity.income_live_activity.MineBankcardActivity">
+    <include  android:id="@+id/include"
+        layout="@layout/toolbar_layout"/>
+    <include layout="@layout/error_lyaout"/>
+    <include layout="@layout/loading_layout"/>
+    <include layout="@layout/nodata_layout"/>
+    <com.scwang.smartrefresh.layout.SmartRefreshLayout
+        android:id="@+id/refresh"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/bankcard_recycle"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            />
+    </com.scwang.smartrefresh.layout.SmartRefreshLayout>
+</LinearLayout>

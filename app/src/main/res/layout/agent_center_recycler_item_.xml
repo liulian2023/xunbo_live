@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:gravity="center"
+    android:layout_marginLeft="12dp"
+    android:layout_marginRight="12dp"
+    android:layout_width="match_parent"
+    android:layout_height="46dp">
+    <TextView
+        android:id="@+id/num_tv"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:textSize="12sp"
+        android:textColor="@color/default_color"
+        android:text="- -"
+        android:gravity="center"
+        android:layout_weight="1"
+        />
+
+    <ImageView
+        android:id="@+id/title_iv"
+        android:layout_width="26dp"
+        android:layout_height="26dp"
+        android:textSize="12sp"
+        android:textColor="@color/default_color"
+        android:gravity="center"
+        android:src="@drawable/yinghong"
+        android:layout_gravity="center"
+        />
+
+    <TextView
+        android:id="@+id/username_tv"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:textSize="12sp"
+        android:textColor="@color/default_color"
+        android:text="- - "
+        android:gravity="center"
+        android:layout_weight="2"
+        />
+
+    <TextView
+        android:id="@+id/fans_num_tv"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1.5"
+        android:gravity="center"
+        android:text="- - "
+
+        android:textColor="#666666"
+        android:textSize="12sp" />
+
+    <TextView
+        android:id="@+id/certification_tv"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:textSize="12sp"
+        android:textColor="#666666"
+        android:text="- - "
+        android:gravity="center"
+        android:layout_weight="1"
+        />
+
+    <TextView
+        android:id="@+id/is_live_tv"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:textSize="12sp"
+        android:textColor="#666666"
+        android:text="- - "
+        android:gravity="center"
+        android:layout_weight="1"
+        />
+</LinearLayout>

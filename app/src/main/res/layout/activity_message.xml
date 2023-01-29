@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".ui.activity.mine_fragment_activity.MessageActivity">
+
+    <include
+        android:id="@+id/include"
+        layout="@layout/toolbar_layout" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.5" />
+
+    <ImageView
+        android:id="@+id/system_message_iv"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="6dp"
+        app:layout_constraintEnd_toStartOf="@+id/guideline7"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/include"
+        app:srcCompat="@drawable/xtxx_dliang" />
+
+    <TextView
+        android:id="@+id/system_message_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="系统消息"
+        android:textSize="12sp"
+        android:textColor="@color/default_color"
+        app:layout_constraintEnd_toEndOf="@+id/system_message_iv"
+        app:layout_constraintStart_toStartOf="@+id/system_message_iv"
+        app:layout_constraintTop_toBottomOf="@+id/system_message_iv" />
+
+
+    <ImageView
+        android:id="@+id/private_message_iv"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="6dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/guideline7"
+        app:layout_constraintTop_toBottomOf="@+id/include"
+        app:srcCompat="@drawable/sxxx_mr" />
+
+    <TextView
+        android:id="@+id/private_message_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="私信消息"
+        android:textColor="@color/default_color"
+        android:textSize="12sp"
+        app:layout_constraintEnd_toEndOf="@+id/private_message_iv"
+        app:layout_constraintStart_toStartOf="@+id/private_message_iv"
+        app:layout_constraintTop_toBottomOf="@+id/system_message_iv" />
+
+    <TextView
+        android:id="@+id/big_splite_tv"
+        android:layout_width="0dp"
+        android:layout_height="10dp"
+        android:layout_marginTop="10dp"
+        android:background="#F3F7FA"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/include"
+        app:layout_constraintTop_toBottomOf="@+id/system_message_tv" />
+
+    <FrameLayout
+        android:id="@+id/message_content_frameLayout"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/big_splite_tv">
+
+    </FrameLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

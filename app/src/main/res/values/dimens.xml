@@ -1,0 +1,12 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+
+    <dimen name="live_chat_dimen">330dp</dimen>
+
+    <dimen name="bet_ball_margin">3dp</dimen>//happy快乐8开奖结果margin
+    <dimen name="bet_recycle_item_margin">5dp</dimen>//投注页面item间距
+    <dimen name="bet_ball_size">12sp</dimen>//北京快乐8 开奖结果字体大小
+
+</resources>

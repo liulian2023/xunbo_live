@@ -1,0 +1,385 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.zz.live"
+    android:targetSandboxVersion="2"
+    android:versionCode="35"
+    android:versionName="1.3.6" >
+
+    <uses-sdk
+        android:minSdkVersion="23"
+        android:targetSdkVersion="28" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS" />
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.FLASHLIGHT" />
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+
+    <uses-feature android:name="android.hardware.Camera" />
+    <uses-feature android:name="android.hardware.camera.autofocus" />
+
+    <!-- 消息通道保活 -->
+    <uses-permission android:name="android.permission.WAKE_LOCK" /> <!-- 定位，如果您需要定位相关的功能，可以打开以下注释 -->
+    <!-- <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" /> -->
+    <uses-permission android:name="com.zz.live.permission.RONG_ACCESS_RECEIVER" /> <!-- 融云自定义接收广播权限，用于广播接收 -->
+    <permission
+        android:name="com.zz.live.permission.RONG_ACCESS_RECEIVER"
+        android:protectionLevel="signature" >
+    </permission>
+
+    <uses-permission android:name="android.permission.DOWNLOAD_WITHOUT_NOTIFICATION" />
+    <uses-permission android:name="android.permission.REQUEST_INSTALL_PACKAGES" />
+    <uses-permission android:name="android.permission.KILL_BACKGROUND_PROCESSES" />
+    <uses-permission android:name="android.permission.RESTART_PACKAGES" />
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+    <uses-permission android:name="android.permission.BLUETOOTH_CONNECT" />
+
+    <application
+        android:name="com.zz.live.MyApplication"
+        android:allowBackup="true"
+        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+        android:debuggable="true"
+        android:icon="@drawable/ic_launch"
+        android:label="@string/app_name"
+        android:networkSecurityConfig="@xml/network_config"
+        android:roundIcon="@drawable/ic_launch"
+        android:screenOrientation="portrait"
+        android:supportsRtl="true"
+        android:testOnly="true"
+        android:theme="@style/NoActionBarNoTitleTheme"
+        android:usesCleartextTraffic="true" >
+        <activity android:name="com.zz.live.ui.activity.main_tab_activity.ToyActivity" />
+        <activity
+            android:name="com.zz.live.ui.activity.main_tab_activity.house_keeper_activity.AnchorReportActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.zz.live.ui.activity.main_tab_activity.ChooseBaseUrlAvtivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.zz.live.ui.activity.mine_fragment_activity.income_live_activity.ChooseBankcardActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.zz.live.ui.activity.main_tab_activity.OnLineCustomerActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.zz.live.ui.activity.main_tab_activity.house_keeper_activity.ChangeCashBackActivity"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.zz.live.ui.activity.main_tab_activity.house_keeper_activity.anchor_manage_activity.AddAnchorActitity"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.zz.live.ui.activity.main_tab_activity.house_keeper_activity.anchor_manage_activity.ModifyAnchorPasswordActivity"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.zz.live.ui.activity.main_tab_activity.house_keeper_activity.anchor_manage_activity.ChildAnchorActivity"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.zz.live.ui.activity.main_tab_activity.house_keeper_activity.anchor_manage_activity.AnchorManageActivity"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.zz.live.ui.activity.main_tab_activity.house_keeper_activity.AnchorHouseKeeperActivity"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.zz.live.ui.activity.mine_fragment_activity.wallet_activity.CashBackTipAcitivity"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.zz.live.ui.activity.mine_fragment_activity.income_activity.InComeActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.zz.live.ui.activity.mine_fragment_activity.wallet_activity.MineWalletActivity"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.zz.live.ui.activity.start_live_activity.ChooseLotteryActivity"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.zz.live.ui.activity.start_live_activity.ChooseChannelActivity"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.zz.live.ui.activity.mine_fragment_activity.agent_center_activity.AnchorDataActivity"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.zz.live.ui.activity.mine_fragment_activity.agent_center_activity.AgentCenterActivity"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.zz.live.ui.activity.mine_fragment_activity.InviteActivity"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.zz.live.ui.activity.mine_fragment_activity.certification_activity.CertifitionSuccessActivity"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.zz.live.ui.activity.start_live_activity.open_result_activity.Happy8OpentActivity"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.zz.live.ui.activity.start_live_activity.open_result_activity.Happy10OpentActivity"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.zz.live.ui.activity.start_live_activity.open_result_activity.KuaiSanOpenActivity"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.zz.live.ui.activity.start_live_activity.open_result_activity.LuckFarmOpenActivity"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.zz.live.ui.activity.start_live_activity.open_result_activity.PcDanOpenActivity"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.zz.live.ui.activity.start_live_activity.open_result_activity.RaceOpenActivity"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.zz.live.ui.activity.start_live_activity.open_result_activity.SixOpenActivity"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.zz.live.ui.activity.start_live_activity.open_result_activity.SscOpenActivity"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.zz.live.ui.activity.main_tab_activity.SplashActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/StartingWindowTheme" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.zz.live.ui.activity.mine_fragment_activity.certification_activity.CertificationActivity"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.zz.live.ui.activity.main_tab_activity.RegisterSussessActivity"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.zz.live.ui.activity.mine_fragment_activity.income_live_activity.WithdrawDetailsActivity"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.zz.live.ui.activity.mine_fragment_activity.income_live_activity.WithDrawNoteActivity"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.zz.live.ui.activity.mine_fragment_activity.income_live_activity.MineBankcardActivity"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.zz.live.ui.activity.mine_fragment_activity.income_live_activity.AddBankcardActivity"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.zz.live.ui.activity.mine_fragment_activity.income_live_activity.IncomeLiveActivity"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.zz.live.ui.activity.mine_fragment_activity.MineDetailsActivity"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.zz.live.ui.activity.user_info_activity.ModifyPasswordActivity"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.zz.live.ui.activity.user_info_activity.UserInfoActivity"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.zz.live.ui.activity.message_activity.FollowMessageActivity"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.zz.live.ui.activity.message_activity.MessageDetailsActivity"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.zz.live.ui.activity.message_activity.SystemMessageActivity"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.zz.live.ui.activity.mine_fragment_activity.MessageActivity"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.zz.live.ui.activity.start_live_activity.FinishLiveActivity"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.zz.live.ui.activity.play_live_activity.PlayLiveActivity"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.zz.live.ui.activity.start_live_activity.StartLiveActivity"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustNothing" />
+        <activity
+            android:name="com.zz.live.ui.activity.main_tab_activity.LoginActivity"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait" />
+        <activity android:name="com.zz.live.TestActitivy" />
+        <activity
+            android:name="com.zz.live.ui.activity.main_tab_activity.RegisterActivity"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.zz.live.MainActivity"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.zz.live.ui.activity.mine_fragment_activity.FeedBackActivity"
+            android:screenOrientation="portrait" />
+
+        <provider
+            android:name="androidx.core.content.FileProvider"
+            android:authorities="com.zz.live.fileprovider"
+            android:exported="false"
+            android:grantUriPermissions="true" >
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/provider_paths" />
+        </provider> <!-- value的值填写你在友盟后台申请的应用Appkey -->
+        <meta-data
+            android:name="UMENG_APPKEY"
+            android:value="5fa8e6f745b2b751a926ea1a" /> <!-- value的值填写渠道名称，例如yingyongbao。这里设置动态渠道名称变量 -->
+        <meta-data
+            android:name="UMENG_CHANNEL"
+            android:value="miaomi" />
+
+        <service
+            android:name="com.xtremeprog.sdk.ble.BleService"
+            android:enabled="true" />
+        <!-- imlib config begin -->
+        <service
+            android:name="io.rong.imlib.ipc.RongService"
+            android:process=":ipc" />
+
+        <receiver android:name="io.rong.imlib.ConnectChangeReceiver" />
+        <receiver
+            android:name="io.rong.imlib.HeartbeatReceiver"
+            android:process=":ipc" /> <!-- imlib config end -->
+        <!-- 必选： SDK 核心功能 -->
+        <service
+            android:name="io.rong.push.rongpush.PushService"
+            android:exported="true"
+            android:permission="android.permission.BIND_JOB_SERVICE"
+            android:process="io.rong.push" /> <!-- push 相关事件接收器 -->
+        <receiver
+            android:name="io.rong.push.rongpush.PushReceiver"
+            android:process="io.rong.push" > <!-- 此处进程可以改名，名称需要和PushService所在进程统一 -->
+            <!-- 心跳事件和网络切换事件监听,必须 -->
+            <intent-filter>
+                <action android:name="io.rong.push.intent.action.HEART_BEAT" />
+                <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
+            </intent-filter>
+
+            <!-- 部分用户事件监听, 用来提高推送拉活率; 可移除 -->
+            <intent-filter>
+                <action android:name="android.intent.action.USER_PRESENT" />
+                <action android:name="android.intent.action.ACTION_POWER_CONNECTED" />
+                <action android:name="android.intent.action.ACTION_POWER_DISCONNECTED" />
+            </intent-filter>
+        </receiver>
+
+        <activity
+            android:name="pub.devrel.easypermissions.AppSettingsDialogHolderActivity"
+            android:exported="false"
+            android:label=""
+            android:theme="@style/EasyPermissions.Transparent" />
+        <activity android:name="com.cretin.www.cretinautoupdatelibrary.activity.UpdateBackgroundActivity" />
+        <activity
+            android:name="com.cretin.www.cretinautoupdatelibrary.activity.UpdateType12Activity"
+            android:theme="@style/DialogActivityTheme" />
+        <activity
+            android:name="com.cretin.www.cretinautoupdatelibrary.activity.UpdateType11Activity"
+            android:theme="@style/DialogActivityTheme" />
+        <activity
+            android:name="com.cretin.www.cretinautoupdatelibrary.activity.UpdateType10Activity"
+            android:theme="@style/DialogActivityTheme" />
+        <activity
+            android:name="com.cretin.www.cretinautoupdatelibrary.activity.UpdateType9Activity"
+            android:theme="@style/DialogActivityTheme" />
+        <activity
+            android:name="com.cretin.www.cretinautoupdatelibrary.activity.UpdateType8Activity"
+            android:theme="@style/DialogActivityTheme" />
+        <activity
+            android:name="com.cretin.www.cretinautoupdatelibrary.activity.UpdateType7Activity"
+            android:theme="@style/DialogActivityTheme" />
+        <activity
+            android:name="com.cretin.www.cretinautoupdatelibrary.activity.UpdateType6Activity"
+            android:theme="@style/DialogActivityTheme" />
+        <activity
+            android:name="com.cretin.www.cretinautoupdatelibrary.activity.UpdateType5Activity"
+            android:theme="@style/DialogActivityTheme" />
+        <activity
+            android:name="com.cretin.www.cretinautoupdatelibrary.activity.UpdateType4Activity"
+            android:theme="@style/DialogActivityTheme" />
+        <activity
+            android:name="com.cretin.www.cretinautoupdatelibrary.activity.UpdateType3Activity"
+            android:theme="@style/DialogActivityTheme" />
+        <activity
+            android:name="com.cretin.www.cretinautoupdatelibrary.activity.UpdateType2Activity"
+            android:theme="@style/DialogActivityTheme" />
+        <activity
+            android:name="com.cretin.www.cretinautoupdatelibrary.activity.UpdateType1Activity"
+            android:theme="@style/DialogActivityTheme" />
+
+        <service android:name="com.cretin.www.cretinautoupdatelibrary.service.UpdateService" /> <!-- 老版本的服务 -->
+        <service android:name="com.cretin.www.cretinautoupdatelibrary.utils.DownloadService" />
+
+        <provider
+            android:name="com.cretin.www.cretinautoupdatelibrary.utils.InstallFileProvider"
+            android:authorities="com.zz.live.fileprovider"
+            android:exported="false"
+            android:grantUriPermissions="true" >
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/install_file" />
+        </provider>
+        <provider
+            android:name="me.yokeyword.eventbusactivityscope.RuntimeTrojanProvider"
+            android:authorities="com.zz.live.eventbus_activity_scope_trojan"
+            android:exported="false"
+            android:multiprocess="true" />
+
+        <activity
+            android:name="com.previewlibrary.GPreviewActivity"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+        <activity android:name="com.previewlibrary.GPVideoPlayerActivity" />
+
+        <service android:name="com.liulishuo.filedownloader.services.FileDownloadService$SharedMainProcessService" />
+        <service
+            android:name="com.liulishuo.filedownloader.services.FileDownloadService$SeparateProcessService"
+            android:process=":filedownloader" />
+    </application>
+
+</manifest>

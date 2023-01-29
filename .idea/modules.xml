@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/xunbo_live.iml" filepath="$PROJECT_DIR$/.idea/modules/xunbo_live.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/xunbo_live.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/xunbo_live.app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/faceunity/xunbo_live.faceunity.iml" filepath="$PROJECT_DIR$/.idea/modules/faceunity/xunbo_live.faceunity.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/rxhttp/xunbo_live.rxhttp.iml" filepath="$PROJECT_DIR$/.idea/modules/rxhttp/xunbo_live.rxhttp.iml" />
+    </modules>
+  </component>
+</project>

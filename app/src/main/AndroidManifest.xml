@@ -1,0 +1,258 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.zz.live">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS" />
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.FLASHLIGHT" />
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+
+    <uses-feature android:name="android.hardware.Camera" />
+    <uses-feature android:name="android.hardware.camera.autofocus" />
+
+    <application
+        android:name=".MyApplication"
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launch"
+        android:label="@string/app_name"
+        android:networkSecurityConfig="@xml/network_config"
+        android:roundIcon="@drawable/ic_launch"
+        android:screenOrientation="portrait"
+        android:supportsRtl="true"
+        android:theme="@style/NoActionBarNoTitleTheme"
+        tools:replace="android:networkSecurityConfig">
+        <activity android:name=".ui.activity.main_tab_activity.ToyActivity"></activity>
+        <activity
+            android:name=".ui.activity.main_tab_activity.house_keeper_activity.AnchorReportActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ui.activity.main_tab_activity.ChooseBaseUrlAvtivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ui.activity.mine_fragment_activity.income_live_activity.ChooseBankcardActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ui.activity.main_tab_activity.OnLineCustomerActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ui.activity.main_tab_activity.house_keeper_activity.ChangeCashBackActivity"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ui.activity.main_tab_activity.house_keeper_activity.anchor_manage_activity.AddAnchorActitity"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ui.activity.main_tab_activity.house_keeper_activity.anchor_manage_activity.ModifyAnchorPasswordActivity"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ui.activity.main_tab_activity.house_keeper_activity.anchor_manage_activity.ChildAnchorActivity"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ui.activity.main_tab_activity.house_keeper_activity.anchor_manage_activity.AnchorManageActivity"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ui.activity.main_tab_activity.house_keeper_activity.AnchorHouseKeeperActivity"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ui.activity.mine_fragment_activity.wallet_activity.CashBackTipAcitivity"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ui.activity.mine_fragment_activity.income_activity.InComeActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ui.activity.mine_fragment_activity.wallet_activity.MineWalletActivity"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ui.activity.start_live_activity.ChooseLotteryActivity"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ui.activity.start_live_activity.ChooseChannelActivity"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ui.activity.mine_fragment_activity.agent_center_activity.AnchorDataActivity"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ui.activity.mine_fragment_activity.agent_center_activity.AgentCenterActivity"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ui.activity.mine_fragment_activity.InviteActivity"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ui.activity.mine_fragment_activity.certification_activity.CertifitionSuccessActivity"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ui.activity.start_live_activity.open_result_activity.Happy8OpentActivity"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ui.activity.start_live_activity.open_result_activity.Happy10OpentActivity"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ui.activity.start_live_activity.open_result_activity.KuaiSanOpenActivity"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ui.activity.start_live_activity.open_result_activity.LuckFarmOpenActivity"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ui.activity.start_live_activity.open_result_activity.PcDanOpenActivity"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ui.activity.start_live_activity.open_result_activity.RaceOpenActivity"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ui.activity.start_live_activity.open_result_activity.SixOpenActivity"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ui.activity.start_live_activity.open_result_activity.SscOpenActivity"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ui.activity.main_tab_activity.SplashActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/StartingWindowTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".ui.activity.mine_fragment_activity.certification_activity.CertificationActivity"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ui.activity.main_tab_activity.RegisterSussessActivity"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ui.activity.mine_fragment_activity.income_live_activity.WithdrawDetailsActivity"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ui.activity.mine_fragment_activity.income_live_activity.WithDrawNoteActivity"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ui.activity.mine_fragment_activity.income_live_activity.MineBankcardActivity"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ui.activity.mine_fragment_activity.income_live_activity.AddBankcardActivity"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ui.activity.mine_fragment_activity.income_live_activity.IncomeLiveActivity"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ui.activity.mine_fragment_activity.MineDetailsActivity"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ui.activity.user_info_activity.ModifyPasswordActivity"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ui.activity.user_info_activity.UserInfoActivity"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ui.activity.message_activity.FollowMessageActivity"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ui.activity.message_activity.MessageDetailsActivity"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ui.activity.message_activity.SystemMessageActivity"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ui.activity.mine_fragment_activity.MessageActivity"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ui.activity.start_live_activity.FinishLiveActivity"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ui.activity.play_live_activity.PlayLiveActivity"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ui.activity.start_live_activity.StartLiveActivity"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustNothing" />
+        <activity
+            android:name=".ui.activity.main_tab_activity.LoginActivity"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait" />
+        <activity android:name=".TestActitivy" />
+        <activity
+            android:name=".ui.activity.main_tab_activity.RegisterActivity"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".MainActivity"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ui.activity.mine_fragment_activity.FeedBackActivity"
+            android:screenOrientation="portrait" />
+
+        <provider
+            android:name="androidx.core.content.FileProvider"
+            android:authorities="${applicationId}.fileprovider"
+            android:exported="false"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/provider_paths" />
+        </provider> <!-- value的值填写你在友盟后台申请的应用Appkey -->
+        <meta-data
+            android:name="UMENG_APPKEY"
+            android:value="5fa8e6f745b2b751a926ea1a" /> <!-- value的值填写渠道名称，例如yingyongbao。这里设置动态渠道名称变量 -->
+        <meta-data
+            android:name="UMENG_CHANNEL"
+            android:value="${UMENG_CHANNEL_VALUE}" />
+
+        <service
+            android:name="com.xtremeprog.sdk.ble.BleService"
+            android:enabled="true" />
+    </application>
+
+</manifest>

@@ -1,0 +1,1063 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/wrap_frameLayout"
+    android:keepScreenOn="true"
+    android:clickable="true"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".ui.activity.start_live_activity.StartLiveActivity">
+    <com.tencent.rtmp.ui.TXCloudVideoView
+        android:id="@+id/pusher_tx_cloud_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    </com.tencent.rtmp.ui.TXCloudVideoView>
+
+    <cn.nodemedia.NodeCameraView
+        android:id="@+id/node_pusher_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+    <androidx.drawerlayout.widget.DrawerLayout
+        android:id="@+id/pusher_drawerLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/transparent">
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/start_live_constraintLayout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/transparent">
+
+            <LinearLayout
+                android:id="@+id/change_camera_linear"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="12dp"
+                android:layout_marginTop="30dp"
+                android:background="@drawable/open_position_linear_shape"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintTop_toTopOf="parent">
+
+                <ImageView
+                    android:layout_width="23dp"
+                    android:layout_height="23dp"
+                    android:layout_gravity="center"
+                    android:visibility="gone"
+                    android:src="@drawable/location_n" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"
+                    android:text="开启定位"
+                    android:visibility="gone"
+                    android:textColor="@color/white"
+                    android:textSize="12sp" />
+            </LinearLayout>
+
+
+            <ImageView
+                android:id="@+id/change_camera_iv"
+                android:layout_width="34dp"
+                android:layout_height="34dp"
+                android:padding="5dp"
+                android:layout_marginLeft="11dp"
+                app:layout_constraintBottom_toBottomOf="@+id/change_camera_linear"
+                app:layout_constraintStart_toEndOf="@+id/change_camera_linear"
+                app:layout_constraintTop_toTopOf="@+id/change_camera_linear"
+                app:srcCompat="@drawable/camera_switch" />
+
+            <ImageView
+                android:id="@+id/top_close_iv"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:layout_marginEnd="11dp"
+                android:padding="5dp"
+                app:layout_constraintBottom_toBottomOf="@+id/change_camera_iv"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="@+id/change_camera_iv"
+                app:srcCompat="@drawable/ic_close" />
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:id="@+id/start_live_center_constraintLayout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="8dp"
+                android:layout_marginTop="94dp"
+                android:layout_marginRight="8dp"
+                android:background="@drawable/start_live_center_linear_shape"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/change_camera_linear">
+
+                <ImageView
+                    android:id="@+id/choose_channel_iv"
+                    android:layout_width="12dp"
+                    android:layout_height="12dp"
+                    android:layout_marginEnd="8dp"
+                    android:visibility="gone"
+                    android:src="@drawable/preview_next"
+                    app:layout_constraintBottom_toBottomOf="@+id/choose_channel_tv"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintTop_toTopOf="@+id/choose_channel_tv" />
+                <TextView
+                    android:id="@+id/choose_channel_tv"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="5dp"
+                    android:text="频道"
+                    android:visibility="gone"
+                    android:textColor="@color/white"
+                    android:textSize="13sp"
+                    app:layout_constraintBottom_toBottomOf="@+id/start_live_titile_tv"
+                    app:layout_constraintRight_toLeftOf="@id/choose_channel_iv"
+                    app:layout_constraintTop_toTopOf="@+id/start_live_titile_tv" />
+
+                <ImageView
+                    android:id="@+id/choose_lottery_iv"
+                    android:layout_width="12dp"
+                    android:layout_height="12dp"
+                    android:layout_marginRight="8dp"
+                    android:src="@drawable/preview_next"
+                    app:layout_constraintBottom_toBottomOf="@+id/start_live_titile_tv"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintTop_toTopOf="@+id/start_live_titile_tv" />
+
+                <TextView
+                    android:id="@+id/choose_lottery_tv"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="5dp"
+                    android:text="彩票"
+                    android:textColor="@color/white"
+                    android:textSize="13sp"
+                    app:layout_constraintBottom_toBottomOf="@+id/choose_lottery_iv"
+                    app:layout_constraintEnd_toStartOf="@+id/choose_lottery_iv"
+                    app:layout_constraintRight_toLeftOf="@id/choose_channel_iv"
+                    app:layout_constraintTop_toTopOf="@+id/choose_lottery_iv" />
+
+                <ImageView
+                    android:id="@+id/set_business_iv"
+                    android:layout_width="12dp"
+                    android:layout_height="12dp"
+                    android:layout_marginRight="8dp"
+                    android:src="@drawable/preview_next"
+                    app:layout_constraintBottom_toBottomOf="@+id/add_title_frameLayout"
+                    app:layout_constraintEnd_toEndOf="parent" />
+
+                <TextView
+                    android:id="@+id/set_business_tv"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="5dp"
+                    android:text="名片"
+                    android:textColor="@color/white"
+                    android:textSize="13sp"
+                    app:layout_constraintBottom_toBottomOf="@+id/set_business_iv"
+                    app:layout_constraintEnd_toStartOf="@+id/choose_lottery_iv"
+                    app:layout_constraintRight_toLeftOf="@id/choose_channel_iv"
+                    app:layout_constraintTop_toTopOf="@+id/set_business_iv" />
+                <FrameLayout
+                    android:id="@+id/add_title_frameLayout"
+                    android:layout_width="102dp"
+                    android:layout_height="102dp"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginTop="13dp"
+                    android:layout_marginBottom="13dp"
+                    android:background="@drawable/add_bg"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    app:layout_constraintTop_toTopOf="parent">
+
+                    <ImageView
+                        android:id="@+id/add_caver_iv"
+                        android:layout_width="36dp"
+                        android:layout_height="36dp"
+                        android:layout_gravity="center"
+                        android:src="@drawable/photo_add" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center|bottom"
+                        android:layout_marginBottom="10dp"
+                        android:text="直播封面"
+                        android:textColor="@color/white"
+                        android:textSize="12sp" />
+
+                    <ImageView
+                        android:id="@+id/cover_iv"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:scaleType="centerCrop" />
+                </FrameLayout>
+
+                <TextView
+                    android:id="@+id/start_live_titile_tv"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="14dp"
+                    android:text="直播标题"
+                    android:textColor="@color/white"
+                    android:textSize="12sp"
+                    app:layout_constraintLeft_toRightOf="@id/add_title_frameLayout"
+                    app:layout_constraintTop_toTopOf="@+id/add_title_frameLayout" />
+
+                <EditText
+                    android:id="@+id/start_live_title_etv"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="14dp"
+                    android:layout_marginRight="10dp"
+                    android:background="@null"
+                    android:hint="给直播写个标题吧"
+                    android:singleLine="true"
+                    android:textColor="@color/white"
+                    android:textColorHint="@color/white"
+                    android:textSize="16sp"
+                    app:layout_constraintBottom_toBottomOf="@+id/add_title_frameLayout"
+                    app:layout_constraintLeft_toRightOf="@id/add_title_frameLayout"
+                    app:layout_constraintRight_toLeftOf="@+id/choose_lottery_tv"
+                    app:layout_constraintRight_toRightOf="parent"
+                    app:layout_constraintTop_toTopOf="@+id/add_title_frameLayout" />
+                <TextView
+                    android:id="@+id/split_tv"
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="#7E786D"
+                    app:layout_constraintTop_toBottomOf="@id/add_title_frameLayout"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    app:layout_constraintRight_toRightOf="parent"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginRight="8dp"
+                    android:layout_marginTop="13dp"
+                    />
+
+                <TextView
+                    android:id="@+id/room_type_tv"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginTop="16dp"
+                    android:text="房间类型(免费)"
+                    android:textColor="@color/white"
+                    android:textSize="12sp"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/split_tv" />
+
+                <ImageView
+                    android:id="@+id/room_type_iv"
+                    android:layout_width="14dp"
+                    android:layout_height="14dp"
+                    app:layout_constraintBottom_toBottomOf="@+id/room_type_tv"
+                    app:layout_constraintStart_toEndOf="@+id/room_type_tv"
+                    app:layout_constraintTop_toTopOf="@+id/room_type_tv"
+                    app:srcCompat="@drawable/leix_xiala_xia" />
+
+                <TextView
+                    android:id="@+id/nature_tv"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="23dp"
+                    android:text="直播性质"
+                    android:textColor="@color/white"
+                    android:textSize="13sp"
+                    app:layout_constraintBottom_toBottomOf="@+id/room_type_tv"
+                    app:layout_constraintStart_toEndOf="@+id/room_type_iv" />
+
+                <ImageView
+                    android:id="@+id/nature_iv"
+                    android:layout_width="14dp"
+                    android:layout_height="14dp"
+                    app:layout_constraintBottom_toBottomOf="@+id/nature_tv"
+                    app:layout_constraintStart_toEndOf="@+id/nature_tv"
+                    app:layout_constraintTop_toTopOf="@+id/nature_tv"
+                    app:srcCompat="@drawable/leix_xiala_xia" />
+
+                <TextView
+                    android:id="@+id/area_tv"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="23dp"
+                    android:text="选择地区"
+                    android:textColor="@color/white"
+                    android:textSize="13sp"
+                    app:layout_constraintBottom_toBottomOf="@+id/nature_tv"
+                    app:layout_constraintStart_toEndOf="@+id/nature_iv"
+                    app:layout_constraintTop_toTopOf="@+id/nature_tv" />
+                <ImageView
+                    android:id="@+id/area_iv"
+                    android:layout_width="14dp"
+                    android:layout_height="14dp"
+                    app:layout_constraintBottom_toBottomOf="@+id/area_tv"
+                    app:layout_constraintStart_toEndOf="@+id/area_tv"
+                    app:layout_constraintTop_toTopOf="@+id/area_tv"
+                    app:srcCompat="@drawable/leix_xiala_xia" />
+
+                <TextView
+                    android:id="@+id/toy_tv"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginBottom="18dp"
+                    android:text="跳蛋玩具"
+                    android:textColor="@color/white"
+                    android:textSize="13sp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintStart_toStartOf="@+id/room_type_tv"
+                    app:layout_constraintTop_toBottomOf="@+id/room_type_tv" />
+
+                <ImageView
+                    android:id="@+id/toy_iv"
+                    android:layout_width="14dp"
+                    android:layout_height="14dp"
+                    app:layout_constraintBottom_toBottomOf="@+id/toy_tv"
+                    app:layout_constraintStart_toEndOf="@+id/toy_tv"
+                    app:layout_constraintTop_toTopOf="@+id/toy_tv"
+                    app:srcCompat="@drawable/leix_xiala_xia" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+            <ImageView
+                android:id="@+id/beauty_iv"
+                android:layout_width="51dp"
+                android:layout_height="23dp"
+                android:padding="5dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/start_live_center_constraintLayout"
+                app:srcCompat="@drawable/beautye_icon" />
+
+            <Button
+                android:id="@+id/start_live_btn"
+                android:layout_width="280dp"
+                android:layout_height="36dp"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/start_live_button_selector"
+                android:gravity="center"
+                android:text="开始直播"
+                android:textColor="@color/white"
+                android:textSize="14sp"
+                app:layout_constraintTop_toBottomOf="@id/beauty_iv"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent" />
+
+<!--            <com.xunbo.liveAnchor.ui.beauty.BeautyPanel
+                android:id="@+id/pusher_beauty_pannel"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                android:visibility="gone"
+                />-->
+<!--            <com.meihu.beautylibrary.faceui.MyView
+                android:id="@+id/pusher_beauty_pannel"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                android:visibility="gone"
+                />
+            <RelativeLayout
+                android:id="@+id/beauty_view_container"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                />-->
+            <androidx.constraintlayout.widget.Group
+                android:id="@+id/live_constrainLayout_group"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:constraint_referenced_ids="change_camera_linear,change_camera_iv,start_live_center_constraintLayout,beauty_iv,start_live_btn,top_close_iv"
+                />
+
+
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/drawwe_linear"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/transparent"
+            android:layout_gravity="end"
+            android:layout_marginRight="-65dp"
+            >
+            <com.opensource.svgaplayer.SVGAImageView
+                android:id="@+id/svga_imageview"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/transparent"
+                app:autoPlay="true" />
+            <com.zz.live.ui.activity.play_live_activity.EditPanel
+                android:id="@+id/live_edit_panel"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="10dp"
+                android:layout_marginBottom="10dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                android:gravity="center|bottom"
+                app:layout_constraintStart_toStartOf="parent"
+                />
+            <com.zz.live.myView.gift.GiftView
+                android:id="@+id/giftView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="100dp"
+                app:layout_constraintBottom_toTopOf="@+id/live_chat_fragment"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                />
+
+            <com.opensource.svgaplayer.SVGAImageView
+                android:id="@+id/join_svga_imageview"
+                android:layout_width="match_parent"
+                android:layout_height="130dp"
+                android:layout_marginBottom="-20dp"
+                android:background="@color/transparent"
+                app:layout_constraintBottom_toTopOf="@+id/live_chat_fragment"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:autoPlay="true" />
+            <com.opensource.svgaplayer.SVGAImageView
+                android:id="@+id/test_svga_imageview"
+                android:layout_width="match_parent"
+                android:layout_height="130dp"
+                android:layout_marginBottom="-20dp"
+                android:visibility="gone"
+                android:background="@color/transparent"
+                app:layout_constraintBottom_toTopOf="@+id/live_chat_fragment"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:autoPlay="true" />
+
+            <LinearLayout
+                android:id="@+id/ll_gift"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/dp_10"
+                android:layout_marginTop="3dp"
+                android:background="@drawable/live_notice_shape"
+                android:orientation="horizontal"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/top_linear">
+
+                <ImageView
+                    android:layout_width="17dp"
+                    android:layout_height="20dp"
+                    android:layout_marginLeft="3dp"
+                    android:layout_gravity="center"
+                    android:src="@drawable/gift_rank_icon" />
+
+                <TextView
+                    android:id="@+id/money_tv"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="3dp"
+                    android:layout_marginRight="3dp"
+                    android:layout_weight="1"
+                    android:maxWidth="86dp"
+                    android:text="- - -"
+                    android:textColor="@color/white"
+                    android:textSize="12sp" />
+
+                <ImageView
+                    android:layout_width="8dp"
+                    android:layout_height="15dp"
+                    android:layout_gravity="center"
+                    android:layout_marginRight="3dp"
+                    android:background="@drawable/btn_arrow_right" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/rank_linear"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="12dp"
+                android:background="@drawable/live_notice_shape"
+                android:orientation="horizontal"
+                app:layout_constraintBottom_toBottomOf="@+id/ll_gift"
+                app:layout_constraintStart_toEndOf="@+id/ll_gift"
+                app:layout_constraintTop_toTopOf="@+id/ll_gift">
+
+                <ImageView
+                    android:layout_width="17dp"
+                    android:layout_height="20dp"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="3dp"
+                    android:src="@drawable/zbdphb_icon" />
+
+                <TextView
+                    android:id="@+id/rank_tv"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="3dp"
+                    android:layout_marginRight="3dp"
+                    android:layout_weight="1"
+                    android:maxWidth="86dp"
+                    android:text="排行榜"
+                    android:textColor="@color/white"
+                    android:textSize="12sp" />
+
+                <ImageView
+                    android:layout_width="8dp"
+                    android:layout_height="15dp"
+                    android:layout_gravity="center"
+                    android:layout_marginRight="3dp"
+                    android:background="@drawable/btn_arrow_right" />
+            </LinearLayout>
+            <TextView
+                android:id="@+id/internet_speed_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="10dp"
+                android:visibility="invisible"
+                android:gravity="center"
+                android:text="- - -"
+                android:textColor="@color/green"
+                android:textSize="10sp"
+                app:layout_constraintBottom_toBottomOf="@id/ll_gift"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintRight_toLeftOf="@+id/download_url_tv"
+                app:layout_constraintTop_toTopOf="@+id/ll_gift" />
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:id="@+id/lottrry_open_result_constraintLayout"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:minWidth="208dp"
+                android:layout_marginLeft="@dimen/dp_10"
+                android:layout_marginTop="3dp"
+                android:background="@drawable/bkg_live_tracorner8"
+                android:visibility="invisible"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/live_notice_linear">
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:id="@+id/open_result_top_layout"
+                    android:layout_width="0dp"
+                    android:layout_height="20dp"
+                    android:background="@drawable/open_result_open"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent">
+
+                    <TextView
+                        android:id="@+id/tv_lottery_name"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="7dp"
+                        android:text="- - -"
+                        android:textColor="@color/white"
+                        android:textSize="11sp"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintLeft_toLeftOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"
+
+                        />
+
+                    <TextView
+                        android:id="@+id/tv_lottery_qishu"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="8dp"
+                        android:gravity="right|center"
+                        android:text="- - - -期开奖"
+                        android:textColor="@color/white"
+                        android:textSize="11sp"
+                        app:layout_constraintBottom_toBottomOf="@id/tv_lottery_name"
+                        app:layout_constraintHorizontal_weight="1"
+                        app:layout_constraintRight_toLeftOf="@id/dismiss_open_result_iv"
+                        app:layout_constraintTop_toTopOf="@+id/tv_lottery_name" />
+
+                    <ImageView
+                        android:id="@+id/dismiss_open_result_iv"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginRight="6dp"
+                        android:src="@drawable/ic_delete_white"
+                        app:layout_constraintBottom_toBottomOf="@+id/tv_lottery_name"
+                        app:layout_constraintRight_toRightOf="parent"
+                        app:layout_constraintTop_toTopOf="@+id/tv_lottery_name" />
+
+                </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+                <androidx.recyclerview.widget.RecyclerView
+                    android:id="@+id/recy_lottery"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="2dp"
+                    android:layout_marginBottom="2dp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    app:layout_constraintRight_toRightOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/open_result_top_layout" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+            <LinearLayout
+                android:id="@+id/top_linear"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="3dp"
+                android:orientation="horizontal"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintTop_toTopOf="parent">
+
+                <LinearLayout
+                    android:id="@+id/ll_userinfo"
+                    android:visibility="gone"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/dp_10"
+                    android:background="@drawable/bkg_live_tracorner50"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal"
+                    android:maxWidth="130dp"
+                    >
+
+                    <ImageView
+                        android:id="@+id/iv_avatar"
+                        android:layout_width="28dp"
+                        android:layout_height="28dp" />
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dp"
+                        android:layout_weight="1"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:maxWidth="80dp"
+                            android:id="@+id/tv_name"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:ellipsize="end"
+                            android:singleLine="true"
+                            android:text="- - -"
+                            android:textColor="@color/white"
+                            android:textSize="12sp" />
+
+                        <TextView
+                            android:maxWidth="80dp"
+                            android:singleLine="true"
+                            android:id="@+id/tv_id"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="ID:- - -"
+                            android:textColor="@color/white"
+                            android:textSize="12sp" />
+
+                    </LinearLayout>
+
+                    <ImageView
+                        android:id="@+id/iv_collect"
+                        android:layout_width="24dp"
+                        android:layout_height="24dp"
+                        android:visibility="invisible"
+                        android:layout_marginLeft="@dimen/dp_10"
+                        android:src="@drawable/ic_concern" />
+
+                </LinearLayout>
+                <LinearLayout
+                    android:id="@+id/time_linear"
+                    android:layout_width="84dp"
+                    android:layout_height="30dp"
+                    android:layout_marginLeft="@dimen/dp_10"
+                    android:background="@drawable/bkg_live_tracorner50"
+                    android:gravity="center"
+                    android:orientation="horizontal"
+                    android:maxWidth="130dp"
+                    >
+                <TextView
+                    android:id="@+id/live_time_tv"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="00:00:00"
+                    android:textSize="14sp"
+                    android:gravity="center"
+                    android:textColor="@color/white"
+                    />
+
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="right|center"
+                    android:layout_marginLeft="12dp"
+                    android:layout_marginRight="10dp">
+                    <com.zz.live.myView.MyRecycleView
+                        android:id="@+id/recy_renshu"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+
+                 />
+                </LinearLayout>
+
+
+                <TextView
+                    android:id="@+id/tv_num"
+                    android:layout_width="wrap_content"
+                    android:layout_height="20dp"
+                    android:layout_marginRight="@dimen/dp_10"
+                    android:background="@drawable/bkg_live_tracorner50"
+                    android:gravity="center"
+                    android:paddingLeft="8dp"
+                    android:paddingRight="8dp"
+                    android:text="- - -"
+                    android:layout_gravity="center"
+                    android:textColor="@color/white"
+                    android:textSize="12sp" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/download_url_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:visibility="invisible"
+                android:layout_marginRight="3dp"
+                android:text="下载地址: - - - "
+                android:textColor="@color/white"
+                android:shadowColor="@color/black"
+                android:shadowRadius="10"
+                android:shadowDy="3"
+                android:textSize="10sp"
+                app:layout_constraintBottom_toBottomOf="@id/invite_code_tv"
+                app:layout_constraintRight_toLeftOf="@id/invite_code_tv"
+                app:layout_constraintTop_toTopOf="@id/invite_code_tv" />
+
+            <TextView
+                android:visibility="invisible"
+                android:id="@+id/invite_code_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="3dp"
+                android:text="邀请码:- - - "
+                android:textColor="@color/white"
+                android:textSize="10sp"
+                android:shadowColor="@color/black"
+                android:shadowRadius="10"
+                android:shadowDy="3"
+                app:layout_constraintBottom_toBottomOf="@+id/ll_gift"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toTopOf="@+id/ll_gift" />
+
+            <LinearLayout
+                android:id="@+id/ll_gift_num"
+                android:layout_width="wrap_content"
+                android:layout_height="22dp"
+                android:layout_marginTop="3dp"
+                android:layout_marginRight="@dimen/dp_10"
+                android:background="@drawable/bkg_live_tracorner50"
+                android:gravity="center_vertical"
+                android:paddingLeft="8dp"
+                android:paddingRight="8dp"
+                android:visibility="invisible"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/top_linear">
+
+                <ImageView
+                    android:layout_width="16dp"
+                    android:layout_height="16dp"
+                    android:src="@drawable/ic_coin" />
+
+                <TextView
+                    android:id="@+id/tv_gift_num"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:text="- - - -"
+                    android:textColor="@color/white"
+                    android:textSize="12sp" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:src="@drawable/btn_arrow_right" />
+            </LinearLayout>
+
+            <com.zz.live.myView.MyRecycleView
+                android:id="@+id/recy_pack"
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                app:layout_constraintRight_toRightOf="@+id/ll_gift_num"
+                app:layout_constraintTop_toBottomOf="@+id/tv_countdown">
+
+            </com.zz.live.myView.MyRecycleView>
+
+            <FrameLayout
+                android:id="@+id/frame_lottery"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                app:layout_constraintLeft_toLeftOf="@+id/recy_pack"
+                app:layout_constraintRight_toRightOf="@+id/recy_pack"
+                app:layout_constraintTop_toBottomOf="@+id/live_notice_linear">
+
+                <ImageView
+                    android:id="@+id/iv_lottery"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp" />
+
+                <ImageView
+                    android:id="@+id/xian_iv"
+                    android:layout_width="10dp"
+                    android:layout_height="10dp"
+                    android:layout_gravity="right|top"
+                    android:src="@drawable/xian"
+                    android:visibility="gone" />
+
+
+            </FrameLayout>
+            <TextView
+                android:id="@+id/count_down_fail_refresh_tv"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:background="@color/white"
+                android:text="点击刷新"
+                android:textSize="5sp"
+                android:gravity="center"
+                app:layout_constraintTop_toTopOf="@+id/frame_lottery"
+                app:layout_constraintBottom_toBottomOf="@+id/frame_lottery"
+                app:layout_constraintLeft_toLeftOf="@+id/frame_lottery"
+                app:layout_constraintRight_toRightOf="@+id/frame_lottery"
+                android:textColor="@color/default_color"
+                android:visibility="gone"
+                />
+            <pl.droidsonroids.gif.GifImageView
+                android:id="@+id/count_down_fail_loading_iv"
+                android:layout_width="15dp"
+                android:layout_height="15dp"
+                android:src="@drawable/loading_gif"
+                app:layout_constraintTop_toTopOf="@+id/frame_lottery"
+                app:layout_constraintBottom_toBottomOf="@+id/frame_lottery"
+                app:layout_constraintLeft_toLeftOf="@+id/frame_lottery"
+                app:layout_constraintRight_toRightOf="@+id/frame_lottery"
+                android:visibility="gone"
+                />
+            <TextView
+                android:id="@+id/tv_countdown"
+                android:layout_width="wrap_content"
+                android:layout_height="16dp"
+                android:gravity="center"
+                android:text="-:-:- "
+                android:textColor="@color/white"
+                android:textSize="12sp"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/ic_countdown_bg"
+                app:layout_constraintLeft_toLeftOf="@+id/frame_lottery"
+                app:layout_constraintRight_toRightOf="@+id/frame_lottery"
+                app:layout_constraintTop_toBottomOf="@+id/frame_lottery"
+                />
+
+            <pl.droidsonroids.gif.GifImageView
+                android:id="@+id/countdown_iv"
+                android:layout_width="15dp"
+                android:layout_height="15dp"
+                android:src="@drawable/loading_gif"
+                android:visibility="invisible"
+                android:layout_marginTop="5dp"
+                app:layout_constraintLeft_toLeftOf="@+id/frame_lottery"
+                app:layout_constraintRight_toRightOf="@+id/frame_lottery"
+                app:layout_constraintTop_toBottomOf="@+id/frame_lottery"/>
+             <TextView
+                 android:id="@+id/toy_disconnect_tv"
+                 android:visibility="gone"
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:text="玩具断开连接, 点击重连!"
+                 android:layout_marginTop="5dp"
+                 android:textColor="@color/blue"
+                 app:layout_constraintRight_toRightOf="parent"
+                 app:layout_constraintTop_toBottomOf="@+id/tv_countdown"
+                 android:layout_marginRight="12dp"
+                 />
+            <LinearLayout
+                android:id="@+id/linearLayout7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="@dimen/dp_10"
+                android:layout_marginBottom="@dimen/dp_10"
+                android:orientation="horizontal"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintRight_toRightOf="parent">
+
+                <ImageView
+                    android:id="@+id/bottom_pop_iv"
+                    android:layout_width="34dp"
+                    android:layout_height="34dp"
+                    android:src="@drawable/tanm_icon" />
+
+                <ImageView
+                    android:id="@+id/more_iv"
+                    android:layout_width="34dp"
+                    android:layout_height="34dp"
+                    android:layout_marginLeft="@dimen/dp_10"
+                    android:src="@drawable/gengd" />
+                <ImageView
+                    android:id="@+id/change_room_type_iv"
+                    android:layout_width="34dp"
+                    android:layout_height="34dp"
+                    android:layout_marginLeft="@dimen/dp_10"
+                    app:srcCompat="@drawable/gongkai_btn" />
+
+                <ImageView
+                    android:id="@+id/meiyan_iv"
+                    android:layout_width="34dp"
+                    android:layout_height="34dp"
+                    android:layout_marginLeft="@dimen/dp_10"
+                    android:src="@drawable/meiy" />
+
+                <ImageView
+                    android:id="@+id/iv_competition"
+                    android:layout_width="34dp"
+                    android:layout_height="34dp"
+                    android:layout_marginLeft="@dimen/dp_10"
+                    android:src="@drawable/ic_competition"
+                    android:visibility="gone" />
+
+                <ImageView
+                    android:id="@+id/iv_close"
+                    android:layout_width="34dp"
+                    android:layout_height="34dp"
+                    android:layout_marginLeft="@dimen/dp_10"
+                    android:src="@drawable/ic_close" />
+
+
+            </LinearLayout>
+
+            <fragment
+                android:id="@+id/live_chat_fragment"
+                android:name="com.zz.live.ui.activity.play_live_activity.LiveChatFragment"
+                android:layout_width="@dimen/live_chat_dimen"
+                android:layout_height="180dp"
+                android:layout_gravity="bottom"
+                android:layout_marginStart="10dp"
+                android:layout_marginBottom="5dp"
+                app:layout_constraintBottom_toTopOf="@+id/linearLayout7"
+                app:layout_constraintStart_toStartOf="parent" />
+
+
+            <RelativeLayout
+                android:id="@+id/live_notice_linear"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:visibility="invisible"
+                android:layout_marginTop="3dp"
+                android:layout_marginRight="@dimen/dp_10"
+                android:background="@drawable/live_notice_shape"
+                android:orientation="horizontal"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="@+id/ll_gift"
+                app:layout_constraintTop_toBottomOf="@+id/ll_gift">
+
+                <ImageView
+                    android:id="@+id/chatroom_laba"
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:layout_centerVertical="true"
+                    android:src="@drawable/vol"
+                    android:visibility="gone"
+                    />
+                <!--
+                                <TextView
+                                    android:id="@+id/notice_textview"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="20dp"
+                                    android:layout_centerVertical="true"
+                                    android:layout_gravity="center"
+                                    android:layout_marginLeft="10dp"
+                                    android:layout_marginRight="10dp"
+                                    android:layout_toRightOf="@+id/chatroom_laba"
+                                    android:ellipsize="marquee"
+                                    android:gravity="center_vertical"
+                                    android:marqueeRepeatLimit="marquee_forever"
+                                    android:minWidth="280dp"
+                                    android:scrollHorizontally="true"
+                                    android:singleLine="true"
+                                    android:text=""
+                                    android:textColor="@color/white"
+                                    android:textSize="12sp" />-->
+                <com.dalong.marqueeview.MarqueeView
+                    android:id="@+id/notice_textview"
+                    android:layout_width="wrap_content"
+                    android:layout_height="20dp"
+                    android:layout_centerVertical="true"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_toRightOf="@+id/chatroom_laba"
+                    android:minWidth="280dp"
+                    app:direction="left"
+                    app:isRepeat="true"
+                    app:speed="200"
+                    app:startPoint="end"
+                    app:textSize="10sp"
+                    app:textcolor="@color/white" />
+                <!--                app:marqueebackground="@color/colorPrimaryDark"-->
+            </RelativeLayout>
+
+            <ImageView
+                android:visibility="gone"
+                android:id="@+id/clear_screen_iv"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scaleType="centerCrop"
+                android:src="@drawable/youhuaqingp"
+                />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.drawerlayout.widget.DrawerLayout>
+
+    <RelativeLayout
+        android:id="@+id/beauty_view_container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        />
+    <TextView
+        android:id="@+id/speed_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="73dp"
+        android:layout_marginEnd="18dp"
+        android:gravity="center"
+        android:layout_gravity="right"
+        android:textColor="@color/green"
+        android:textSize="10sp" />
+    <LinearLayout
+        android:id="@+id/face_wrap_linear"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="gone"
+        android:orientation="vertical">
+        <LinearLayout
+            android:id="@+id/face_top_linear"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:background="@color/transparent"
+            />
+        <com.faceunity.nama.ui.FaceUnityView
+            android:id="@+id/face_unity_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            />
+    </LinearLayout>
+
+</FrameLayout>

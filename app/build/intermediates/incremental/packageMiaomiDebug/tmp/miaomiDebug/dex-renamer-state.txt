@@ -1,0 +1,16 @@
+#Thu Sep 02 15:28:41 SGT 2021
+path.3=classes_0.dex
+path.2=classes2.dex
+path.1=classes.dex
+renamed.4=classes5.dex
+path.0=classes.dex
+renamed.3=classes4.dex
+renamed.2=classes3.dex
+renamed.1=classes2.dex
+base.4=D\:\\xiaotu_android\\project\\trunk\\xunbo_live\\app\\build\\intermediates\\dex\\miaomiDebug\\mergeLibDexMiaomiDebug\\out\\classes_1.dex
+renamed.0=classes.dex
+base.3=D\:\\xiaotu_android\\project\\trunk\\xunbo_live\\app\\build\\intermediates\\dex\\miaomiDebug\\mergeLibDexMiaomiDebug\\out\\classes_0.dex
+base.2=D\:\\xiaotu_android\\project\\trunk\\xunbo_live\\app\\build\\intermediates\\dex\\miaomiDebug\\mergeExtDexMiaomiDebug\\out\\classes2.dex
+base.1=D\:\\xiaotu_android\\project\\trunk\\xunbo_live\\app\\build\\intermediates\\dex\\miaomiDebug\\mergeProjectDexMiaomiDebug\\out\\classes.dex
+base.0=D\:\\xiaotu_android\\project\\trunk\\xunbo_live\\app\\build\\intermediates\\dex\\miaomiDebug\\mergeExtDexMiaomiDebug\\out\\classes.dex
+path.4=classes_1.dex

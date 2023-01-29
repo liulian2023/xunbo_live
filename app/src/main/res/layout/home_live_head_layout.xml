@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="30dp"
+    >
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/split"
+        android:layout_marginTop="4dp"
+        android:layout_marginBottom="4dp"
+        />
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/home_live_classfy_recycle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="230dp"
+        android:id="@+id/home_live_banner_linear">
+        <com.zhpan.bannerview.BannerViewPager
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/home_live_banner"
+            android:layout_marginBottom="30dp"
+            />
+    </LinearLayout>
+</LinearLayout>

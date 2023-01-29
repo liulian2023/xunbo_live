@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ui.activity.start_live_activity.ChooseChannelActivity">
+    <include android:id="@+id/include" layout="@layout/toolbar_layout"/>
+    <include layout="@layout/split_horizontal"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:textSize="12sp"
+        android:textColor="#666666"
+        android:paddingBottom="12dp"
+        android:paddingTop="11dp"
+        android:text="注意选择适合自己的频道.直播过程中,若运营人员发现选择的频道和直播内容不相符的情况,会调整您的直播频道。"
+        />
+    <include layout="@layout/error_lyaout"/>
+    <include layout="@layout/loading_layout"/>
+    <include layout="@layout/nodata_layout"/>
+    <com.scwang.smartrefresh.layout.SmartRefreshLayout
+        android:id="@+id/refresh"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/channel_recycler"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+    </com.scwang.smartrefresh.layout.SmartRefreshLayout>
+</LinearLayout>

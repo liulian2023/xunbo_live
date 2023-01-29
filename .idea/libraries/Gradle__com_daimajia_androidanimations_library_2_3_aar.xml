@@ -1,0 +1,27 @@
+<component name="libraryTable">
+  <library name="Gradle: com.daimajia.androidanimations:library:2.3@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/46c98e31fa01aa87dfc36dec86d3df9a/jetified-library-2.3/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/46c98e31fa01aa87dfc36dec86d3df9a/jetified-library-2.3/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/46c98e31fa01aa87dfc36dec86d3df9a/jetified-library-2.3/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/c7da044897236691749459f8629323a3/jetified-library-2.3/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/c7da044897236691749459f8629323a3/jetified-library-2.3/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/c7da044897236691749459f8629323a3/jetified-library-2.3/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/fc876232ba0ea01c3930148bc3225491/jetified-library-2.3/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/fc876232ba0ea01c3930148bc3225491/jetified-library-2.3/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/fc876232ba0ea01c3930148bc3225491/jetified-library-2.3/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/acf9cfd240bd2a0a8a47ebe420f52e77/jetified-library-2.3/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/acf9cfd240bd2a0a8a47ebe420f52e77/jetified-library-2.3/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/acf9cfd240bd2a0a8a47ebe420f52e77/jetified-library-2.3/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/a670ad109a0cd42281d6f8ef340716b4/jetified-library-2.3/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/a670ad109a0cd42281d6f8ef340716b4/jetified-library-2.3/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/a670ad109a0cd42281d6f8ef340716b4/jetified-library-2.3/jars/classes.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.daimajia.androidanimations/library/2.3/aac86728e46f018c3bcfc88c90b703f17f8fda52/library-2.3-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.daimajia.androidanimations/library/2.3/6fcb61f3d8ad35f7aeb11c130fbaa3e96fa76f0/library-2.3-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

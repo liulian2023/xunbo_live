@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ui.fragment.main_tab_fragment.DynamicFragment">
+    <View
+        android:id="@+id/starusbar_view"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="开发中,敬请期待"
+        android:scrollbarSize="16sp"
+        android:textColor="@color/default_color"
+        android:textStyle="bold"
+        android:gravity="center"
+        />
+    <Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/toolbar"
+        />
+    <Button
+        android:id="@+id/test_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="etxt"
+        />
+</LinearLayout>

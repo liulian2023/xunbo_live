@@ -1,0 +1,39 @@
+<component name="libraryTable">
+  <library name="Gradle: cn.rongcloud.sdk:im_lib:4.0.3.14@aar">
+    <ANNOTATIONS>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/25386f21c47f26d9df1543b8742b15a7/jetified-im_lib-4.0.3.14/annotations.zip!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/761a2d23ca926373fa41080609edf90a/jetified-im_lib-4.0.3.14/annotations.zip!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/f2c5cae7183494f53aab3f8eb39ebc76/jetified-im_lib-4.0.3.14/annotations.zip!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/e8a391739c0984192caa47e71b772d8b/jetified-im_lib-4.0.3.14/annotations.zip!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/7a95352ba7fb14da9d405be126d7ab1b/jetified-im_lib-4.0.3.14/annotations.zip!/" />
+    </ANNOTATIONS>
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/25386f21c47f26d9df1543b8742b15a7/jetified-im_lib-4.0.3.14/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/25386f21c47f26d9df1543b8742b15a7/jetified-im_lib-4.0.3.14/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/25386f21c47f26d9df1543b8742b15a7/jetified-im_lib-4.0.3.14/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/25386f21c47f26d9df1543b8742b15a7/jetified-im_lib-4.0.3.14/jars/libs/tools_push_lib-4.0.3.14.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/761a2d23ca926373fa41080609edf90a/jetified-im_lib-4.0.3.14/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/761a2d23ca926373fa41080609edf90a/jetified-im_lib-4.0.3.14/jars/classes.jar!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/761a2d23ca926373fa41080609edf90a/jetified-im_lib-4.0.3.14/jars/libs/tools_push_lib-4.0.3.14.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/761a2d23ca926373fa41080609edf90a/jetified-im_lib-4.0.3.14/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/f2c5cae7183494f53aab3f8eb39ebc76/jetified-im_lib-4.0.3.14/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/f2c5cae7183494f53aab3f8eb39ebc76/jetified-im_lib-4.0.3.14/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/f2c5cae7183494f53aab3f8eb39ebc76/jetified-im_lib-4.0.3.14/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/f2c5cae7183494f53aab3f8eb39ebc76/jetified-im_lib-4.0.3.14/jars/libs/tools_push_lib-4.0.3.14.jar!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/e8a391739c0984192caa47e71b772d8b/jetified-im_lib-4.0.3.14/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/e8a391739c0984192caa47e71b772d8b/jetified-im_lib-4.0.3.14/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/e8a391739c0984192caa47e71b772d8b/jetified-im_lib-4.0.3.14/jars/libs/tools_push_lib-4.0.3.14.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/e8a391739c0984192caa47e71b772d8b/jetified-im_lib-4.0.3.14/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/7a95352ba7fb14da9d405be126d7ab1b/jetified-im_lib-4.0.3.14/jars/classes.jar!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/7a95352ba7fb14da9d405be126d7ab1b/jetified-im_lib-4.0.3.14/jars/libs/tools_push_lib-4.0.3.14.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/7a95352ba7fb14da9d405be126d7ab1b/jetified-im_lib-4.0.3.14/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/7a95352ba7fb14da9d405be126d7ab1b/jetified-im_lib-4.0.3.14/res" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/cn.rongcloud.sdk/im_lib/4.0.3.14/194f1e12ae2e75626d7175a983cfb2f030416ee3/im_lib-4.0.3.14-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/cn.rongcloud.sdk/im_lib/4.0.3.14/194f1e12ae2e75626d7175a983cfb2f030416ee3/im_lib-4.0.3.14-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

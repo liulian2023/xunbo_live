@@ -1,0 +1,25 @@
+<component name="libraryTable">
+  <library name="Gradle: com.github.nodemedia:nodemediaclient-android:2.9.5@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/e2b4d26959aa8ed9b6274d124271c705/jetified-nodemediaclient-android-2.9.5/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/e2b4d26959aa8ed9b6274d124271c705/jetified-nodemediaclient-android-2.9.5/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/e2b4d26959aa8ed9b6274d124271c705/jetified-nodemediaclient-android-2.9.5/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/512bb7d73d30dfc92966481ed3863241/jetified-nodemediaclient-android-2.9.5/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/512bb7d73d30dfc92966481ed3863241/jetified-nodemediaclient-android-2.9.5/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/512bb7d73d30dfc92966481ed3863241/jetified-nodemediaclient-android-2.9.5/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/7236ed9c25a8c14c5d97451db0d963e1/jetified-nodemediaclient-android-2.9.5/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/7236ed9c25a8c14c5d97451db0d963e1/jetified-nodemediaclient-android-2.9.5/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/7236ed9c25a8c14c5d97451db0d963e1/jetified-nodemediaclient-android-2.9.5/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/cf6da95b11aa8117ba141d219b0462d2/jetified-nodemediaclient-android-2.9.5/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/cf6da95b11aa8117ba141d219b0462d2/jetified-nodemediaclient-android-2.9.5/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/cf6da95b11aa8117ba141d219b0462d2/jetified-nodemediaclient-android-2.9.5/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/a53e95bad7b664dc1600bd258b4f9d5b/jetified-nodemediaclient-android-2.9.5/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/a53e95bad7b664dc1600bd258b4f9d5b/jetified-nodemediaclient-android-2.9.5/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/a53e95bad7b664dc1600bd258b4f9d5b/jetified-nodemediaclient-android-2.9.5/jars/classes.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.nodemedia/nodemediaclient-android/2.9.5/ec28f1320d592c53c04fbed377d1f31b4adf895/nodemediaclient-android-2.9.5-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

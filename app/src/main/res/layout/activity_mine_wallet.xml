@@ -1,0 +1,580 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:scrollbars="none"
+    tools:context=".ui.activity.mine_fragment_activity.MineWalletActivity">
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="44dp"
+            android:id="@+id/wallet_toolbar_linear"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            android:background="@color/main_color">
+            <androidx.appcompat.widget.Toolbar
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <RelativeLayout
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    <ImageView
+                        android:id="@+id/toolbar_back_iv"
+                        android:layout_width="24dp"
+                        android:layout_height="24dp"
+                        android:layout_centerVertical="true"
+                        android:layout_marginLeft="15dp"
+                        android:src="@drawable/back_icon" />
+
+                    <TextView
+                        android:id="@+id/toolbar_title_tv"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_centerInParent="true"
+                        android:gravity="center"
+                        android:text="我的钱包"
+                        android:textColor="#333333"
+                        android:textSize="17sp" />
+                    <ImageView
+                        android:id="@+id/wallet_right_iv"
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:padding="3dp"
+                        android:layout_centerVertical="true"
+                        android:layout_toLeftOf="@+id/rule_tv"
+                        android:src="@drawable/guiz_icon"
+                        />
+                    <TextView
+                        android:id="@+id/rule_tv"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:scrollbarSize="14sp"
+                        android:textColor="#666666"
+                        android:text="规则"
+                        android:layout_centerVertical="true"
+                        android:layout_alignParentEnd="true"
+                        android:paddingRight="15dp"
+                        />
+
+                </RelativeLayout>
+
+            </androidx.appcompat.widget.Toolbar>
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/textView44"
+            android:layout_width="0dp"
+            android:layout_height="2dp"
+            android:background="#f6f6f6"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/wallet_toolbar_linear" />
+
+    <TextView
+        android:id="@+id/textView47"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="账户余额(未分成)"
+        android:textColor="#999999"
+        android:scrollbarSize="12sp"
+        android:layout_marginLeft="18dp"
+        android:layout_marginTop="22dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView44" />
+
+    <TextView
+        android:id="@+id/mine_amount_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="14dp"
+        android:text="- - - "
+        android:scrollbarSize="20sp"
+        android:textColor="@color/default_color"
+        app:layout_constraintStart_toStartOf="@+id/textView47"
+        app:layout_constraintTop_toBottomOf="@+id/textView47" />
+
+    <TextView
+        android:id="@+id/textView49"
+        android:layout_width="0dp"
+        android:layout_height="6dp"
+        android:layout_marginTop="18dp"
+        android:background="#F3F7FA"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/mine_amount_tv" />
+
+    <Button
+        android:id="@+id/cash_back_btn"
+        android:layout_width="98dp"
+        android:layout_height="38dp"
+        android:layout_marginEnd="18dp"
+        android:text="立即提现"
+        android:scrollbarSize="14sp"
+        android:textColor="@color/white"
+        android:background="@drawable/login_btn_selector"
+        app:layout_constraintBottom_toBottomOf="@+id/mine_amount_tv"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/textView47" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView49">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="19dp"
+                    android:gravity="center"
+                    android:text="本月订阅收入"
+                    android:textColor="#999999"
+                    android:textSize="12sp"
+
+                    />
+
+                <TextView
+                    android:id="@+id/month_follow_tv"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="17dp"
+                    android:gravity="center"
+                    android:text="- - -"
+                    android:textColor="@color/default_color"
+                    android:textSize="14sp"
+
+                    />
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="1dp"
+                android:layout_height="match_parent"
+                android:background="#D8D8D8" />
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="19dp"
+                    android:gravity="center"
+                    android:text="本月礼物收入"
+                    android:textColor="#999999"
+                    android:textSize="12sp"
+
+                    />
+
+                <TextView
+                    android:id="@+id/month_gift_tv"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="17dp"
+                    android:gravity="center"
+                    android:text="- - -"
+                    android:textColor="@color/default_color"
+                    android:textSize="14sp"
+
+                    />
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="1dp"
+                android:layout_height="match_parent"
+                android:background="#D8D8D8" />
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="19dp"
+                    android:gravity="center"
+                    android:text="本月返现收入"
+                    android:textColor="#999999"
+                    android:textSize="12sp"
+
+                    />
+
+                <TextView
+                    android:id="@+id/month_cash_back_tv"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="17dp"
+                    android:gravity="center"
+                    android:text="- - -"
+                    android:textColor="@color/default_color"
+                    android:textSize="14sp"
+
+                    />
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="1dp"
+                android:layout_height="match_parent"
+                android:background="#D8D8D8" />
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#d8d8d8" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="19dp"
+                    android:gravity="center"
+                    android:text="上月订阅收入"
+                    android:textColor="#999999"
+                    android:textSize="12sp"
+
+                    />
+
+                <TextView
+                    android:id="@+id/last_month_follow_tv"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="17dp"
+                    android:gravity="center"
+                    android:text="- - -"
+                    android:textColor="@color/default_color"
+                    android:textSize="14sp"
+
+                    />
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="1dp"
+                android:layout_height="match_parent"
+                android:background="#D8D8D8" />
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="19dp"
+                    android:gravity="center"
+                    android:text="上月礼物收入"
+                    android:textColor="#999999"
+                    android:textSize="12sp"
+
+                    />
+
+                <TextView
+                    android:id="@+id/last_month_gift_tv"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="17dp"
+                    android:gravity="center"
+                    android:text="- - -"
+                    android:textColor="@color/default_color"
+                    android:textSize="14sp"
+
+                    />
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="1dp"
+                android:layout_height="match_parent"
+                android:background="#D8D8D8" />
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="19dp"
+                    android:gravity="center"
+                    android:text="上月返现收入"
+                    android:textColor="#999999"
+                    android:textSize="12sp"
+
+                    />
+
+                <TextView
+                    android:id="@+id/last_month_cash_back_tv"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="17dp"
+                    android:gravity="center"
+                    android:text="- - -"
+                    android:textColor="@color/default_color"
+                    android:textSize="14sp"
+
+                    />
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="1dp"
+                android:layout_height="match_parent"
+                android:background="#D8D8D8" />
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="6dp"
+            android:background="#F3F7FA" />
+
+    </LinearLayout>
+
+    <RadioGroup
+        android:id="@+id/radioGroup2"
+        android:layout_width="0dp"
+        android:layout_height="36dp"
+        android:layout_marginStart="18dp"
+        android:layout_marginTop="14dp"
+        android:layout_marginEnd="18dp"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout6">
+
+        <RadioButton
+            android:id="@+id/today_tv"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/wallet_left_selector"
+            android:button="@null"
+            android:gravity="center"
+            android:text="今日"
+            android:textColor="@drawable/wallet_textcolor"
+            android:textSize="14sp" />
+
+        <RadioButton
+            android:id="@+id/yestoday_tv"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/wallet_right_selector"
+            android:button="@null"
+            android:gravity="center"
+            android:text="昨日"
+            android:textColor="@drawable/wallet_textcolor"
+            android:textSize="14sp" />
+    </RadioGroup>
+
+    <TextView
+        android:id="@+id/fans_tip_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="19dp"
+        android:text="新增粉丝"
+        android:textSize="13sp"
+        android:textColor="@color/default_color"
+        app:layout_constraintStart_toStartOf="@+id/radioGroup2"
+        app:layout_constraintTop_toBottomOf="@+id/radioGroup2" />
+
+    <TextView
+        android:id="@+id/fans_count_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="19dp"
+        android:text="- - -"
+        android:textColor="@color/default_color"
+        android:textSize="13sp"
+        app:layout_constraintEnd_toEndOf="@+id/radioGroup2"
+        app:layout_constraintTop_toBottomOf="@+id/radioGroup2" />
+
+    <TextView
+        android:id="@+id/fans_split_tv"
+        android:layout_width="0dp"
+        android:layout_height="1dp"
+        android:layout_marginTop="13dp"
+        android:background="#F5F5F5"
+        app:layout_constraintEnd_toEndOf="@+id/fans_count_tv"
+        app:layout_constraintStart_toStartOf="@+id/fans_tip_tv"
+        app:layout_constraintTop_toBottomOf="@+id/fans_tip_tv" />
+
+
+    <TextView
+        android:id="@+id/follow_tip_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="19dp"
+        android:text="订阅收入"
+        android:textSize="13sp"
+        android:textColor="@color/default_color"
+        app:layout_constraintStart_toStartOf="@+id/fans_split_tv"
+        app:layout_constraintTop_toBottomOf="@+id/fans_split_tv" />
+
+    <TextView
+        android:id="@+id/follow_count_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="19dp"
+        android:text="- - -"
+        android:textColor="@color/default_color"
+        android:textSize="13sp"
+        app:layout_constraintEnd_toEndOf="@+id/fans_split_tv"
+        app:layout_constraintTop_toBottomOf="@+id/fans_split_tv" />
+
+    <TextView
+        android:id="@+id/follow_spilt_tv"
+        android:layout_width="0dp"
+        android:layout_height="1dp"
+        android:layout_marginTop="13dp"
+        android:background="#F5F5F5"
+        app:layout_constraintEnd_toEndOf="@+id/follow_count_tv"
+        app:layout_constraintStart_toStartOf="@+id/follow_tip_tv"
+        app:layout_constraintTop_toBottomOf="@+id/follow_tip_tv" />
+
+    <TextView
+        android:id="@+id/gift_tip_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="19dp"
+        android:text="礼物收入"
+        android:textSize="13sp"
+        android:textColor="@color/default_color"
+        app:layout_constraintStart_toStartOf="@+id/follow_spilt_tv"
+        app:layout_constraintTop_toBottomOf="@+id/follow_spilt_tv" />
+
+    <TextView
+        android:id="@+id/gift_account_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="- - -"
+        android:textColor="@color/default_color"
+        android:textSize="13sp"
+        app:layout_constraintBottom_toBottomOf="@+id/gift_tip_tv"
+        app:layout_constraintEnd_toEndOf="@+id/fans_split_tv"
+        app:layout_constraintTop_toTopOf="@+id/gift_tip_tv" />
+
+    <TextView
+        android:id="@+id/gift_split_tv"
+        android:layout_width="0dp"
+        android:layout_height="1dp"
+        android:layout_marginTop="13dp"
+        android:background="#F5F5F5"
+        app:layout_constraintEnd_toEndOf="@+id/gift_account_tv"
+        app:layout_constraintStart_toStartOf="@+id/gift_tip_tv"
+        app:layout_constraintTop_toBottomOf="@+id/gift_account_tv" />
+
+    <TextView
+        android:id="@+id/cash_back_tip_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="19dp"
+        android:text="返现收入"
+        android:textSize="13sp"
+        android:textColor="@color/default_color"
+        app:layout_constraintStart_toStartOf="@+id/gift_split_tv"
+        app:layout_constraintTop_toBottomOf="@+id/gift_split_tv" />
+
+    <TextView
+        android:id="@+id/cash_back_account_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="- - -"
+        android:textColor="@color/default_color"
+        android:textSize="13sp"
+        app:layout_constraintBottom_toBottomOf="@+id/cash_back_tip_tv"
+        app:layout_constraintEnd_toEndOf="@+id/gift_split_tv"
+        app:layout_constraintTop_toTopOf="@+id/cash_back_tip_tv" />
+
+    <TextView
+        android:id="@+id/cash_back_split_tv"
+        android:layout_width="0dp"
+        android:layout_height="1dp"
+        android:layout_marginTop="13dp"
+        android:background="#F5F5F5"
+        app:layout_constraintEnd_toEndOf="@+id/cash_back_account_tv"
+        app:layout_constraintStart_toStartOf="@+id/cash_back_tip_tv"
+        app:layout_constraintTop_toBottomOf="@+id/cash_back_account_tv" />
+
+
+    <TextView
+        android:id="@+id/other_tip_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="19dp"
+        android:text="其他收入"
+        android:textSize="13sp"
+        android:textColor="@color/default_color"
+        app:layout_constraintStart_toStartOf="@+id/cash_back_split_tv"
+        app:layout_constraintTop_toBottomOf="@+id/cash_back_split_tv" />
+
+    <TextView
+        android:id="@+id/other_account_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="- - -"
+        android:textColor="@color/default_color"
+        android:textSize="13sp"
+        app:layout_constraintBottom_toBottomOf="@+id/other_tip_tv"
+        app:layout_constraintEnd_toEndOf="@+id/cash_back_split_tv"
+        app:layout_constraintTop_toTopOf="@+id/other_tip_tv" />
+
+    <TextView
+        android:id="@+id/other_split_tv"
+        android:layout_width="0dp"
+        android:layout_height="1dp"
+        android:layout_marginTop="13dp"
+        android:background="#F5F5F5"
+        app:layout_constraintEnd_toEndOf="@+id/other_account_tv"
+        app:layout_constraintStart_toStartOf="@+id/other_tip_tv"
+        app:layout_constraintTop_toBottomOf="@+id/other_account_tv" />
+</androidx.constraintlayout.widget.ConstraintLayout>
+
+
+
+</ScrollView>

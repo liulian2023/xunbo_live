@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:id="@+id/follow_title_iv"
+        android:layout_width="36dp"
+        android:layout_height="36dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="10dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/guanzhu_xx" />
+
+    <TextView
+        android:id="@+id/follow_name_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:textSize="14sp"
+        android:textColor="@color/default_color"
+        android:text="- - - "
+        app:layout_constraintStart_toEndOf="@+id/follow_title_iv"
+        app:layout_constraintTop_toTopOf="@+id/follow_title_iv" />
+
+    <TextView
+        android:id="@+id/follow_content_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="关注了你"
+        android:textSize="13sp"
+        android:textColor="#666666"
+        app:layout_constraintBottom_toBottomOf="@+id/follow_title_iv"
+        app:layout_constraintStart_toStartOf="@+id/follow_name_tv" />
+
+    <TextView
+        android:id="@+id/follow_date_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="14dp"
+        android:text="2020-05-20 12:20:12"
+        android:textColor="#999999"
+        android:textSize="12sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/follow_title_iv" />
+
+    <TextView
+        android:id="@+id/un_read_tv"
+        android:layout_width="5dp"
+        android:layout_height="5dp"
+        android:background="@drawable/unread_message_shape"
+        android:gravity="center"
+        android:text="-"
+        android:textColor="@color/white"
+        android:textSize="10sp"
+        app:layout_constraintBottom_toBottomOf="@+id/follow_title_iv"
+        app:layout_constraintEnd_toEndOf="@+id/follow_date_tv"
+        app:layout_constraintTop_toBottomOf="@+id/follow_date_tv" />
+    <TextView
+        android:id="@+id/follow_split_tv"
+        android:layout_width="0dp"
+        android:layout_height="1dp"
+        android:layout_marginTop="10dp"
+        android:background="#D8D8D8"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/follow_title_iv" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

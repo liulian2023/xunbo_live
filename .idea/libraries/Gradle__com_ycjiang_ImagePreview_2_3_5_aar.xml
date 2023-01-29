@@ -1,0 +1,27 @@
+<component name="libraryTable">
+  <library name="Gradle: com.ycjiang:ImagePreview:2.3.5@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/f2ba0b698aa39a402ec9b0425f4cfbf5/jetified-ImagePreview-2.3.5/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/f2ba0b698aa39a402ec9b0425f4cfbf5/jetified-ImagePreview-2.3.5/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/f2ba0b698aa39a402ec9b0425f4cfbf5/jetified-ImagePreview-2.3.5/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/1ffde35ae43ad499c8eed2c7af5e3f3e/jetified-ImagePreview-2.3.5/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/1ffde35ae43ad499c8eed2c7af5e3f3e/jetified-ImagePreview-2.3.5/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/1ffde35ae43ad499c8eed2c7af5e3f3e/jetified-ImagePreview-2.3.5/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/276dddae54f0596294ebca9f4c9e4530/jetified-ImagePreview-2.3.5/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/276dddae54f0596294ebca9f4c9e4530/jetified-ImagePreview-2.3.5/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/276dddae54f0596294ebca9f4c9e4530/jetified-ImagePreview-2.3.5/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/0579d6e9f31b019299ee490aabe55bf5/jetified-ImagePreview-2.3.5/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/0579d6e9f31b019299ee490aabe55bf5/jetified-ImagePreview-2.3.5/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/0579d6e9f31b019299ee490aabe55bf5/jetified-ImagePreview-2.3.5/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/00194c60a3bc455527569e6da9f22786/jetified-ImagePreview-2.3.5/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/00194c60a3bc455527569e6da9f22786/jetified-ImagePreview-2.3.5/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/00194c60a3bc455527569e6da9f22786/jetified-ImagePreview-2.3.5/jars/classes.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.ycjiang/ImagePreview/2.3.5/bdd2d9176a12813726cbe033584984e7b92e5f13/ImagePreview-2.3.5-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.ycjiang/ImagePreview/2.3.5/891809a0af8216dfbefe527844dc643441c51f79/ImagePreview-2.3.5-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

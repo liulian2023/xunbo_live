@@ -1,0 +1,27 @@
+<component name="libraryTable">
+  <library name="Gradle: com.github.MZCretin:AutoUpdateProject:v2.0.4@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/40e98394b29948c1beaa4655ce2c7955/jetified-AutoUpdateProject-v2.0.4/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/40e98394b29948c1beaa4655ce2c7955/jetified-AutoUpdateProject-v2.0.4/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/40e98394b29948c1beaa4655ce2c7955/jetified-AutoUpdateProject-v2.0.4/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/f76dbe287a91ed54d5238d00325b580f/jetified-AutoUpdateProject-v2.0.4/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/f76dbe287a91ed54d5238d00325b580f/jetified-AutoUpdateProject-v2.0.4/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/f76dbe287a91ed54d5238d00325b580f/jetified-AutoUpdateProject-v2.0.4/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/5c1dd62897e5175dce2fc8a85494342f/jetified-AutoUpdateProject-v2.0.4/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/5c1dd62897e5175dce2fc8a85494342f/jetified-AutoUpdateProject-v2.0.4/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/5c1dd62897e5175dce2fc8a85494342f/jetified-AutoUpdateProject-v2.0.4/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/7daac6b9b664a695df463f1da1029b7a/jetified-AutoUpdateProject-v2.0.4/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/7daac6b9b664a695df463f1da1029b7a/jetified-AutoUpdateProject-v2.0.4/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/7daac6b9b664a695df463f1da1029b7a/jetified-AutoUpdateProject-v2.0.4/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/bca3e7ae61a1749df561777fc3a86025/jetified-AutoUpdateProject-v2.0.4/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/bca3e7ae61a1749df561777fc3a86025/jetified-AutoUpdateProject-v2.0.4/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/bca3e7ae61a1749df561777fc3a86025/jetified-AutoUpdateProject-v2.0.4/res" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.MZCretin/AutoUpdateProject/v2.0.4/9b4b08ec9db640a4bf71fc47f7181c0cffb55e7f/AutoUpdateProject-v2.0.4-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.MZCretin/AutoUpdateProject/v2.0.4/43a8c4b98ee6cbabf31ccb6af4c0177828b16cba/AutoUpdateProject-v2.0.4-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

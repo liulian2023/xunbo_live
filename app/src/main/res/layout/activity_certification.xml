@@ -1,0 +1,379 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:scrollbars="none"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.activity.mine_fragment_activity.certification_activity.CertificationActivity">
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white">
+        <include
+            android:id="@+id/include"
+            layout="@layout/toolbar_layout"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/textView30"
+            android:layout_width="0dp"
+            android:layout_height="40dp"
+            android:background="#FFF4E0"
+            android:gravity="center"
+            android:text="*以下信息均为必填项，为保证您的利益，请如实填写。"
+            android:textColor="#FF9300"
+            android:textSize="13sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/include" />
+
+        <TextView
+            android:id="@+id/textView27"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="14dp"
+            android:paddingTop="5dp"
+            android:paddingBottom="5dp"
+            android:text="真实姓名"
+            android:textColor="@color/default_color"
+            android:textSize="14sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView30" />
+
+        <EditText
+            android:id="@+id/name_etv"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="12dp"
+            android:layout_marginEnd="15dp"
+            android:background="@null"
+            android:hint="请输入您的姓名"
+            android:inputType="textPersonName"
+            android:paddingTop="5dp"
+            android:singleLine="true"
+            android:paddingBottom="5dp"
+            android:textColor="@color/default_color"
+            android:textColorHint="#BCBCBC"
+            android:textSize="12sp"
+            app:layout_constraintBottom_toBottomOf="@+id/textView27"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/textView27"
+            app:layout_constraintTop_toTopOf="@+id/textView27" />
+
+        <TextView
+            android:id="@+id/textView31"
+            android:layout_width="0dp"
+            android:layout_height="1dp"
+            android:layout_marginTop="14dp"
+            android:background="#D8D8D8"
+            app:layout_constraintEnd_toEndOf="@+id/name_etv"
+            app:layout_constraintStart_toStartOf="@+id/textView27"
+            app:layout_constraintTop_toBottomOf="@+id/textView27" />
+
+        <TextView
+            android:id="@+id/id_card_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="14dp"
+            android:paddingTop="5dp"
+            android:paddingBottom="5dp"
+            android:text="身份证号"
+            android:textColor="@color/default_color"
+            android:textSize="14sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView31" />
+
+        <EditText
+            android:id="@+id/id_card_etv"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="12dp"
+            android:layout_marginEnd="15dp"
+            android:background="@null"
+            android:hint="请输入您的身份证号"
+            android:singleLine="true"
+            android:paddingTop="5dp"
+            android:paddingBottom="5dp"
+            android:maxLength="18"
+            android:textColor="@color/default_color"
+            android:textColorHint="#BCBCBC"
+            android:textSize="12sp"
+            app:layout_constraintBottom_toBottomOf="@+id/id_card_tv"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/textView27"
+            app:layout_constraintTop_toTopOf="@+id/id_card_tv" />
+
+        <TextView
+            android:id="@+id/id_card_spite_tv"
+            android:layout_width="0dp"
+            android:layout_height="1dp"
+            android:layout_marginTop="14dp"
+            android:background="#D8D8D8"
+            app:layout_constraintEnd_toEndOf="@+id/name_etv"
+            app:layout_constraintStart_toStartOf="@+id/textView27"
+            app:layout_constraintTop_toBottomOf="@+id/id_card_etv" />
+
+        <TextView
+            android:id="@+id/phone_num_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="14dp"
+            android:paddingTop="5dp"
+            android:paddingBottom="5dp"
+            android:text="手机号"
+            android:textColor="@color/default_color"
+            android:textSize="14sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/id_card_spite_tv" />
+
+        <EditText
+            android:id="@+id/phone_num_etv"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="12dp"
+            android:layout_marginEnd="15dp"
+            android:background="@null"
+            android:hint="请输入您的手机号"
+            android:inputType="phone"
+            android:singleLine="true"
+            android:paddingTop="5dp"
+            android:paddingBottom="5dp"
+            android:textColor="@color/default_color"
+            android:textColorHint="#BCBCBC"
+            android:textSize="12sp"
+            android:maxLength="11"
+            app:layout_constraintBottom_toBottomOf="@+id/phone_num_tv"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/textView27"
+            app:layout_constraintTop_toTopOf="@+id/phone_num_tv" />
+
+        <TextView
+            android:id="@+id/phone_num_spite_tv"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_marginTop="14dp"
+            android:background="#D8D8D8"
+            app:layout_constraintEnd_toEndOf="@+id/name_etv"
+            app:layout_constraintStart_toStartOf="@+id/textView27"
+            app:layout_constraintTop_toBottomOf="@+id/phone_num_tv" />
+
+        <TextView
+            android:id="@+id/textView32"
+            android:layout_width="0dp"
+            android:layout_height="6dp"
+            android:background="#F3F7FA"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/phone_num_spite_tv" />
+
+        <LinearLayout
+            android:id="@+id/linearLayout2"
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:layout_marginTop="16dp"
+            android:gravity="center"
+            android:orientation="horizontal"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/phone_num_spite_tv">
+
+            <ImageView
+                android:layout_width="47dp"
+                android:layout_height="10dp"
+                android:src="@drawable/rz_wa_l" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="8dp"
+                android:text="请上传三张生活照片"
+                android:textColor="@color/default_color"
+                android:textSize="13sp" />
+
+            <ImageView
+                android:layout_width="47dp"
+                android:layout_height="10dp"
+                android:src="@drawable/rz_wa_r" />
+        </LinearLayout>
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/camara_one_constrainLayout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/camera_linear_shape"
+            app:layout_constraintEnd_toStartOf="@+id/camara_two_constrainLayout"
+            app:layout_constraintHorizontal_chainStyle="spread"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/linearLayout2">
+
+            <ImageView
+                android:id="@+id/imageView10"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="12dp"
+                android:layout_marginTop="22dp"
+                android:layout_marginEnd="12dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:srcCompat="@drawable/rz_waikuang" />
+
+            <TextView
+                android:id="@+id/upload_one_photo_tv"
+                android:layout_width="0dp"
+                android:layout_height="32dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/uoload_photo_seleotor"
+                android:gravity="center"
+                android:text="上传生活照"
+                android:textColor="@color/white"
+                android:textSize="13sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/imageView10" />
+
+            <ImageView
+                android:id="@+id/photo_one_iv"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginBottom="8dp"
+                app:layout_constraintBottom_toBottomOf="@+id/imageView10"
+                app:layout_constraintEnd_toEndOf="@+id/imageView10"
+                app:layout_constraintStart_toStartOf="@+id/imageView10"
+                app:layout_constraintTop_toTopOf="@+id/imageView10"
+                app:srcCompat="@drawable/yinghong" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/camara_two_constrainLayout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/camera_linear_shape"
+            android:layout_marginTop="16dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/camara_one_constrainLayout"
+            app:layout_constraintTop_toBottomOf="@+id/linearLayout2">
+            <ImageView
+                android:id="@+id/imageView11"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="12dp"
+                android:layout_marginTop="22dp"
+                android:layout_marginEnd="12dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:srcCompat="@drawable/rz_waikuang" />
+
+            <TextView
+                android:id="@+id/upload_two_photo_tv"
+                android:layout_width="0dp"
+                android:layout_height="32dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/uoload_photo_seleotor"
+                android:gravity="center"
+                android:text="上传生活照"
+                android:textColor="@color/white"
+                android:textSize="13sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/imageView11" />
+
+            <ImageView
+                android:id="@+id/photo_two_iv"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginBottom="8dp"
+                app:layout_constraintBottom_toBottomOf="@+id/imageView11"
+                app:layout_constraintEnd_toEndOf="@+id/imageView11"
+                app:layout_constraintStart_toStartOf="@+id/imageView11"
+                app:layout_constraintTop_toTopOf="@+id/imageView11"
+                app:srcCompat="@drawable/yinghong" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/camara_three_constrainLayout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="22dp"
+            android:background="@drawable/camera_linear_shape"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/camara_one_constrainLayout">
+
+            <ImageView
+                android:id="@+id/imageView12"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="12dp"
+                android:layout_marginTop="22dp"
+                android:layout_marginEnd="12dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:srcCompat="@drawable/rz_waikuang" />
+
+            <TextView
+                android:id="@+id/upload_three_photo_tv"
+                android:layout_width="0dp"
+                android:layout_height="32dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/uoload_photo_seleotor"
+                android:gravity="center"
+                android:text="上传生活照"
+                android:textColor="@color/white"
+                android:textSize="13sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/imageView12" />
+
+            <ImageView
+                android:id="@+id/photo_three_iv"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginBottom="8dp"
+                app:layout_constraintBottom_toBottomOf="@+id/imageView12"
+                app:layout_constraintEnd_toEndOf="@+id/imageView12"
+                app:layout_constraintStart_toStartOf="@+id/imageView12"
+                app:layout_constraintTop_toTopOf="@+id/imageView12"
+                app:srcCompat="@drawable/yinghong" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <Button
+            android:id="@+id/certification_btn"
+            android:layout_width="0dp"
+            android:layout_height="42dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginBottom="30dp"
+            android:background="@drawable/login_btn_selector"
+            android:text="提交"
+            android:textColor="@color/white"
+            android:textSize="16sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="@+id/camara_two_constrainLayout"
+            app:layout_constraintHorizontal_bias="0.498"
+            app:layout_constraintStart_toStartOf="@+id/camara_one_constrainLayout"
+            app:layout_constraintTop_toBottomOf="@+id/camara_three_constrainLayout" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</ScrollView>

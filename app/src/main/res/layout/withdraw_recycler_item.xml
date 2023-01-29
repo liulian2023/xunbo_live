@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="13dp"
+    android:layout_marginRight="13dp"
+    android:layout_marginBottom="18dp">
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/withdraw_note_item_wrap_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/white_8radio_rapple">
+
+        <TextView
+            android:id="@+id/withdraw_tip_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="13dp"
+            android:layout_marginTop="10dp"
+            android:text="提现"
+            android:textColor="@color/default_color"
+            android:textSize="16sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+        <TextView
+            android:id="@+id/withdraw_amount_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="13dp"
+            android:text="100.00"
+            android:textColor="@color/default_color"
+            android:textSize="16sp"
+            app:layout_constraintBottom_toBottomOf="@+id/withdraw_tip_tv"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/withdraw_tip_tv" />
+
+        <TextView
+            android:id="@+id/textView19"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="5dp"
+            android:text="¥"
+            android:textSize="16sp"
+            android:textColor="@color/default_color"
+            app:layout_constraintBottom_toBottomOf="@+id/withdraw_amount_tv"
+            app:layout_constraintEnd_toStartOf="@+id/withdraw_amount_tv"
+            app:layout_constraintTop_toTopOf="@+id/withdraw_amount_tv" />
+
+        <TextView
+            android:id="@+id/withdraw_split_tv"
+            android:layout_width="0dp"
+            android:layout_height="1dp"
+            android:layout_marginTop="12dp"
+            android:background="#F3F3F3"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/withdraw_tip_tv" />
+
+        <ImageView
+            android:id="@+id/imageView7"
+            android:layout_width="14dp"
+            android:layout_height="14dp"
+            android:layout_marginTop="8dp"
+            app:layout_constraintStart_toStartOf="@+id/withdraw_tip_tv"
+            app:layout_constraintTop_toBottomOf="@+id/withdraw_split_tv"
+            app:srcCompat="@drawable/txjl_sqsj" />
+
+        <TextView
+            android:id="@+id/textView22"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="4dp"
+            android:text="申请时间"
+            android:textSize="14sp"
+            android:textColor="#999999"
+            app:layout_constraintBottom_toBottomOf="@+id/imageView7"
+            app:layout_constraintStart_toEndOf="@+id/imageView7"
+            app:layout_constraintTop_toTopOf="@+id/imageView7" />
+
+        <TextView
+            android:id="@+id/withdraw_date_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="13dp"
+            android:textSize="12sp"
+            android:textColor="#999999"
+            android:text="2020-02-12 12:21:45"
+            app:layout_constraintBottom_toBottomOf="@+id/imageView7"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/imageView7" />
+
+        <ImageView
+            android:id="@+id/imageView8"
+            android:layout_width="14dp"
+            android:layout_height="14dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="10dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="@+id/imageView7"
+            app:layout_constraintTop_toBottomOf="@+id/imageView7"
+            app:srcCompat="@drawable/txjl_sqsj" />
+
+        <TextView
+            android:id="@+id/textView26"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="申请状态"
+            android:textSize="14sp"
+            android:textColor="#999999"
+            app:layout_constraintBottom_toBottomOf="@+id/imageView8"
+            app:layout_constraintStart_toStartOf="@+id/textView22"
+            app:layout_constraintTop_toTopOf="@+id/imageView8" />
+
+        <TextView
+            android:id="@+id/application_status_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="申请中"
+            android:textSize="14sp"
+            android:textColor="#FE4841"
+            app:layout_constraintBottom_toBottomOf="@+id/textView26"
+            app:layout_constraintEnd_toEndOf="@+id/withdraw_date_tv"
+            app:layout_constraintTop_toTopOf="@+id/textView26" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</LinearLayout>

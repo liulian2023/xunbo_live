@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/white_normal_ripple"
+        android:id="@+id/anchor_manage_item_wrap_constrainLayout">
+        <ImageView
+            android:id="@+id/anchor_manage_title_iv"
+            android:layout_width="38dp"
+            android:layout_height="38dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="8dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/sixinxiaox_tx" />
+
+        <TextView
+            android:id="@+id/anchor_manage_nickname_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="6dp"
+            android:text="- - - "
+            android:textSize="14sp"
+            android:textColor="#666666"
+            app:layout_constraintStart_toEndOf="@+id/anchor_manage_title_iv"
+            app:layout_constraintTop_toTopOf="@+id/anchor_manage_title_iv" />
+
+        <TextView
+            android:id="@+id/anchor_manage_username_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="- - -"
+            android:textSize="12sp"
+            android:textColor="#999999"
+            app:layout_constraintBottom_toBottomOf="@+id/anchor_manage_title_iv"
+            app:layout_constraintStart_toStartOf="@+id/anchor_manage_nickname_tv" />
+
+        <ImageView
+            android:id="@+id/imageView22"
+            android:layout_width="15dp"
+            android:layout_height="15dp"
+            android:layout_marginEnd="18dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/xiayiye_btn" />
+
+        <TextView
+            android:id="@+id/textView53"
+            android:layout_width="0dp"
+            android:layout_height="1dp"
+            android:layout_marginTop="8dp"
+            android:background="#EFEFF0"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="@+id/anchor_manage_title_iv"
+            app:layout_constraintTop_toBottomOf="@+id/anchor_manage_title_iv" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</LinearLayout>

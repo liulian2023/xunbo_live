@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/white"
+    tools:context=".ui.activity.main_tab_activity.house_keeper_activity.anchor_manage_activity.AnchorManageActivity">
+    <include
+        android:id="@+id/include"
+        layout="@layout/toolbar_layout" />
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="10dp">
+        <TextView
+            android:id="@+id/search_tv"
+            android:layout_width="80dp"
+            android:layout_height="38dp"
+            android:layout_marginEnd="20dp"
+            android:background="@drawable/login_btn_selector"
+            android:gravity="center"
+            android:text="搜索"
+            android:textColor="@color/white"
+            android:textSize="16sp"
+            android:layout_alignParentEnd="true"
+            />
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="38dp"
+            android:layout_alignParentLeft="true"
+            android:layout_toLeftOf="@+id/search_tv"
+            android:layout_marginStart="16dp"
+            android:layout_marginEnd="11dp"
+            android:background="@drawable/anchor_manage_search_shape"
+            android:orientation="horizontal">
+            <ImageView
+                android:layout_width="22dp"
+                android:layout_height="22dp"
+                android:src="@drawable/sous_icon"
+                android:layout_gravity="center"
+                android:layout_marginLeft="16dp"
+                />
+            <EditText
+                android:id="@+id/anchor_manage_search_etv"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@null"
+                android:layout_marginLeft="6dp"
+                android:layout_marginRight="10dp"
+                android:textSize="12sp"
+                android:textColorHint="#999999"
+                android:hint="请输入昵称或者用户名查询"
+                android:textColor="@color/default_color"
+                android:singleLine="true"
+                />
+        </LinearLayout>
+    </RelativeLayout>
+    <include layout="@layout/loading_layout"/>
+    <include layout="@layout/error_lyaout"/>
+    <include layout="@layout/nodata_layout"/>
+    <com.scwang.smartrefresh.layout.SmartRefreshLayout
+        android:id="@+id/refresh"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/anchor_manage_recycler"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+    </com.scwang.smartrefresh.layout.SmartRefreshLayout>
+
+</LinearLayout>
